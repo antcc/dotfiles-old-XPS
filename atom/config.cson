@@ -1,0 +1,63 @@
+"*":
+  "autocomplete-clang":
+    includePaths: [
+      "."
+      "./include"
+      "../include"
+    ]
+    includeSystemHeadersDocumentation: true
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "language-gfm"
+      "markdown-preview"
+      "hidpi"
+    ]
+    projectHome: "/home/antcc/"
+    telemetryConsent: "no"
+  docblockr:
+    align_tags: "shallow"
+    extend_double_slash: false
+  editor:
+    fontSize: 18
+    preferredLineLength: 100
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "4c25c82f-d5ef-8215-3f42-253a818b6d69"
+  hidpi:
+    manualResolutionScaleFactors: "\"1920x1080\": 1.20"
+    reopenCurrentFile: true
+    scaleFactor: 1.2
+    startupDelay: 100
+  linter:
+    gutterPosition: "Left"
+    lintOnFly: false
+    showProviderName: false
+  "linter-clang":
+    clangIncludePaths: [
+      ". ./include"
+    ]
+  "markdown-preview-enhanced":
+    exportPDFPageFormat: "A4"
+  minimap:
+    adjustMinimapWidthToSoftWrap: false
+    moveCursorOnMinimapClick: true
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#0061cd"
+    core:
+      mapTerminalsTo: "Folder"
+      workingDirectory: "Active File"
+    style:
+      theme: "pro"
+  welcome:
+    showOnStartup: false
+".c.source":
+  editor:
+    autoIndentOnPaste: false
+".cpp.source":
+  editor:
+    autoIndentOnPaste: false

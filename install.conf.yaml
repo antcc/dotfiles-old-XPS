@@ -1,0 +1,43 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~', '~/.config', '~/.ssh', '~/.atom']
+
+- link:
+    # self-link
+    ~/.dotfiles: ''
+
+    # zsh
+    ~/.zshrc: 'zsh/zshrc'
+    ~/.zshenv: 'zsh/zshenv'
+    ~/.oh-my-zsh: 'zsh/oh-my-zsh/'
+
+    # atom
+    ~/.atom/config.cson: 'atom/config.cson'
+    ~/.atom/init.coffee: 'atom/init.coffee'
+    ~/.atom/keymap.cson: 'atom/keymap.cson'
+    ~/.atom/package-list.txt: 'atom/package-list.txt'
+    ~/.atom/snippets.cson: 'atom/snippets.cson'
+    ~/.atom/styles.less: 'atom/styles.less'
+
+    # config folder
+    ~/.config/gummi: 'config/gummi/'
+    ~/.config/rofi-pass: 'config/rofi-pass/'
+    ~/.config/systemd: 'config/systemd/'
+    ~/.config/terminix: 'config/terminix/'
+    ~/.config/libinput-gestures.conf: 'config/libinput-gestures.conf'
+    ~/.config/redshift.conf: 'config/redshift.conf'
+
+    # misc.
+    ~/.gitconfig:
+    ~/.Xresources:
+    ~/.emacs.d: 'emacs.d/'
+    ~/.ssh/config: 'ssh/config'
+
+    # cron jobs
+    /etc/cron.weekly/atom_list_pkgs.sh: 'cron/w_atom_list_pkgs.sh'
+
+- shell:
+  - [git submodule update --init --recursive, Installing/updating submodules...]

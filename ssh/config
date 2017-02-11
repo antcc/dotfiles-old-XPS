@@ -1,0 +1,8 @@
+Host rpi
+    HostName antccberry.local
+    Port 2101
+    User pi
+    IdentityFile ~/.ssh/id_rsa2
+
+Host github.com
+    IdentityFile ~/.ssh/id_rsa

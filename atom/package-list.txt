@@ -1,0 +1,13 @@
+autocomplete-clang
+docblockr
+file-icons
+hidpi
+highlight-selected
+language-markdown
+linter
+linter-clang
+markdown-preview-enhanced
+minimap
+pdf-view
+platformio-ide-terminal
+README.md
