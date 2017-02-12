@@ -6,9 +6,6 @@
 - clean: ['~', '~/.config', '~/.ssh', '~/.atom']
 
 - link:
-    # self-link
-    ~/.dotfiles: ''
-
     # zsh
     ~/.zshrc: 'zsh/zshrc'
     ~/.zshenv: 'zsh/zshenv'
@@ -46,6 +43,6 @@
     - [git submodule update --init --recursive, Installing/updating submodules...]
   
     # link cron jobs (requires sudo)
-    - sudo mkdir -p /etc/cron.weekly && ln -sf /etc/cron.weekly/atom_list_pkgs.sh cron/w_atom_list_pkgs.sh
-    - ln -sf /etc/cron.weekly/pacman_list_pkgs.sh cron/w_pacman_list_pkgs.sh
+    - sudo mkdir -p /etc/cron.weekly && ln -sf cron/w_atom_list_pkgs.sh /etc/cron.weekly/atom_list_pkgs.sh
+    - ln -sf cron/w_pacman_list_pkgs.sh /etc/cron.weekly/pacman_list_pkgs.sh
 
