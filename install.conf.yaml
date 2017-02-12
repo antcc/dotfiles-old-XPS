@@ -40,6 +40,7 @@
 
     # cron jobs
     /etc/cron.weekly/atom_list_pkgs.sh: 'cron/w_atom_list_pkgs.sh'
-
+    /etc/cron.weekly/pacman_list_pkgs.sh: 'cron/w_pacman_list_pkgs.sh'
+    
 - shell:
   - [git submodule update --init --recursive, Installing/updating submodules...]
