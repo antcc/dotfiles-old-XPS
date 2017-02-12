@@ -1,7 +1,7 @@
 - defaults:
     link:
-      relink: true
-      create: true
+        relink: true
+        create: true
 
 - clean: ['~', '~/.config', '~/.ssh', '~/.atom']
 
@@ -18,7 +18,7 @@
 
     # emacs
     ~/.emacs.d: 'emacs/emacs.d/'
-	~/.emacs: 'emacs/emacs'
+    ~/.emacs: 'emacs/emacs'
 
     # atom
     ~/.atom/config.cson: 'atom/config.cson'
@@ -40,10 +40,12 @@
     ~/.gitconfig:
     ~/.Xresources:
     ~/.ssh/config: 'ssh/config'
-
-    # cron jobs
-    /etc/cron.weekly/atom_list_pkgs.sh: 'cron/w_atom_list_pkgs.sh'
-    /etc/cron.weekly/pacman_list_pkgs.sh: 'cron/w_pacman_list_pkgs.sh'
     
 - shell:
-  - [git submodule update --init --recursive, Installing/updating submodules...]
+    # init submodules
+    - [git submodule update --init --recursive, Installing/updating submodules...]
+  
+    # link cron jobs (requires sudo)
+    - sudo mkdir -p /etc/cron.weekly && ln -sf /etc/cron.weekly/atom_list_pkgs.sh cron/w_atom_list_pkgs.sh
+    - ln -sf /etc/cron.weekly/pacman_list_pkgs.sh cron/w_pacman_list_pkgs.sh
+
