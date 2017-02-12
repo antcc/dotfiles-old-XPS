@@ -16,6 +16,10 @@
     zsh/oh-my-zsh/custom/themes: 'zsh/oh-my-zsh_custom/themes/'
     ~/.oh-my-zsh: 'zsh/oh-my-zsh/'
 
+    # emacs
+    ~/.emacs.d: 'emacs/emacs.d/'
+	~/.emacs: 'emacs/emacs'
+
     # atom
     ~/.atom/config.cson: 'atom/config.cson'
     ~/.atom/init.coffee: 'atom/init.coffee'
@@ -35,7 +39,6 @@
     # misc.
     ~/.gitconfig:
     ~/.Xresources:
-    ~/.emacs.d: 'emacs.d/'
     ~/.ssh/config: 'ssh/config'
 
     # cron jobs
