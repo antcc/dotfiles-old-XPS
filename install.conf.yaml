@@ -12,6 +12,8 @@
     # zsh
     ~/.zshrc: 'zsh/zshrc'
     ~/.zshenv: 'zsh/zshenv'
+	zsh/oh-my-zsh/custom/zsh_aliases.zsh: 'zsh/oh-my-zsh_custom/zsh_aliases.zsh'
+	zsh/oh-my-zsh/custom/themes: 'zsh/oh-my-zsh_custom/themes/'
     ~/.oh-my-zsh: 'zsh/oh-my-zsh/'
 
     # atom
