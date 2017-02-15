@@ -8,4 +8,4 @@ alias cowerd='cower -t ~/Descargas/AUR'
 alias diff='diff --color -y --suppress-common-lines'
 
 # Emacs on terminal mode
-alias emacs='emacs -nw'
+#alias emacs='emacs -nw'
