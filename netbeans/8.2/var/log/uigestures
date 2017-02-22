@@ -1,0 +1,77 @@
+<record>
+  <date>2017-02-22T12:56:44</date>
+  <millis>1487764604362</millis>
+  <sequence>48</sequence>
+  <level>300</level>
+  <thread>14</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2017-02-22T12:56:44</date>
+  <millis>1487764604373</millis>
+  <sequence>49</sequence>
+  <level>300</level>
+  <thread>14</thread>
+  <message>SCREEN SIZE</message>
+  <param>1920</param>
+  <param>1080</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2017-02-22T12:56:44</date>
+  <millis>1487764604376</millis>
+  <sequence>50</sequence>
+  <level>700</level>
+  <thread>14</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2017-02-22T12:56:46</date>
+  <millis>1487764606093</millis>
+  <sequence>72</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>14</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>GTK</param>
+  <param>GTK look and feel</param>
+</record>
+<record>
+  <date>2017-02-22T12:56:49</date>
+  <millis>1487764609711</millis>
+  <sequence>75</sequence>
+  <level>800</level>
+  <thread>13</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8251699200</param>
+</record>
+<record>
+  <date>2017-02-22T13:01:57</date>
+  <millis>1487764917026</millis>
+  <sequence>81</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>19</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Actions$MenuItem[Open File...]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
+  <param>org.openide.awt.AlwaysEnabledAction[&amp;Open File...]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>&amp;Open File...</param>
+</record>
+<record>
+  <date>2017-02-22T13:02:14</date>
+  <millis>1487764934550</millis>
+  <sequence>82</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>19</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>

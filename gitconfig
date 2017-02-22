@@ -1,3 +1,5 @@
 [user]
 	email = antoniocoin07@gmail.com
 	name = antcc
+[credential]
+	helper = cache --timeout=3600
