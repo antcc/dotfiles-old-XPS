@@ -37,7 +37,7 @@
     ~/.gitconfig:
     ~/.Xresources:
     ~/.ssh/config: 'ssh/config'
-    ~/.netbeans: 'netbeans/'
+    ~/.netbeans/8.2/etc: 'netbeans/etc/'
     
 - shell:
     # init submodules

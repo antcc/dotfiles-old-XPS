@@ -9,3 +9,6 @@ alias diff='diff --color -y --suppress-common-lines'
 
 # Emacs on terminal mode
 alias edit='emacs -nw'
+
+# Compile latex files while editing
+alias mlatexmk='latexmk -shell-escape -pdf -pvc ; latexmk -C'
