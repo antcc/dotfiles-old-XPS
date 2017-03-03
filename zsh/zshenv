@@ -1,2 +1,3 @@
-EDITOR="emacs -nw"
+export EDITOR="emacs -nw"
+export VISUAL="emacs -nw"
 setopt NO_GLOBAL_RCS
