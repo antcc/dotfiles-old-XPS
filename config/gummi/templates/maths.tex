@@ -13,6 +13,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{xcolor}
 \usepackage{soul}
+\usepackage{upgreek}
 
 % Meta
 \title{Título}
@@ -22,7 +23,9 @@
 % Custom
 \providecommand{\abs}[1]{\lvert#1\rvert}
 \setlength\parindent{0pt}
-\definecolor{Light}{gray}{.90}
+% Redefinir letra griega épsilon.
+\let\epsilon\upvarepsilon
+% Fracciones grandes
 \newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
 % Primera derivada parcial: \pder[f]{x}
 \newcommand{\pder}[2][]{\frac{\partial#1}{\partial#2}}
