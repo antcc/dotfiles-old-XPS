@@ -88,4 +88,4 @@ if [[ $TERMINIX_ID ]]; then
 fi
 
 # Set PATH variable
-export PATH=/$GOPATH/bin:$(ruby -rubygems -e "puts Gem.user_dir")/bin:~/.dotfiles/bin:$PATH
+export PATH=/$GOPATH/bin:$(ruby -rubygems -e "puts Gem.user_dir")/bin:~/.dotfiles/bin:/root/.gem/ruby/2.4.0/bin:$PATH
