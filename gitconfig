@@ -3,3 +3,5 @@
 	name = antcc
 [credential]
 	helper = cache --timeout=3600
+[core]
+	editor = emacs -nw --no-init-file --no-site-file --load ~/.emacs.minimal

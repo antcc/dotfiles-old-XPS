@@ -16,7 +16,8 @@
     # emacs
     ~/.emacs.d: 'emacs/emacs.d/'
     ~/.emacs: 'emacs/emacs'
-
+    ~/.emacs.minimal: 'emacs/emacs.minimal'
+    
     # atom
     ~/.atom/config.cson: 'atom/config.cson'
     ~/.atom/init.coffee: 'atom/init.coffee'
