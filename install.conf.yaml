@@ -39,6 +39,7 @@
     ~/.Xresources:
     ~/.ssh/config: 'ssh/config'
     ~/.netbeans/8.2/etc: 'netbeans/etc/'
+    ~/.local/share/applications/chromium.desktop: 'chromium.desktop'
     
 - shell:
     # init submodules
