@@ -12,3 +12,6 @@ alias edit='emacs -nw'
 
 # Compile latex files while editing
 alias mlatexmk='latexmk -shell-escape -pdf -pvc ; latexmk -C'
+
+# Suspend system
+alias suspend='systemctl suspend'

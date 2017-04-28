@@ -30,7 +30,7 @@
     ~/.config/gummi: 'config/gummi/'
     ~/.config/rofi-pass: 'config/rofi-pass/'
     ~/.config/systemd: 'config/systemd/'
-    ~/.config/terminix: 'config/terminix/'
+    ~/.config/tilix: 'config/tilix/'
     ~/.config/libinput-gestures.conf: 'config/libinput-gestures.conf'
     ~/.config/redshift.conf: 'config/redshift.conf'
 

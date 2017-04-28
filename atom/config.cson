@@ -31,14 +31,13 @@
     reopenCurrentFile: true
     scaleFactor: 1.2
     startupDelay: 100
-  linter:
-    gutterPosition: "Left"
-    lintOnFly: false
-    showProviderName: false
+  linter: {}
   "linter-clang":
     clangIncludePaths: [
       ". ./include"
     ]
+  "linter-ui-default":
+    panelHeight: 168
   "markdown-preview-enhanced":
     exportPDFPageFormat: "A4"
   minimap:

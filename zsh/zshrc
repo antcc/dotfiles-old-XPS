@@ -82,9 +82,9 @@ export LC_CTYPE="es_ES.UTF-8"
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# Terminix VTE configuration
-if [[ $TERMINIX_ID ]]; then
-  source /etc/profile.d/vte.sh 
+# Tilix VTE configuration
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
 fi
 
 # Set PATH variable
