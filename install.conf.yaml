@@ -46,6 +46,6 @@
     - [git submodule update --init --recursive, Installing/updating submodules...]
   
     # link cron jobs (requires sudo)
-    - sudo mkdir -p /etc/cron.weekly && sudo ln -sf cron/w_atom_list_pkgs.sh /etc/cron.weekly/atom_list_pkgs.sh
-    - sudo ln -sf cron/w_pacman_list_pkgs.sh /etc/cron.weekly/pacman_list_pkgs.sh
+    - sudo mkdir -p /etc/cron.weekly && sudo cp cron/w_atom_list_pkgs.sh /etc/cron.weekly/atom_list_pkgs.sh && sudo chmod +x /etc/cron.weekly/atom_list_pkgs.sh
+    - sudo cp cron/w_pacman_list_pkgs.sh /etc/cron.weekly/pacman_list_pkgs.sh && sudo chmod +x /etc/cron.weekly/pacman_list_pkgs.sh
 

@@ -12,14 +12,19 @@
       "language-gfm"
       "markdown-preview"
       "hidpi"
+      "linter"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "solarized-light-syntax"
+    ]
   docblockr:
     align_tags: "shallow"
     extend_double_slash: false
   editor:
-    fontSize: 18
+    fontSize: 17
     preferredLineLength: 100
     softWrap: true
     softWrapAtPreferredLineLength: true

@@ -1,13 +1,17 @@
 autocomplete-clang
+busy-signal
 docblockr
 file-icons
 hidpi
 highlight-selected
+intentions
 language-markdown
 linter
 linter-clang
+linter-ui-default
 markdown-preview-enhanced
 minimap
 pdf-view
 platformio-ide-terminal
 README.md
+Zen
