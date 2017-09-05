@@ -26,6 +26,10 @@
     ~/.atom/snippets.cson: 'atom/snippets.cson'
     ~/.atom/styles.less: 'atom/styles.less'
 
+    # R
+    ~/.Rprofile: 'r/Rprofile'
+    ~/.Renviron: 'r/Renviron'
+
     # config folder
     ~/.config/gummi: 'config/gummi/'
     ~/.config/rofi-pass: 'config/rofi-pass/'

@@ -18,7 +18,9 @@
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
      ("melpa-stable" . "https://stable.melpa.org/packages/"))))
- '(package-selected-packages (quote (htmlize)))
+ '(package-selected-packages
+   (quote
+    (## markdown-mode markdown-preview-mode pandoc-mode htmlize)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -29,3 +31,10 @@
 
 ;; Always follow symlinks to files under VCS
 (setq vc-follow-symlinks t)
+
+;; Start pandoc-mode for .md files
+;;(add-hook 'markdown-mode-hook 'pandoc-mode)
+
+;; Default markdown generator
+(custom-set-variables
+ '(markdown-command "/usr/bin/pandoc"))

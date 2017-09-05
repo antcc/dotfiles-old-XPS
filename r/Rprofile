@@ -1,0 +1,28 @@
+# Init function
+.First <- function() {
+  source(file.path(Sys.getenv("HOME"), "R", "utility.R"))
+  loadhistory()
+}
+
+# Exit function
+.Last <- function() {
+  savehistory()
+}
+
+# Set CRAN mirror:
+local({
+  r <- getOption("repos")
+  r["CRAN"] <- "https://cloud.r-project.org/"
+  options(repos = r)
+})
+
+# Colored output
+if (interactive()) {
+  library(colorout)
+}
+
+# Prompt
+options(prompt = "R> ")
+
+# Set working directory
+setwd("~/DS-ML/data-science/R")

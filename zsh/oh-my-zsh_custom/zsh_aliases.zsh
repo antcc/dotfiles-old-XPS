@@ -15,3 +15,9 @@ alias mlatexmk='latexmk -shell-escape -pdf -pvc ; latexmk -C'
 
 # Suspend system
 alias suspend='systemctl suspend'
+
+# Start R in quiet mode
+alias R="R --quiet"
+
+# Update AUR packages
+alias aur-update="cower -duvc -f -t ~/Descargas/AUR"
