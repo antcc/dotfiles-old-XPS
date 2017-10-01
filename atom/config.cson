@@ -24,7 +24,7 @@
     align_tags: "shallow"
     extend_double_slash: false
   editor:
-    fontSize: 17
+    fontSize: 13
     preferredLineLength: 100
     softWrap: true
     softWrapAtPreferredLineLength: true

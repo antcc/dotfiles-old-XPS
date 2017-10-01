@@ -1,0 +1,293 @@
+#
+# i3 config file (v4)
+#
+
+# ------ Meta ------------------------------------------------------------
+
+# Set mod key to Super
+set $mod Mod4
+
+# Reload the configuration file
+bindsym $mod+Shift+c reload
+
+# Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# Exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# Wallpaper
+exec ~/.fehbg
+
+# ------- Energy --------------------------------------------------------------
+
+set $Locker i3lock -e -c 555555 && sleep 1
+
+set $mode_system (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (p) poweroff
+mode "$mode_system" {
+	bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym p exec --no-startup-id systemctl poweroff -i, mode "default"  
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+o mode "$mode_system"
+
+# ------- Font ----------------------------------------------------------------
+
+# Font for window titles.
+font pango:monospace 8
+
+# Main font
+font pango:DejaVu Sans Mono 8
+
+# ------ i3bar ----------------------------------------------------
+
+bar {
+    status_command i3status
+	position top
+	font pango:monospace, FontAwesome 8
+	strip_workspace_numbers yes	
+
+	# Open Calendar when middle-clicking in the bar
+	bindsym button2 exec gnome-calendar
+}
+
+# ------- Windows manipulation ---------------------------------------
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# Change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+ntilde focus right
+
+# (Alternatively, you can use the cursor keys)
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+ntilde move right
+
+# (Alternatively, you can use the cursor keys)
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Split in horizontal orientation
+bindsym $mod+h split h
+
+# Split in vertical orientation
+bindsym $mod+v split v
+
+# Enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# Change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# Change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# Focus the parent container
+bindsym $mod+a focus parent
+
+# Focus the child container
+#bindsym $mod+d focus child
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
+
+# Border changing
+bindsym $mod+b border toggle
+
+# Resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym ntilde resize grow width 10 px or 10 ppt
+
+        # Same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # Back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# ------ Workspace ----------------------------------------------------
+
+set $w1 "1:"
+set $w2 "2:"
+
+# Switch to workspace
+bindsym $mod+1 workspace $w1
+bindsym $mod+2 workspace $w2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# Move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $w1
+bindsym $mod+Shift+2 move container to workspace $w2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# Cycle through workspaces
+bindsym $mod+Tab workspace next
+
+# ------ Gaps -----------------------------------------------------
+
+# Disable window titlebar
+for_window [class="^.*"] border pixel 0
+
+# Default gaps
+gaps inner 15
+gaps outer 0
+
+# Enable smart gaps
+smart_gaps on
+
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift & +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift & +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# ------ Custom bindings -------------------------------------------
+
+# Kill focused window
+bindsym $mod+q kill
+
+# Start rofi (a program launcher)
+bindsym $mod+Return exec rofi -show run
+
+# Jump to urgent window
+bindsym $mod+x [urgent=latest] focus
+
+# Volume control
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- unmute
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+ unmute
+bindsym XF86AudioMute exec amixer -q set Master toggle
+
+# Brightness control
+bindsym XF86MonBrightnessDown exec xbacklight -steps 1 -time 0 -dec 10
+bindsym XF86MonBrightnessUp exec xbacklight -steps 1 -time 0 -inc 10
+
+# ------ App bindings ------------------------------------------------
+
+set $telegram telegram-desktop
+set $chromium chromium --force-device-scale-factor=1.25 
+set $nautilus nautilus
+set $terminal tilix
+
+# Start a terminal
+bindsym $mod+t exec $terminal
+
+# Toggle quake terminal
+bindsym F1 exec --no-startup-id tilix --quake
+
+# Open Telegram Desktop
+bindsym $mod+Shift+t exec $telegram
+
+# Open Chromium Browser
+bindsym $mod+c exec $chromium
+
+# Open Nautilus
+bindsym $mod+Shift+f exec $nautilus
+
+# Open KeepassXC in floating mode and scratchpad, and recover from scratchpad
+bindsym $mod+p exec keepassxc
+for_window [class="keepassxc"] floating enable, move scratchpad
+bindsym $mod+Shift+p [title="KeePass"] scratchpad show
+
+# Assign Chromium Browser to workspace 1
+assign [class="Chromium"] $w1
+
+# Assign Telegram Desktop to workspace 2
+assign [class="Telegram"] $w2
+
+#  ------- Start apps at boot time -----------------------------------
+
+exec $telegram
+exec $chromium
+exec --no-startup-id libinput-gestures
+exec --no-startup-id dropbox 
+exec keepassxc; move scratchpad
+exec --no-startup-id dunst

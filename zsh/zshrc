@@ -89,3 +89,6 @@ fi
 
 # Set PATH variable
 export PATH=/$GOPATH/bin:$(ruby -rubygems -e "puts Gem.user_dir")/bin:~/.dotfiles/bin:/root/.gem/ruby/2.4.0/bin:$PATH
+
+# Set default terminal
+export TERMINAL=tilix

@@ -1,0 +1,12 @@
+[Unit]
+Description=Lock screen after suspend
+Before=sleep.target
+
+[Service]
+User=antcc
+Type=forking
+Environment=DISPLAY=:0
+ExecStart=/bin/i3lock -e -c 555555
+
+[Install]
+WantedBy=sleep.target

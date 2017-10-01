@@ -37,10 +37,13 @@
     ~/.config/tilix: 'config/tilix/'
     ~/.config/libinput-gestures.conf: 'config/libinput-gestures.conf'
     ~/.config/redshift.conf: 'config/redshift.conf'
+    ~/.config/i3: 'config/i3wm/i3/'
+    ~/.config/i3status: 'config/i3wm/i3status/'
 
     # misc.
     ~/.gitconfig:
     ~/.Xresources:
+    ~/.xprofile:
     ~/.ssh/config: 'ssh/config'
     ~/.netbeans/8.2/etc: 'netbeans/etc/'
     ~/.local/share/applications/chromium.desktop: 'chromium.desktop'
