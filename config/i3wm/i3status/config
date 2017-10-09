@@ -2,7 +2,7 @@
 
 general {
 	colors = true
-	interval = 5
+	interval = 3
 }
 
 order += "wireless _first_"
@@ -13,6 +13,7 @@ order += "tztime local"
 wireless _first_ {
 	 format_up = "  %essid"
 	 format_down = " "
+	 separator_block_width = 15
 }
 
 battery all {
@@ -24,16 +25,19 @@ battery all {
         low_threshold = 10
 	last_full_capacity = true
 	threshold_type = "percentage"
+	separator_block_width = 15
 }
 
 volume master {
-        format = "%  %volume"
-        format_muted = "  %volume"
-        device = "default"
-        mixer = "Master"
-        mixer_idx = 0
+	format = "%  %volume"
+    format_muted = "  %volume"
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
+    separator_block_width = 15
 }
 
 tztime local {
-       format = "%d-%m-%Y %H:%M"
+       format = "%H:%M "
+	   separator_block_width = 15
 }

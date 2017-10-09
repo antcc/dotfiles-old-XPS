@@ -21,3 +21,7 @@ alias R="R --quiet"
 
 # Update AUR packages
 alias aur-update="cower -duvc -f -t ~/Descargas/AUR"
+
+# Edit i3 config
+alias i3config="gedit ~/.config/i3/config &"
+alias i3configs="gedit ~/.config/i3status/config &"
