@@ -8,7 +8,7 @@ function disconnect(){
 xrandr --output eDP1 --auto --output DP1 --off
 }
  
-xrandr | grep "DP1 connected" &> /dev/null && connect || disconnect
+xrandr | grep "DP1 connected [^p]" &> /dev/null && connect || xrandr | grep "DP1 connected p" &> /dev/null && disconnect
 
 
 # Add udev rule in /etc/udev/rules.d:
