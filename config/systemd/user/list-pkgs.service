@@ -1,0 +1,6 @@
+[Unit]
+Description=list-pkgs
+
+[Service]
+ExecStart=/usr/bin/atom-list-pkgs
+ExecStart=/usr/bin/pacman-list-pkgs
