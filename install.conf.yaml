@@ -15,8 +15,8 @@
 
     # emacs
     ~/.emacs.d: 'emacs/emacs.d/'
-    ~/.emacs: 'emacs/emacs'
-    ~/.emacs.minimal: 'emacs/emacs.minimal'
+    #~/.emacs: 'emacs/emacs'
+    #~/.emacs.minimal: 'emacs/emacs.minimal'
     
     # atom
     ~/.atom/config.cson: 'atom/config.cson'
@@ -39,7 +39,8 @@
     ~/.config/redshift.conf: 'config/redshift.conf'
     ~/.config/i3: 'config/i3wm/i3/'
     ~/.config/i3status: 'config/i3wm/i3status/'
-
+    ~/.config/compton.conf: 'config/compton.conf'
+    
     # misc.
     ~/.gitconfig:
     ~/.Xresources:
@@ -51,7 +52,3 @@
 - shell:
     # init submodules
     - [git submodule update --init --recursive, Installing/updating submodules...]
-  
-    # link cron jobs (requires sudo)
-    - sudo mkdir -p /etc/cron.weekly && sudo cp cron/w_atom_list_pkgs.sh /etc/cron.weekly/atom_list_pkgs.sh && sudo chmod +x /etc/cron.weekly/atom_list_pkgs.sh
-    - sudo cp cron/w_pacman_list_pkgs.sh /etc/cron.weekly/pacman_list_pkgs.sh && sudo chmod +x /etc/cron.weekly/pacman_list_pkgs.sh
