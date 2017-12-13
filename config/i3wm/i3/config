@@ -37,26 +37,27 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
-bindsym $mod+o mode "$mode_system"
+bindsym $mod+BackSpace mode "$mode_system"
 
 # ------- Font ----------------------------------------------------------------
 
 # Font for window titles.
-font pango:monospace 8
+font pango:monospace 9
 
 # Main font
-font pango:DejaVu Sans Mono 8
+font pango:DejaVu Sans Mono 9
 
 # ------ i3bar ----------------------------------------------------
 
 bar {
     status_command i3status
 	position top
-	font pango:monospace, FontAwesome 14
+	height 30
+	font pango:FontAwesome, Ubuntu Mono 16
 	strip_workspace_numbers yes	
 
 	# Open Calendar when middle-clicking in the bar
-	bindsym button2 exec gnome-calendar
+	bindsym button2 exec gsimplecal
 }
 
 # ------- Windows manipulation ---------------------------------------
@@ -151,16 +152,24 @@ bindsym $mod+r mode "resize"
 popup_during_fullscreen smart
 
 # Switching window with mod+tab
-bindsym $mod+Tab exec --no-startup-id rofi -show window -theme royal-sky
+bindsym $mod+Tab exec --no-startup-id rofi -show window
 
-# Workspace back and forth
-workspace_auto_back_and_forth yes
-bindsym $mod+z workspace back_and_forth
+# Disable focus following mouse
+focus_follows_mouse no
+
+# Start pop-ups, dialogs and preferences in floating mode
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [title="Preferences$"]       floating enable
+
+# Toggle sticky windows
+bindsym $mod+Shift+s sticky toggle
 
 # ------ Workspace ----------------------------------------------------
 
 set $w1 "1:"
 set $w2 "2:"
+set $w10 "10:"
 
 # Switch to workspace
 bindsym $mod+1 workspace $w1
@@ -172,7 +181,7 @@ bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+0 workspace $w10
 
 # Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $w1
@@ -184,10 +193,14 @@ bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+0 move container to workspace $w10
 
 # Cycle through workspaces
 bindsym $mod+Shift+Tab workspace next
+
+# Workspace back and forth
+workspace_auto_back_and_forth yes
+bindsym $mod+z workspace back_and_forth
 
 # ------ Gaps -----------------------------------------------------
 
@@ -238,6 +251,10 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+# ------ Multi-monitor ---------------------------------
+
+bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug.sh
+
 # ------ Misc -------------------------------------------
 
 # Take screenshot to file
@@ -260,6 +277,7 @@ set $telegram telegram-desktop
 set $chromium chromium --force-device-scale-factor=1.25 
 set $nautilus nautilus
 set $terminal tilix
+set $browser firefox
 
 # Volume control
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- unmute
@@ -285,31 +303,38 @@ bindsym $mod+Shift+t exec $telegram
 # Open Chromium Browser
 bindsym $mod+c exec $chromium
 
-# Open Nautilus
+# Open Firefox Browser
+bindsym $mod+m exec firefox
+
+# Open Nautilus in floating mode
 bindsym $mod+Shift+f exec $nautilus
+for_window [class="Nautilus"] floating enable, resize set 980 820
 
 # Open KeepassXC in floating mode, and recover from scratchpad
 bindsym $mod+p exec keepassxc
 for_window [class="keepassxc"] floating enable
-bindsym $mod+Shift+p [title="KeePass"] scratchpad show
+bindsym $mod+Shift+p [class="keepassxc"] scratchpad show
 
-# Assign Chromium Browser to workspace 1
+# Assign Browsers to workspace 1
 assign [class="Chromium"] $w1
+assign [class="Firefox"] $w1
 
 # Assign Telegram Desktop to workspace 2
 assign [class="Telegram"] $w2
 
 #  ------- Start apps at boot time -----------------------------------
 
+exec --no-startup-id i3-msg 'workspace $w10; exec $terminal; workspace $w1'
 exec $telegram
-exec $chromium
+exec $browser
 exec --no-startup-id redshift
 exec --no-startup-id libinput-gestures
 exec --no-startup-id dunst
-exec owncloud
+exec --no-startup-id owncloud
+exec --no-startup-id compton --config .config/compton.conf -b
 
 # Scratchpad/Forced background
-exec --no-startup-id i3-msg 'workspace 2; exec keepassxc'
+exec --no-startup-id i3-msg 'workspace $w10; exec --no-startup-id keepassxc'
 exec --no-startup-id "sleep 1; i3-msg '[instance=keepassxc] move scratchpad'"
-exec --no-startup-id i3-msg 'workspace 2; exec geary'
-exec --no-startup-id "sleep 1; i3-msg '[instance=geary] kill'"
+exec --no-startup-id i3-msg 'workspace $w10; exec geary'
+exec --no-startup-id "sleep 2; i3-msg '[instance=geary] kill'"

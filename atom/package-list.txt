@@ -8,10 +8,12 @@ intentions
 language-markdown
 linter
 linter-clang
+linter-gcc
 linter-ui-default
 markdown-preview-enhanced
 minimap
 pdf-view
 platformio-ide-terminal
 README.md
+teletype
 Zen

@@ -12,7 +12,7 @@
       "language-gfm"
       "markdown-preview"
       "hidpi"
-      "linter"
+      "linter-clang"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -24,7 +24,7 @@
     align_tags: "shallow"
     extend_double_slash: false
   editor:
-    fontSize: 15
+    fontSize: 16
     preferredLineLength: 100
     softWrap: true
     softWrapAtPreferredLineLength: true
@@ -36,11 +36,15 @@
     reopenCurrentFile: true
     scaleFactor: 1.2
     startupDelay: 100
-  linter: {}
+  linter:
+    lintOnChange: false
   "linter-clang":
     clangIncludePaths: [
       ". ./include"
     ]
+  "linter-gcc":
+    gccDefaultCFlags: "-c -Wall-fsyntax-only"
+    gccDefaultCppFlags: "-c -Wall -std=c++11 -fsyntax-only"
   "linter-ui-default":
     panelHeight: 168
   "markdown-preview-enhanced":
@@ -54,9 +58,11 @@
         blue: "#0061cd"
     core:
       mapTerminalsTo: "Folder"
+      shell: "/bin/bash"
       workingDirectory: "Active File"
     style:
       theme: "pro"
+  teletype: {}
   welcome:
     showOnStartup: false
 ".c.source":

@@ -7,7 +7,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Powerlevel9k config
 POWERLEVEL9K_MODE="awesome-patched"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status battery)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status) #battery)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH="2"
 POWERLEVEL9K_STATUS_VERBOSE="false"
 POWERLEVEL9K_VCS_GIT_ICON=''
@@ -92,3 +92,6 @@ export PATH=/$GOPATH/bin:$(ruby -rubygems -e "puts Gem.user_dir")/bin:~/.dotfile
 
 # Set default terminal
 export TERMINAL=tilix
+
+# PostgreSQL default dir
+export SQL=/var/lib/postgres

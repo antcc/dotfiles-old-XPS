@@ -8,7 +8,7 @@ alias cowerd='cower -t ~/Descargas/AUR'
 alias diff='diff --color -y --suppress-common-lines'
 
 # Emacs on terminal mode
-alias edit='emacs -nw'
+alias edit='emacs -nw -Q -l ~/.emacs.minimal'
 
 # Compile latex files while editing
 alias mlatexmk='latexmk -shell-escape -pdf -pvc ; latexmk -C'
@@ -25,3 +25,7 @@ alias aur-update="cower -duvc -f -t ~/Descargas/AUR"
 # Edit i3 config
 alias i3config="gedit ~/.config/i3/config &"
 alias i3configs="gedit ~/.config/i3status/config &"
+
+# Connect & disconnect external monitor
+alias connect="xrandr --output DP1 --auto --output eDP1 --off"
+alias disconnect="xrandr --output eDP1 --auto --output DP1 --off"

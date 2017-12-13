@@ -1,12 +1,16 @@
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
+!rofi.color-enabled: true
+!rofi.color-window: #002b37, #002b37, #003642
+!rofi.color-normal: #002b37, #819396, #003643, #008ed4, #ffffff
+!rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
+!rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
 rofi.color-enabled: true
-rofi.color-window: #002b37, #002b37, #003642
-rofi.color-normal: #002b37, #819396, #003643, #008ed4, #ffffff
-rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
-rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
-
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
 
 ! ------------------------------------------------------------------------------
 ! ROFI Config
@@ -14,6 +18,8 @@ rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
 rofi.fixed-num-lines: false
 rofi.lines: 10
 rofi.terminal: tilix
+!rofi.show-icons: true
+!rofi-drun-icon-theme: Paper
 
 ! ------------------------------------------------------------------------------
 ! URXVT Config

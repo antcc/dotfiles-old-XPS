@@ -1,0 +1,5 @@
+[Unit]
+Description=check-battery
+
+[Service]
+ExecStart=/usr/bin/check-battery
