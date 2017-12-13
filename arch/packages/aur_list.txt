@@ -6,15 +6,12 @@ chrome-gnome-shell-git 9.r0.g35851c7-1
 chromium-widevine 1:1.4.8.1029-1
 cower 17-2
 dropbox 39.4.49-1
-gcc-fortran-multilib 7.2.0-3
-gcc-libs-multilib 7.2.0-3
-gcc-multilib 7.2.0-3
-geary-git r3106.b1e1d4c4-1
+geary-git r3306.385e86a1-1
 gtk-theme-arc-git 663.8290cb8-1
 gtkd 3.7.2-1
 i2p 0.9.32-1
 i3-gaps-git 4.14-1
-i3lock-color-git r379.12016c0-1
+i3lock-color-git r444.01476c5-1
 java-service-wrapper 3.5.32-1
 latex-beamer-ctan 3.43-1
 libinput-gestures 2.30-1

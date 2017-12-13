@@ -2,5 +2,6 @@
 Description=list-pkgs
 
 [Service]
+Type=oneshot
 ExecStart=/usr/bin/atom-list-pkgs
 ExecStart=/usr/bin/pacman-list-pkgs
