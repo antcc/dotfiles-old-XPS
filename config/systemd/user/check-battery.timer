@@ -2,8 +2,8 @@
 Description=Timer to check battery status
 
 [Timer]
-OnActiveSec=5min
-OnUnitActiveSec=5min
+OnActiveSec=3min
+OnUnitActiveSec=3min
 
 [Install]
 WantedBy=timers.target

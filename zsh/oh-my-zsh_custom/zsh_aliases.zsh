@@ -29,3 +29,9 @@ alias i3configs="gedit ~/.config/i3status/config &"
 # Connect & disconnect external monitor
 alias connect="xrandr --output DP1 --auto --output eDP1 --off"
 alias disconnect="xrandr --output eDP1 --auto --output DP1 --off"
+
+# Better safe than sorry
+alias rm="rm -I --preserve-root"
+
+# Open file with default application
+alias open="xdg-open"

@@ -24,6 +24,7 @@
     align_tags: "shallow"
     extend_double_slash: false
   editor:
+    fontFamily: "Fira Code"
     fontSize: 16
     preferredLineLength: 100
     softWrap: true
