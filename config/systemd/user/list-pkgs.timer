@@ -1,9 +1,9 @@
 [Unit]
-Description=Timer to list all installed packages. Currently from atom and pacman.
+Description=Timer to list all installed packages. Currently from atom and pacman
 
 [Timer]
-OnActiveSec=1w
-OnUnitActiveSec=1w
+OnCalendar=weekly
+Persistent=true
 
 [Install]
 WantedBy=timers.target
