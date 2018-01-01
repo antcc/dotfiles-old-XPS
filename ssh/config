@@ -7,12 +7,6 @@ Host rpi
 Host github.com
     IdentityFile ~/.ssh/id_rsa
 
-Host atc
-    HostName atcgrid.ugr.es
-    User E2estudiante9
-#   ForwardX11Trusted yes
-#   ForwardX11 yes
-
 Host turing
      HostName turing.ugr.es
      User antoniocoin
