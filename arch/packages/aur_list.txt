@@ -4,11 +4,13 @@ brother-dcpj315w 1.1.3-4
 byzanz-git 0.2.1.126.g81235d2-1
 chrome-gnome-shell-git 9.r0.g35851c7-1
 chromium-widevine 1:1.4.8.1029-1
+citra-git r5588.e203c10c-1
+citra-qt-git r5588.e203c10c-1
 cower 17-2
-dropbox 39.4.49-1
+dropbox 40.4.46-1
 geary-git r3306.385e86a1-1
 gtk-theme-arc-git 663.8290cb8-1
-gtkd 3.7.2-1
+gtkd 3.7.3-1
 i2p 0.9.32-1
 i3-gaps-git 4.14-1
 i3lock-color-git r444.01476c5-1
@@ -22,6 +24,8 @@ neofetch 3.3.0-1
 netbeans-javase 8.2-1
 openvpn-reconnect 1-2
 openvpn-update-resolv-conf r42.43093c2-0
+otf-fira-code 1.204-2
+otf-font-awesome-4 4.7.0-5
 pandoc-bin 2.0.2-1
 paper-icon-theme-git 749.c153195c-1
 pokemmo 1.2.1-1
@@ -30,7 +34,9 @@ skypeforlinux 8.7.76.59440-1
 systemd-boot-pacman-hook 2-1
 systemd-cron-next 1.0.2-2
 telegram-desktop-bin 1.1.23-1
-tilix-bin 1.7.1-1
+tilix-bin 1.7.3-1
+ttf-fira-code 1.204-2
+ttf-font-awesome-4 4.7.0-5
 ttf-ms-fonts 2.0-10
 vte-tilix-common 0.50.2+1.7.1-1
 vte3-tilix 0.50.2+1.7.1-1
