@@ -1,3 +1,6 @@
+# Allow aliases with sudo
+alias sudo="sudo "
+
 # Building PKGBUILD in /tmp
 alias makepkgt='mkdir -p /tmp/makepkg && BUILDIR=/tmp/makepkg makepkg -si'
 
@@ -21,6 +24,9 @@ alias R="R --quiet"
 
 # Update AUR packages
 alias aur-update="cower -duvc -f -t ~/Descargas/AUR"
+
+# Pacman remove orphans
+#alias pacrmph="pacman -Rns $(pacman -Qtdq)"
 
 # Edit i3 config
 alias i3config="gedit ~/.config/i3/config &"
