@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Based on https://github.com/PandorasFox/i3lock-color/blob/master/lock.sh
+# and https://github.com/skjnldsv/dotfiles/blob/master/bin/lock
+
 THRESHOLD=40
 IMAGE=$(mktemp).png
 scrot $IMAGE
