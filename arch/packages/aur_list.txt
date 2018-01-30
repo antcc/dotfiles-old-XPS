@@ -5,7 +5,7 @@ byzanz-git 0.2.1.126.g81235d2-1
 chrome-gnome-shell-git 9.r0.g35851c7-1
 chromium-widevine 1:1.4.8.1029-1
 cower 17-2
-dropbox 40.4.46-1
+dropbox 41.4.80-1
 geary-git r3306.385e86a1-1
 gtk-theme-arc-git 663.8290cb8-1
 gtkd 3.7.3-2
@@ -24,14 +24,14 @@ openvpn-reconnect 1-2
 openvpn-update-resolv-conf r42.43093c2-0
 otf-fira-code 1.204-2
 otf-font-awesome-4 4.7.0-5
-pandoc-bin 2.0.6-1
+pandoc-bin 2.1.1-1
 paper-icon-theme-git 749.c153195c-1
 pokemmo 1.2.1-1
 rofi-pass-git 350.273b4d1-1
 skypeforlinux 8.7.76.59440-1
 systemd-boot-pacman-hook 2-1
 telegram-desktop-bin 1.2.6-1
-tilix-bin 1.7.3-1
+tilix-bin 1.7.5-1
 ttf-fira-code 1.204-2
 ttf-font-awesome-4 4.7.0-5
 ttf-ms-fonts 2.0-10
