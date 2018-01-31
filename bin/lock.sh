@@ -6,7 +6,7 @@
 THRESHOLD=40
 IMAGE=$(mktemp).png
 scrot $IMAGE
-COLOR=`convert $IMAGE -colorspace hsb -resize 1x1 txt:- | egrep -o '[0-9]{2}\.([0-9]){0,8}%)' | egrep -ow '[0-9]{2}'`;
+COLOR=`convert $IMAGE -colorspace hsb -resize 1x1 txt:- | egrep -o '[0-9]{1,2}\.([0-9]){0,8}%)' | egrep -ow '[0-9]{1,2}'`;
 
 if [ "$COLOR" -lt "$THRESHOLD" ]; then
     O='#ffffffff'
