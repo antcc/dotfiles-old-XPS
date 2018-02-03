@@ -40,6 +40,7 @@
     ~/.config/i3: 'config/i3wm/i3/'
     ~/.config/i3status: 'config/i3wm/i3status/'
     ~/.config/compton.conf: 'config/compton.conf'
+    ~/.config/polybar: 'config/polybar/'
     
     # misc.
     ~/.gitconfig:

@@ -14,7 +14,7 @@ alias diff='diff --color -y --suppress-common-lines'
 alias edit='emacs -nw -Q -l ~/.emacs.minimal'
 
 # Compile latex files while editing
-alias mlatexmk='latexmk -shell-escape -pdf -pvc ; latexmk -C'
+alias mlatexmk='latexmk -shell-escape -pdf -pvc -interaction=nonstopmode'
 
 # Suspend system
 alias suspend='systemctl suspend'

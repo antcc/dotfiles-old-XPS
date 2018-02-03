@@ -1,0 +1,153 @@
+\documentclass[11pt,a4paper]{article}
+
+%---------------------------------------------------------------------------
+%   PAQUETES
+%---------------------------------------------------------------------------
+
+% Idioma y codificación
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\selectlanguage{english} 
+
+% Fuente 
+\usepackage{courier}
+\usepackage{microtype}  
+
+% Diseño de página
+\usepackage{fancyhdr}  
+\usepackage{lastpage}   
+\usepackage[parfill]{parskip}    
+\usepackage{geometry}         
+
+% Símbolos y matemáticas
+\usepackage{amssymb, amsmath, amsthm, amsfonts, amscd}
+\usepackage{upgreek}
+
+% Otros
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+%---------------------------------------------------------------------------
+%   OPCIONES GENERALES
+%---------------------------------------------------------------------------
+
+% Formato de texto.
+\linespread{1.1}            
+\setlength\parindent{0pt} 
+\setlist{leftmargin=.5in}   
+
+% Estilo de página.
+\pagestyle{fancy}
+\fancyhf{}
+\geometry{left=3cm,right=3cm,top=3cm,bottom=3cm,headheight=1cm,headsep=0.5cm} 
+
+%---------------------------------------------------------------------------
+%   COMANDOS PERSONALIZADOS
+%---------------------------------------------------------------------------
+
+% Valor absoluto: \abs{}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+
+% Fracción grande: \ddfrac{}{}
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+
+% Primera derivada parcial: \pder[f]{x}
+\newcommand{\pder}[2][]{\frac{\partial#1}{\partial#2}}
+
+% Negrita en modo matemáticas: \bm{}
+\newcommand{\bm}[1]{\boldsymbol{#1}}
+
+% Redefinir letra griega épsilon.
+\let\epsilon\upvarepsilon
+
+%---------------------------------------------------------------------------
+%   ENTORNOS PERSONALIZADOS
+%---------------------------------------------------------------------------
+
+% Nuevo estilo para definiciones.
+\newtheoremstyle{definition-style} % Nombre del estilo.
+{10pt}               % Espacio por encima.
+{10pt}               % Espacio por debajo.
+{}                   % Fuente del cuerpo.
+{}                   % Identación.
+{\bf}                % Fuente para la cabecera.
+{.}                  % Puntuación tras la cabecera.
+{.5em}               % Espacio tras la cabecera.
+{\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}     % Especificación de la cabecera (actual: nombre en negrita).
+
+% Nuevo estilo para notas.
+\newtheoremstyle{remark-style} 
+{10pt}                
+{10pt}                
+{}                   
+{}                   
+{\itshape}          
+{.}                  
+{.5em}               
+{}                  
+
+% Nuevo estilo para teoremas y proposiciones.
+\newtheoremstyle{theorem-style}
+{10pt}                
+{10pt}                
+{\itshape}           
+{}                  
+{\bf}             
+{.}                
+{.5em}               
+{\thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}                   
+
+% Nuevo estilo para ejemplos.
+\newtheoremstyle{example-style}
+{10pt}                
+{10pt}                
+{}                  
+{}                   
+{\scshape}              
+{:}                 
+{.5em}               
+{}                   
+
+% Teoremas, proposiciones y corolarios.
+\theoremstyle{theorem-style}
+\newtheorem{nth}[section]{Theorem}
+\newtheorem{nprop}[section]{Proposition}
+\newtheorem{ncor}[section]{Corollary}
+
+% Definiciones.
+\theoremstyle{definition-style}
+\newtheorem{ndef}[section]{Definition}
+
+% Notas.
+\theoremstyle{remark-style}
+\newtheorem*{nota}{Remark}
+
+% Ejemplos.
+\theoremstyle{example-style}
+\newtheorem*{ejemplo}{Example}
+
+% Listas ordenadas con números romanos (i), (ii), etc.
+\newenvironment{nlist}
+{\begin{enumerate}
+\renewcommand\labelenumi{(\emph{\roman{enumi})}}}
+{\end{enumerate}}
+
+% División por casos con llave a la derecha.
+\newenvironment{rcases}
+  {\left.\begin{aligned}}
+{\end{aligned}\right\rbrace}
+
+%---------------------------------------------------------------------------
+%   PÁGINA DE TÍTULO
+%---------------------------------------------------------------------------
+
+% Título
+\title{}
+\author{Antonio Coín Castro}
+\date{}
+
+
+\begin{document}
+\maketitle
+
+\end{document}

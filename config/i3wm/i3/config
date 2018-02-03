@@ -47,18 +47,24 @@ font pango:monospace 9
 # Main font
 font pango:DejaVu Sans Mono 9
 
-# ------ i3bar ----------------------------------------------------
+# ------ Bar ----------------------------------------------------
 
-bar {
-    status_command i3status
-	position top
-	height 30
-	font pango:FontAwesome, Ubuntu Mono 16
-	strip_workspace_numbers yes	
+# i3bar
 
-	# Open Calendar when middle-clicking in the bar
-	bindsym button2 exec gsimplecal
-}
+#bar {
+#   status_command i3status
+#	position top
+#	height 30
+#	font pango:FontAwesome, Ubuntu Mono 16
+#	strip_workspace_numbers yes	
+#
+#	# Open Calendar when middle-clicking in the bar
+#	bindsym button2 exec gsimplecal
+#}
+
+# Polybar
+
+exec_always --no-startup-id killall polybar; polybar -r top
 
 # ------- Windows manipulation ---------------------------------------
 
@@ -167,33 +173,42 @@ bindsym $mod+Shift+s sticky toggle
 
 # ------ Workspace ----------------------------------------------------
 
-set $w1 "1:"
-set $w2 "2:"
-set $w10 "10:"
+set $w1 1
+set $w2 2
+set $w3 3
+
+# i3bar settings
+#set $w1 "1:"
+#set $w2 "2:"
+#set $w3 "3:"
 
 # Switch to workspace
 bindsym $mod+1 workspace $w1
 bindsym $mod+2 workspace $w2
-bindsym $mod+3 workspace 3
+bindsym $mod+3 workspace $w3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace $w10
+bindsym $mod+0 workspace 10
+bindsym $mod+apostrophe workspace 11
+bindsym $mod+exclamdown workspace 12
 
 # Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $w1
 bindsym $mod+Shift+2 move container to workspace $w2
-bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+3 move container to workspace $w3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace $w10
+bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+apostrophe move container to workspace 11
+bindsym $mod+Shift+exclamdown  move container to workspace 12
 
 # Cycle through workspaces
 bindsym $mod+Shift+Tab workspace next
@@ -283,6 +298,10 @@ set $browser firefox
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- unmute
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 5%+ unmute
 bindsym XF86AudioMute exec amixer -q set Master toggle
+bindsym XF86AudioPlay exec --no-startup-id playerctl --player=spotify play-pause
+bindsym XF86AudioNext exec --no-startup-id playerctl --player=spotify next
+bindsym XF86AudioPrev exec --no-startup-id playerctl --player=spotify previous
+
 
 # Brightness control
 bindsym XF86MonBrightnessDown exec xbacklight -steps 1 -time 0 -dec 10
@@ -315,26 +334,29 @@ bindsym $mod+p exec keepassxc
 for_window [class="keepassxc"] floating enable
 bindsym $mod+Shift+p [class="keepassxc"] scratchpad show
 
-# Assign Browsers to workspace 1
+# Assign apps to specific workspaces
 assign [class="Chromium"] $w1
 assign [class="Firefox"] $w1
-
-# Assign Telegram Desktop to workspace 2
 assign [class="Telegram"] $w2
+assign [class="Spotify"] 10
+assign [class="^Vlc$"] 9
 
 #  ------- Start apps at boot time -----------------------------------
 
-exec --no-startup-id i3-msg 'workspace $w10; exec $terminal; workspace $w1'
+exec --no-startup-id i3-msg 'workspace $w3; exec $terminal; workspace $w1'
 exec $telegram
 exec $browser
 exec --no-startup-id redshift
 exec --no-startup-id libinput-gestures
 exec --no-startup-id dunst
 exec --no-startup-id owncloud
-exec --no-startup-id compton --config .config/compton.conf -b
+exec --no-startup-id compton --config ~/.config/compton.conf -b
+
+#exec --no-startup-id xautolock -time 15 -locker lock
+#exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
 
 # Scratchpad/Forced background
-exec --no-startup-id i3-msg 'workspace $w10; exec --no-startup-id keepassxc'
+exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id keepassxc'
 exec --no-startup-id "sleep 1; i3-msg '[instance=keepassxc] move scratchpad'"
-exec --no-startup-id i3-msg 'workspace $w10; exec geary'
+exec --no-startup-id i3-msg 'workspace $w3; exec geary'
 exec --no-startup-id "sleep 2; i3-msg '[instance=geary] kill'"
