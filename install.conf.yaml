@@ -32,7 +32,6 @@
 
     # config folder
     ~/.config/gummi: 'config/gummi/'
-    ~/.config/rofi-pass: 'config/rofi-pass/'
     ~/.config/systemd: 'config/systemd/'
     ~/.config/tilix: 'config/tilix/'
     ~/.config/libinput-gestures.conf: 'config/libinput-gestures.conf'
