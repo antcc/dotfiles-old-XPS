@@ -16,7 +16,7 @@
     # emacs
     ~/.emacs.d: 'emacs/emacs.d/'
     #~/.emacs: 'emacs/emacs'
-    #~/.emacs.minimal: 'emacs/emacs.minimal'
+    ~/.emacs.minimal: 'emacs/emacs.minimal'
     
     # atom
     ~/.atom/config.cson: 'atom/config.cson'
@@ -46,6 +46,8 @@
     ~/.gitconfig:
     ~/.Xresources:
     ~/.xprofile:
+    ~/.xinitrc:
+    ~/.fehbg:
     ~/.ssh/config: 'ssh/config'
     ~/.netbeans/8.2/etc: 'netbeans/etc/'
     ~/.local/share/applications/chromium.desktop: 'chromium.desktop'

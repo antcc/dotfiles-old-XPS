@@ -26,3 +26,10 @@
   '(column-number-mode t)
   '(query-user-mail-address nil)
   '(visible-bell t))
+
+; don't follow symlinks
+(setq vc-follow-symlinks nil)
+
+; custom theme
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(load-theme 'monokai t)
