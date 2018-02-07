@@ -293,6 +293,8 @@ set $chromium chromium --force-device-scale-factor=1.25
 set $nautilus nautilus
 set $terminal tilix
 set $browser firefox
+set $spotify spotify --force-device-scale-factor=1.5
+set $cava tilix -t "Cava" -e cava
 
 # Volume control
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 5%- unmute
@@ -301,7 +303,6 @@ bindsym XF86AudioMute exec amixer -q set Master toggle
 bindsym XF86AudioPlay exec --no-startup-id playerctl --player=spotify play-pause
 bindsym XF86AudioNext exec --no-startup-id playerctl --player=spotify next
 bindsym XF86AudioPrev exec --no-startup-id playerctl --player=spotify previous
-
 
 # Brightness control
 bindsym XF86MonBrightnessDown exec xbacklight -steps 1 -time 0 -dec 10
@@ -327,12 +328,15 @@ bindsym $mod+m exec firefox
 
 # Open Nautilus in floating mode
 bindsym $mod+Shift+f exec $nautilus
-for_window [class="Nautilus"] floating enable, resize set 980 820
+for_window [class="Nautilus"] floating enable
 
 # Open KeepassXC in floating mode, and recover from scratchpad
 bindsym $mod+p exec keepassxc
 for_window [class="keepassxc"] floating enable
 bindsym $mod+Shift+p [class="keepassxc"] scratchpad show
+
+# Open Spofify and cava in floating and minimized mode
+for_window [class="Spotify"] floating enable, resize set 800 100
 
 # Assign apps to specific workspaces
 assign [class="Chromium"] $w1
@@ -346,11 +350,12 @@ assign [class="^Vlc$"] 9
 exec --no-startup-id i3-msg 'workspace $w3; exec $terminal; workspace $w1'
 exec $telegram
 exec $browser
+exec $spotify
 exec --no-startup-id redshift
 exec --no-startup-id libinput-gestures
 exec --no-startup-id dunst
 exec --no-startup-id owncloud
-exec --no-startup-id compton --config ~/.config/compton.conf -b
+exec --no-startup-id compton -c ~/.config/compton.conf -b
 
 #exec --no-startup-id xautolock -time 15 -locker lock
 #exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"

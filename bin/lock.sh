@@ -3,7 +3,7 @@
 # Based on https://github.com/PandorasFox/i3lock-color/blob/master/lock.sh
 # and https://github.com/skjnldsv/dotfiles/blob/master/bin/lock
 
-THRESHOLD=40
+THRESHOLD=55
 IMAGE=$(mktemp).png
 scrot $IMAGE
 COLOR=`convert $IMAGE -colorspace hsb -resize 1x1 txt:- | egrep -o '[0-9]{1,2}\.([0-9]){0,8}%)' | egrep -ow '[0-9]{1,2}'`;
