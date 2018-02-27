@@ -344,6 +344,7 @@ assign [class="Firefox"] $w1
 assign [class="Telegram"] $w2
 assign [class="Spotify"] 10
 assign [class="^Vlc$"] 9
+assign [class="Geary"] 11
 
 #  ------- Start apps at boot time -----------------------------------
 
@@ -363,5 +364,5 @@ exec --no-startup-id compton -c ~/.config/compton.conf -b
 # Scratchpad/Forced background
 exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id keepassxc'
 exec --no-startup-id "sleep 1; i3-msg '[instance=keepassxc] move scratchpad'"
-exec --no-startup-id i3-msg 'workspace $w3; exec geary'
+exec --no-startup-id geary
 exec --no-startup-id "sleep 2; i3-msg '[instance=geary] kill'"

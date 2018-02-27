@@ -87,7 +87,8 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
 
-# Set PATH variable
+# Set PATHs variable
+export GOPATH=/home/antcc/Programas/Go
 export PATH=/$GOPATH/bin:$(ruby -rubygems -e "puts Gem.user_dir")/bin:~/.dotfiles/bin:/root/.gem/ruby/2.4.0/bin:$PATH
 
 # Set default terminal
