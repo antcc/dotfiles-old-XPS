@@ -217,10 +217,27 @@ bindsym $mod+Shift+Tab workspace next
 workspace_auto_back_and_forth yes
 bindsym $mod+z workspace back_and_forth
 
+# ------ Colors -----------------------------------------------------
+
+# Load colors from Xresources
+#set_from_resource $border_color i3wm.border0 #000000
+
+# Default window colors
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #4c7899 #ffffff #2e9ef4   #4c7899
+client.focused_inactive #4c7899 #285577 #ffffff #484e50   #5f676a
+client.unfocused        #4c7899 #285577 #888888 #292d2e   #285577
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+client.background        #ffffff
+
 # ------ Gaps -----------------------------------------------------
 
 # Disable window titlebar
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 4
+
+# Hide borders adjacent to screen edges
+hide_edge_borders both
 
 # Default gaps
 gaps inner 15
@@ -336,7 +353,7 @@ for_window [class="keepassxc"] floating enable
 bindsym $mod+Shift+p [class="keepassxc"] scratchpad show
 
 # Open Spofify and cava in floating and minimized mode
-for_window [class="Spotify"] floating enable, resize set 800 100
+for_window [class="Spotify"] floating enable, resize set 800 100, border pixel
 
 # Assign apps to specific workspaces
 assign [class="Chromium"] $w1

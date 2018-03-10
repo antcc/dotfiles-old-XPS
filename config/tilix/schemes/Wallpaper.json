@@ -1,0 +1,25 @@
+{
+    "name": "Wallpaper",
+    "comment": "Auto-generated from schemer2",
+    "use-theme-colors": false,
+    "foreground-color": "##ffffff",
+    "background-color": "#000000",
+    "palette": [
+        "#1f292f",
+    	"#009486",
+    	"#12181b",
+    	"#0e5753",
+    	"#1f292f",
+    	"#009486",
+    	"#12181c",
+    	"#0e5753",
+    	"#1f292f",
+    	"#009486",
+    	"#12181c",
+    	"#0e5753",
+    	"#1f292f",
+    	"#009486",
+    	"#13191c",
+    	"#0e5753"
+    ]
+}
