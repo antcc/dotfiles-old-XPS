@@ -43,4 +43,4 @@ alias rm="rm -I --preserve-root"
 alias open="xdg-open"
 
 # Load VirtualBox kernel modules
-alias vboxl="sudo modprobe vboxdrv vboxnetflt vboxpci vboxnetadp "
+alias vboxl="sudo modprobe -a vboxdrv vboxnetflt vboxpci vboxnetadp "

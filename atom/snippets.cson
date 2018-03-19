@@ -22,7 +22,7 @@
 
 '.text.xml':
   'AIML category':
-    'prefix': 'acat'
+    'prefix': 'cat'
     'body': """
     <category>
     <pattern>$1</pattern>
@@ -30,12 +30,21 @@
     </category>
     """
   'AIML set':
-    'prefix': 'aset'
+    'prefix': 'set'
     'body' : """
-    <think><set name="$1">$2</set></think>
+    <think>
+      <set name="$1">$2</set>$3
+    </think>
     """
   'AIML get':
-    'prefix': 'aget'
+    'prefix': 'get'
     'body' : """
-    <think><get name="$1"/>$2</think>
+    <think>
+      <get name="$1"/>$2
+    </think>
+    """
+  'AIML srai':
+    'prefix': 'srai'
+    'body' : """
+    <srai>$1</srai>$2
     """

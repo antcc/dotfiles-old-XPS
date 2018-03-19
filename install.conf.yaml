@@ -40,6 +40,10 @@
     ~/.config/i3status: 'config/i3wm/i3status/'
     ~/.config/compton.conf: 'config/compton.conf'
     ~/.config/polybar: 'config/polybar/'
+
+
+    # local folder
+    ~/.local/share/gedit: 'local/share/gedit'
     
     # misc.
     ~/.gitconfig:

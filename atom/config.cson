@@ -17,8 +17,8 @@
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "solarized-light-syntax"
+      "nord-atom-ui"
+      "nord-atom-syntax"
     ]
   docblockr:
     align_tags: "shallow"

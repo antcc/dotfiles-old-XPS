@@ -12,5 +12,11 @@ Host turing
      User antoniocoin
 
 Host bahia
-	HostName bahia.ugr.es
-	User acoin
+     HostName bahia.ugr.es
+     User acoin
+
+Host gitsci2s
+     User gitolite3
+     HostName atolon.ugr.es
+     Port 22
+     IdentityFile ~/.ssh/antcc

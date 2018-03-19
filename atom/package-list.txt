@@ -12,6 +12,8 @@ linter-gcc
 linter-ui-default
 markdown-preview-enhanced
 minimap
+nord-atom-syntax
+nord-atom-ui
 pdf-view
 platformio-ide-terminal
 README.md
