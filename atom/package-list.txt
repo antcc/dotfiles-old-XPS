@@ -2,6 +2,7 @@ autocomplete-clang
 busy-signal
 docblockr
 file-icons
+ftp-remote-edit
 hidpi
 highlight-selected
 intentions

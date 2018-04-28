@@ -32,6 +32,9 @@
     tabType: "soft"
   "exception-reporting":
     userId: "4c25c82f-d5ef-8215-3f42-253a818b6d69"
+  "ftp-remote-edit":
+    config: "59eb9b0d026a54fb830435098bdc3b2d09e295df16ac6d967f255f2dec7b3e9a76e0ab582f768cb6788856078f1fd12a98fcb4f4d266f20544dc50febc1ddab34ae139270b260c1b35f88b2d08e769e75095a206541816ba9b291988c6da7162e5ab82600b3d98a52a360850b5ad851044583828845113d632b5ea32b8496a2edf22aa7446f50b2fe1df5991028e65ee25fdbf426e3fb340a49bc234ecfe0f5e10d1790e92f6ca"
+    password: "3ba188020d735eb7d06534"
   hidpi:
     manualResolutionScaleFactors: "\"1920x1080\": 1.20"
     reopenCurrentFile: true
@@ -45,9 +48,10 @@
     ]
   "linter-gcc":
     gccDefaultCFlags: "-c -Wall-fsyntax-only"
-    gccDefaultCppFlags: "-c -Wall -std=c++11 -fsyntax-only"
+    gccDefaultCppFlags: "-c -Wall -std=c++14 -fsyntax-only"
+    gccIncludePaths: " -../include/, include/, ../include/"
   "linter-ui-default":
-    panelHeight: 168
+    panelHeight: 300
   "markdown-preview-enhanced":
     exportPDFPageFormat: "A4"
   minimap:
