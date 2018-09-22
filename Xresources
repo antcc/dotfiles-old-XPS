@@ -1,7 +1,7 @@
 ! -----------------
 ! Nord Theme
 ! ------------------
-#include "~/.Xresources/nord"
+!#include "~/.Xresources.d/nord"
 
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
@@ -20,7 +20,7 @@ rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
 ! ------------------------------------------------------------------------------
 ! ROFI Config
 ! ------------------------------------------------------------------------------
-rofi.fixed-num-lines: false
+rofi.fixed-num-lines: true
 rofi.lines: 10
 rofi.terminal: tilix
 !rofi.show-icons: true

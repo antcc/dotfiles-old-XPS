@@ -293,10 +293,11 @@ bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug.sh
 # ------ Misc -------------------------------------------
 
 # Take screenshot to file
-bindsym --release Print exec --no-startup-id scrot -s -z -q 95 ~/Imágenes/screenshot-%d-%m-%Y-%H:%M.jpg
+bindsym --release Print exec --no-startup-id scrot -s -z -q 95 ~/Imágenes/screenshot-%d-%m-%Y-%H:%M:%S.jpg
 
 # Take screenshot to clipboard
-bindsym --release $mod+Print exec --no-startup-id scrot -s -z -q 95 /tmp/screenshot-%d-%m-%Y-%H:%M.jpg -e 'xclip -selection c -t image/png $f'  
+bindsym --release $mod+Print exec --no-startup-id scrot -s -z -q 95 /tmp/screenshot-%d-%m-%Y-%H:%M:%S.jpg -e 'xclip -selection c -t image/png $f'  
+
 # Kill focused window
 bindsym $mod+q kill
 
@@ -356,7 +357,7 @@ for_window [class="keepassxc"] floating enable
 bindsym $mod+Shift+p [class="keepassxc"] scratchpad show
 
 # Open Spofify and cava in floating and minimized mode
-for_window [class="Spotify"] floating enable, resize set 800 115, border pixel, move position 25 px 945 px 
+for_window [class="Spotify"] floating enable, resize set 800 115, border pixel 4, move position 25 px 945 px 
 
 # Assign apps to specific workspaces
 assign [class="Chromium"] $w1

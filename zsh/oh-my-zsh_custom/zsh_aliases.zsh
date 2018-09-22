@@ -10,8 +10,12 @@ alias cowerd='cower -t ~/Descargas/AUR'
 # Custom diff
 alias diff='diff --color -y --suppress-common-lines'
 
-# Emacs on terminal mode
-alias edit='emacs -nw -Q -l ~/.emacs.minimal'
+# Edit on terminal mode
+#alias edit='emacs -nw -Q -l ~/.emacs.minimal'
+alias edit='vim'
+
+# Custom cat command
+alias cat='bat'
 
 # Compile latex files while editing
 alias mlatexmk='latexmk -shell-escape -pdf -pvc -interaction=nonstopmode'
