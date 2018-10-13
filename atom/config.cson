@@ -49,9 +49,10 @@
   "linter-gcc":
     gccDefaultCFlags: "-c -Wall-fsyntax-only"
     gccDefaultCppFlags: "-c -Wall -std=c++14 -fsyntax-only"
-    gccIncludePaths: " -../include/, include/, ../include/"
+    gccIncludePaths: " -../include/, include/, ../include/,"
   "linter-ui-default":
     panelHeight: 300
+    showPanel: true
   "markdown-preview-enhanced":
     exportPDFPageFormat: "A4"
   minimap:
