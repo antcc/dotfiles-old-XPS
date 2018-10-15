@@ -40,8 +40,10 @@
     ~/.config/i3status: 'config/i3wm/i3status/'
     ~/.config/compton.conf: 'config/compton.conf'
     ~/.config/polybar: 'config/polybar/'
-
-
+    ~/.config/gtk-2.0: 'config/gtk-2.0'
+    ~/.config/gtk-3.0: 'config/gtk-3.0'
+    ~/.config/gtk-4.0: 'config/gtk-4.0'
+      
     # local folder
     ~/.local/share/gedit: 'local/share/gedit'
     
