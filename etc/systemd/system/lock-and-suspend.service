@@ -1,6 +1,6 @@
 [Unit]
 Description=Lock screen after suspend
-Before=sleep.target
+Before=suspend-then-hibernate.target
 
 [Service]
 User=antcc
@@ -9,4 +9,4 @@ Environment=DISPLAY=:0
 ExecStart=/usr/bin/lock
 
 [Install]
-WantedBy=sleep.target
+WantedBy=suspend-then-hibernate.target
