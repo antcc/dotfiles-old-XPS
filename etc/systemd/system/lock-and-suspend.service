@@ -5,7 +5,8 @@ Before=suspend-then-hibernate.target
 [Service]
 User=antcc
 Type=forking
-Environment=DISPLAY=:0
+Environment=DISPLAY=:1
+#Environment=XAUTHORITY=/run/user/1000/gdm/Xauthority
 ExecStart=/usr/bin/lock
 
 [Install]
