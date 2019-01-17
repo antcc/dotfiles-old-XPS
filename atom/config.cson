@@ -52,6 +52,7 @@
     gccIncludePaths: " -../include/, include/, ../include/,"
   "linter-ui-default":
     panelHeight: 300
+    showPanel: true
   "markdown-preview-enhanced":
     exportPDFPageFormat: "A4"
   minimap:

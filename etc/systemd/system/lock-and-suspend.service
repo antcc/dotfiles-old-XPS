@@ -1,6 +1,7 @@
 [Unit]
 Description=Lock screen after suspend
 Before=suspend-then-hibernate.target
+Before=sleep.target
 
 [Service]
 User=antcc
@@ -12,3 +13,4 @@ ExecStartPost=/usr/bin/sleep 1
 
 [Install]
 WantedBy=suspend-then-hibernate.target
+WantedBy=sleep.target
