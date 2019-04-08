@@ -13,6 +13,7 @@
       "markdown-preview"
       "hidpi"
       "linter-clang"
+      "spell-check"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -50,6 +51,10 @@
     gccDefaultCFlags: "-c -Wall-fsyntax-only"
     gccDefaultCppFlags: "-c -Wall -std=c++14 -fsyntax-only"
     gccIncludePaths: " -../include/, include/, ../include/,"
+  "linter-rust":
+    cargoCommand: "build"
+    cargoPath: "/usr/bin/cargo"
+    rustcPath: "/usr/bin/rustc"
   "linter-ui-default":
     panelHeight: 300
     showPanel: true
@@ -68,6 +73,12 @@
       workingDirectory: "Active File"
     style:
       theme: "pro"
+  racer:
+    racerBinPath: "~/.cargo/bin/racer"
+    rustSrcPath: '''
+      ~/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/
+      
+    '''
   teletype: {}
   welcome:
     showOnStartup: false
@@ -77,3 +88,6 @@
 ".cpp.source":
   editor:
     autoIndentOnPaste: false
+".rust.source":
+  editor:
+    preferredLineLength: 99

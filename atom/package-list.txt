@@ -10,6 +10,8 @@ language-markdown
 linter
 linter-clang
 linter-gcc
+linter-javac
+linter-rust
 linter-ui-default
 markdown-preview-enhanced
 minimap
@@ -17,6 +19,7 @@ nord-atom-syntax
 nord-atom-ui
 pdf-view
 platformio-ide-terminal
+racer
 README.md
 teletype
 Zen

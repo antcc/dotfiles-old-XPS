@@ -30,6 +30,9 @@
     ~/.Rprofile: 'r/Rprofile'
     ~/.Renviron: 'r/Renviron'
 
+    # pandoc
+    ~/.pandoc:    
+
     # config folder
     ~/.config/gummi: 'config/gummi/'
     ~/.config/systemd: 'config/systemd/'
