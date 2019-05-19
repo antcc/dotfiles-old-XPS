@@ -15,6 +15,7 @@ linter-rust
 linter-ui-default
 markdown-preview-enhanced
 minimap
+mypddl
 nord-atom-syntax
 nord-atom-ui
 pdf-view
