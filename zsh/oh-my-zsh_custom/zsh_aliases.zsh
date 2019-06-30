@@ -10,6 +10,9 @@ alias cowerd='cower -t ~/Descargas/AUR'
 # Custom diff
 alias diff='diff --color -y --suppress-common-lines'
 
+# Cisco VPN
+alias vpn='/opt/cisco/anyconnect/bin/vpn'
+
 # Edit on terminal mode
 #alias edit='emacs -nw -Q -l ~/.emacs.minimal'
 alias edit='vim'

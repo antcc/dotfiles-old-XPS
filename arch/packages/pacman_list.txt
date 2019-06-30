@@ -13,6 +13,7 @@ amp 0.5.2-2
 amtk 5.0.0-1
 android-tools 9.0.0_r41-1
 ant 1.10.6-1
+anyconnect-client 4.7.00136-3
 aom 1.0.0-1
 apache 2.4.39-1
 apm 2.2.3-2
@@ -801,6 +802,7 @@ mozilla-common 1.4-5
 mpfr 4.0.2-1
 mpg123 1.25.10-1
 mtdev 1.1.5-2
+mtools 4.0.23-1
 mutter 3.32.2+11+ga3a97621b-1
 mypaint-brushes 1.3.0-3
 mysql-python 1.2.5-3
@@ -1088,6 +1090,7 @@ sdl_image 1.2.12-5
 seahorse 1:3.32.2-1
 sed 4.7-1
 semver 6.1.1-1
+setconf 0.7.6-1
 shaderc 2018.0-3
 shadow 4.6-3
 shared-color-targets 0.1.7-2
@@ -1118,6 +1121,7 @@ suitesparse 5.4.0-1
 sushi 3.32.0-1
 swell-foop 3.32.0-1
 sysfsutils 2.1.0-10
+syslinux 6.04.pre2.r11.gbf6db5b4-1
 systemd 242.29-1
 systemd-boot-pacman-hook 2-1
 systemd-libs 242.29-1
@@ -1176,6 +1180,7 @@ ttf-ubuntu-font-family 0.83-4
 twolame 0.3.13-8
 tzdata 2019a-1
 udisks2 2.8.2-1
+unetbootin 661-1
 unixodbc 2.3.7-2
 unrar 1:5.7.5-1
 unzip 6.0-13
