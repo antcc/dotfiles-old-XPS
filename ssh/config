@@ -15,6 +15,10 @@ Host bahia
      HostName bahia.ugr.es
      User acoin
 
+Host bigdata
+     HostName bigdata.ugr.es
+     User acoin
+
 Host hadoop
      HostName hadoop.ugr.es
      User acoin

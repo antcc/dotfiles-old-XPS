@@ -64,6 +64,7 @@ c-ares 1.15.0-1
 ca-certificates 20181109-1
 ca-certificates-mozilla 3.44-1
 ca-certificates-utils 20181109-1
+cabextract 1.9.1-1
 cairo 1.16.0-2
 cairomm 1.12.2-3
 cantarell-fonts 1:0.111-1
@@ -1214,6 +1215,7 @@ which 2.21-3
 whois 5.4.3-1
 wildmidi 0.4.3-1
 wine 4.9-1
+winetricks 20190615-1
 wireless_tools 30.pre9-2
 wireshark-cli 3.0.2-1
 wireshark-qt 3.0.2-1
@@ -1261,6 +1263,7 @@ xorg-xhost 1.0.8-1
 xorg-xinit 1.4.1-1
 xorg-xinput 1.6.2-2
 xorg-xkbcomp 1.4.2-1
+xorg-xmessage 1.0.5-1
 xorg-xmodmap 1.0.10-1
 xorg-xprop 1.2.4-1
 xorg-xrandr 1.5.0-2
