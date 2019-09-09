@@ -1,5 +1,5 @@
 Host rpi
-    HostName maraberry.local
+    HostName antccberry.local
     Port 2101
     User pi
     IdentityFile ~/.ssh/id_rsa2
