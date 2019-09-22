@@ -14,6 +14,7 @@
       "hidpi"
       "linter-clang"
       "spell-check"
+      "linter-scalac"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
