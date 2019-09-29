@@ -5,12 +5,14 @@ export ZSH=/home/antcc/.oh-my-zsh
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Powerlevel9k config
+POWERLEVEL9K_INSTALLATION_PATH=$ZSH/custom/themes/powerlevel9k
 POWERLEVEL9K_MODE="awesome-patched"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status) #battery)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH="2"
 POWERLEVEL9K_STATUS_VERBOSE="false"
 POWERLEVEL9K_VCS_GIT_ICON=''
+POWERLEVEL9K_PYTHON_ICON=''
 
 # Default user
 DEFAULT_USER="antcc"
@@ -57,7 +59,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colorize dircycle extract zsh-autosuggestions z)
+plugins=(virtualenv colorize dircycle extract zsh-autosuggestions z)
 
 source $ZSH/oh-my-zsh.sh
 

@@ -1,4 +1,5 @@
 autocomplete-clang
+autocomplete-python
 browser-plus
 busy-signal
 docblockr
@@ -8,6 +9,7 @@ hidpi
 highlight-selected
 hyperclick
 intentions
+kite
 language-markdown
 language-scala
 linter

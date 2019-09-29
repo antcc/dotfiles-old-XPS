@@ -22,6 +22,7 @@
       "nord-atom-ui"
       "nord-atom-syntax"
     ]
+    useTreeSitterParsers: false
   docblockr:
     align_tags: "shallow"
     extend_double_slash: false
@@ -29,6 +30,7 @@
     fontFamily: "Fira Code"
     fontSize: 16
     preferredLineLength: 100
+    scrollPastEnd: true
     softWrap: true
     softWrapAtPreferredLineLength: true
     tabType: "soft"
@@ -42,6 +44,14 @@
     reopenCurrentFile: true
     scaleFactor: 1.2
     startupDelay: 100
+  "ide-python":
+    pylsPlugins:
+      pylint:
+        enabled: true
+  kite:
+    enableHoverUI: false
+    enableSnippets: false
+    showWelcomeNotificationOnStartup: false
   linter:
     lintOnChange: false
   "linter-clang":

@@ -51,3 +51,6 @@ alias open="xdg-open"
 
 # Load VirtualBox kernel modules
 alias vboxl="sudo modprobe vboxdrv && sudo modprobe vboxnetflt && sudo modprobe vboxpci && sudo modprobe vboxnetadp"
+
+# Activate python virtual environment
+alias pyactivate="source venv/bin/activate"
