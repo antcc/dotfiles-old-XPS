@@ -24,6 +24,7 @@ minimap
 mypddl
 nord-atom-syntax
 nord-atom-ui
+org-mode
 pdf-view
 platformio-ide-terminal
 racer

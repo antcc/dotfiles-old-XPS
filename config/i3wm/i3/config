@@ -377,7 +377,7 @@ exec --no-startup-id libinput-gestures
 exec --no-startup-id dunst
 exec --no-startup-id owncloud
 exec --no-startup-id compton -c ~/.config/compton.conf -b
-exec --no-startup-id $spotify
+#exec --no-startup-id $spotify
 
 #exec --no-startup-id xautolock -time 15 -locker lock
 #exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
@@ -386,4 +386,4 @@ exec --no-startup-id $spotify
 exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id keepassxc'
 exec --no-startup-id "sleep 1; i3-msg '[instance=keepassxc] move scratchpad'"
 exec --no-startup-id geary
-exec --no-startup-id "sleep 2; i3-msg '[instance=geary] kill'"
+exec --no-startup-id "sleep 3; i3-msg '[instance=geary] kill'"

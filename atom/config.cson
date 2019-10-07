@@ -52,6 +52,7 @@
     enableHoverUI: false
     enableSnippets: false
     showWelcomeNotificationOnStartup: false
+    startKiteAtStartup: false
   linter:
     lintOnChange: false
   "linter-clang":
