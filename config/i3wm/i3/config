@@ -95,6 +95,10 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+# Move windows between monitors
+bindsym $mod+Alt+Left move workspace to output DP1
+bindsym $mod+Alt+Right move workspace to output eDP1
+
 # Split in horizontal orientation
 bindsym $mod+h split h
 
@@ -198,6 +202,9 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 bindsym $mod+apostrophe workspace 11
 bindsym $mod+exclamdown workspace 12
+
+# Bind workspaces to monitor
+workspace 12 output DP1
 
 # Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $w1

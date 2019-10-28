@@ -14,7 +14,6 @@ alias diff='diff --color -y --suppress-common-lines'
 alias vpn='/opt/cisco/anyconnect/bin/vpn'
 
 # Edit on terminal mode
-#alias edit='emacs -nw -Q -l ~/.emacs.minimal'
 alias edit='vim'
 
 # Custom cat command
@@ -40,8 +39,10 @@ alias i3config="gedit ~/.config/i3/config &"
 alias i3configs="gedit ~/.config/i3status/config &"
 
 # Connect & disconnect external monitor
-alias connect="xrandr --output DP1 --auto --output eDP1 --off"
-alias disconnect="xrandr --output eDP1 --auto --output DP1 --off"
+alias connect-one="xrandr --output DP1 --auto --output eDP1 --off"
+alias disconnect-one="xrandr --output eDP1 --auto --output DP1 --off"
+alias connect="xrandr --output DP1 --auto --right-of eDP1"
+alias disconnect="xrandr --output DP1 --off"
 
 # Better safe than sorry
 alias rm="rm -I --preserve-root"
