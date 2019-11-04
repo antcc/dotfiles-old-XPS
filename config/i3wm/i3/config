@@ -96,8 +96,8 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # Move windows between monitors
-bindsym $mod+Alt+Left move workspace to output DP1
-bindsym $mod+Alt+Right move workspace to output eDP1
+bindsym $mod+y move workspace to output DP1
+bindsym $mod+u move workspace to output eDP1
 
 # Split in horizontal orientation
 bindsym $mod+h split h

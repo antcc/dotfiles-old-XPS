@@ -4,9 +4,6 @@ alias sudo="sudo "
 # Building PKGBUILD in /tmp
 alias makepkgt='mkdir -p /tmp/makepkg && BUILDIR=/tmp/makepkg makepkg -si'
 
-# Cower download to a specific dir
-alias cowerd='cower -t ~/Descargas/AUR'
-
 # Custom diff
 alias diff='diff --color -y --suppress-common-lines'
 
@@ -29,7 +26,7 @@ alias suspend='systemctl suspend'
 alias R="R --quiet"
 
 # Update AUR packages
-alias aur-update="cower -duvc -f -t ~/Descargas/AUR"
+alias aur-update="yay -Pu"
 
 # Pacman remove orphans
 #alias pacrmph="pacman -Rns $(pacman -Qtdq)"
