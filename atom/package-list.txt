@@ -27,6 +27,7 @@ nord-atom-ui
 org-mode
 pdf-view
 platformio-ide-terminal
+python-yapf
 racer
 README.md
 teletype
