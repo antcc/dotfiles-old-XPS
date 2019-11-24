@@ -358,6 +358,7 @@ hunspell-en_US 2018.04.16-6
 hwids 20190818-1
 hwloc 1.11.12-1
 hyphen 2.8.8-2
+i2p 0.9.43-1
 i3-gaps-git 4.14-1
 i3ipc-glib-git r154.1470102370.57317a6-1
 i3lock-color-git r506.5bbdd02-1
@@ -389,6 +390,7 @@ jansson 2.12-1
 jasper 2.0.16-1
 java-environment-common 3-1
 java-runtime-common 3-1
+java-service-wrapper 3.5.41-1
 jbig2dec 0.17-1
 jdk8-openjdk 8.u232-1
 jemalloc 1:5.2.1-1
