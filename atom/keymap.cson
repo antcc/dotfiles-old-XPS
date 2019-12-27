@@ -31,10 +31,6 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
-# platformio-ide-terminal:toggle
-'.platform-linux atom-workspace, .platform-win32 atom-workspace':
-  'ctrl-alt-space': 'platformio-ide-terminal:toggle'
-
 # Scale UI
 'atom-workspace':
   'ctrl-+': 'ui:increase-font-size'

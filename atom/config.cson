@@ -1,4 +1,6 @@
 "*":
+  "atom-package-deps":
+    ignored: []
   "autocomplete-clang":
     includePaths: [
       "."
@@ -6,6 +8,8 @@
       "../include"
     ]
     includeSystemHeadersDocumentation: true
+  "autocomplete-latex":
+    enableBuiltinProvider: true
   core:
     autoHideMenuBar: true
     disabledPackages: [
@@ -13,8 +17,8 @@
       "markdown-preview"
       "hidpi"
       "linter-clang"
-      "spell-check"
       "linter-scalac"
+      "spell-check"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -49,8 +53,6 @@
       pylint:
         enabled: true
   kite:
-    enableHoverUI: false
-    enableSnippets: false
     showWelcomeNotificationOnStartup: false
     startKiteAtStartup: false
   linter:
@@ -69,7 +71,9 @@
     rustcPath: "/usr/bin/rustc"
   "linter-ui-default":
     panelHeight: 300
-    showPanel: true
+  "markdown-image-paste":
+    subfolder: "img"
+    use_subfolder: true
   "markdown-preview-enhanced":
     exportPDFPageFormat: "A4"
   minimap:
@@ -81,7 +85,7 @@
         blue: "#0061cd"
     core:
       mapTerminalsTo: "Folder"
-      shell: "/bin/bash"
+      shell: "/bin/zsh"
       workingDirectory: "Active File"
     style:
       theme: "pro"
@@ -91,6 +95,24 @@
       ~/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/
       
     '''
+  "spell-check":
+    grammars: [
+      "text.md"
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.rst"
+      "text.restructuredtext"
+      "text.tex.latex"
+      "source.python"
+      ""
+    ]
+    locales: [
+      "en-US"
+      "es-ES"
+    ]
   teletype: {}
   welcome:
     showOnStartup: false
