@@ -1,4 +1,6 @@
 autocomplete-clang
+autocomplete-latex
+autocomplete-paths
 autocomplete-python
 browser-plus
 busy-signal
@@ -10,15 +12,20 @@ highlight-selected
 hyperclick
 intentions
 kite
+language-latex
 language-markdown
 language-scala
+latex-autocomplete
+latex-image-paste
 linter
 linter-clang
 linter-gcc
 linter-javac
+linter-markdown
 linter-rust
 linter-scalac
 linter-ui-default
+markdown-image-paste
 markdown-preview-enhanced
 minimap
 mypddl

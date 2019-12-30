@@ -19,6 +19,7 @@
       "linter-clang"
       "linter-scalac"
       "spell-check"
+      "linter-markdown"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -71,6 +72,7 @@
     rustcPath: "/usr/bin/rustc"
   "linter-ui-default":
     panelHeight: 300
+    showPanel: true
   "markdown-image-paste":
     subfolder: "img"
     use_subfolder: true

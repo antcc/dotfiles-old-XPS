@@ -360,8 +360,8 @@ for_window [class="Nautilus"] floating enable
 
 # Open KeepassXC in floating mode, and recover from scratchpad
 bindsym $mod+p exec keepassxc
-for_window [class="keepassxc"] floating enable
-bindsym $mod+Shift+p [class="keepassxc"] scratchpad show
+for_window [class="KeePassXC"] floating enable
+bindsym $mod+Shift+p [class="KeePassXC"] scratchpad show
 
 # Open Spofify and cava in floating and minimized mode
 for_window [class="Spotify"] floating enable, resize set 800 115, border pixel 4, move position 25 px 945 px 
@@ -378,19 +378,19 @@ assign [class="Spotify"] 10
 
 exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id $terminal; workspace $w1'
 exec --no-startup-id $telegram
-exec --no-startup-id $browser
 exec --no-startup-id redshift
 exec --no-startup-id libinput-gestures
 exec --no-startup-id dunst
 exec --no-startup-id owncloud
-exec --no-startup-id compton -c ~/.config/compton.conf -b
-#exec --no-startup-id $spotify
+exec --no-startup-id picom -b -no-fading-openclose
+exec --no-startup-id $browser
 
+#exec --no-startup-id $spotify
 #exec --no-startup-id xautolock -time 15 -locker lock
 #exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
 
 # Scratchpad/Forced background
 exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id keepassxc'
-exec --no-startup-id "sleep 1; i3-msg '[instance=keepassxc] move scratchpad'"
+exec --no-startup-id "sleep 1; i3-msg '[instance=KeePassXC] move scratchpad'"
 exec --no-startup-id geary
 exec --no-startup-id "sleep 3; i3-msg '[instance=geary] kill'"
