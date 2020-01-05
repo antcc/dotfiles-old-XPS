@@ -20,6 +20,7 @@
       "linter-scalac"
       "spell-check"
       "linter-markdown"
+      "markdown-preview-enhanced"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -91,6 +92,8 @@
       workingDirectory: "Active File"
     style:
       theme: "pro"
+  "preview-inline":
+    imageBasePath: "img"
   racer:
     racerBinPath: "~/.cargo/bin/racer"
     rustSrcPath: '''
