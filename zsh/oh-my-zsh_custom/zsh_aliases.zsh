@@ -52,3 +52,6 @@ alias vboxl="sudo modprobe vboxdrv && sudo modprobe vboxnetflt && sudo modprobe 
 
 # Activate python virtual environment
 alias pyactivate="source venv/bin/activate"
+
+# Find replacement
+alias find='fd'
