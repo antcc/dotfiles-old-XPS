@@ -55,6 +55,7 @@
       pylint:
         enabled: true
   kite:
+    enableHoverUI: false
     showWelcomeNotificationOnStartup: false
     startKiteAtStartup: false
   linter:

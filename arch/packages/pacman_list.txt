@@ -1678,6 +1678,7 @@ zita-alsa-pcmi 0.3.2-2
 zita-resampler 1.6.2-2
 zlib 1:1.2.11-4
 zn_poly 0.9.2-1
+zotero 5.0.81-1
 zsh 5.7.1-1
 zsh-completions 0.31.0-1
 zstd 1.4.4-1
