@@ -4,6 +4,9 @@
 [submodule "zsh/oh-my-zsh"]
 	path = zsh/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "zsh/oh-my-zsh_custom/themes/powerlevel10k"]
+	path = zsh/oh-my-zsh_custom/themes/powerlevel10k
+	url = https://github.com/bhilburn/powerlevel10k.git
 [submodule "zsh/oh-my-zsh_custom/themes/powerlevel9k"]
-	path = zsh/oh-my-zsh_custom/themes/powerlevel9k
-	url = https://github.com/bhilburn/powerlevel9k.git
+        path = zsh/oh-my-zsh_custom/themes/powerlevel9k
+        url = https://github.com/bhilburn/powerlevel9k.git

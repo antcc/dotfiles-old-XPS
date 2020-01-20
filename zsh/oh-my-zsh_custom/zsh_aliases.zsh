@@ -55,3 +55,6 @@ alias pyactivate="source venv/bin/activate"
 
 # Find replacement
 alias find='fd'
+
+# ls replacement
+alias ls='exa'
