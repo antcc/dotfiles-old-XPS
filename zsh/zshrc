@@ -3,6 +3,7 @@ export ZSH=/home/antcc/.oh-my-zsh
 
 # Theme
 ZSH_THEME="powerlevel9k/powerlevel9k"
+#source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 
 # Powerlevel9k config
 POWERLEVEL9K_INSTALLATION_PATH=$ZSH/custom/themes/powerlevel9k
@@ -12,7 +13,8 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH="2"
 POWERLEVEL9K_STATUS_VERBOSE="false"
 POWERLEVEL9K_VCS_GIT_ICON=''
-POWERLEVEL9K_PYTHON_ICON=''
+POWERLEVEL9K_VCS_GIT_GITHUB_ICON=''
+POWERLEVEL9K_PYTHON_ICON='' #''
 
 # Default user
 DEFAULT_USER="antcc"
