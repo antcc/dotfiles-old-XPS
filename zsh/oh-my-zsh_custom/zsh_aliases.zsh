@@ -1,6 +1,10 @@
 # Allow aliases with sudo
 alias sudo="sudo "
 
+# Manage aliases
+alias aliase='edit ~/.oh-my-zsh/custom/zsh_aliases.zsh'
+alias aliass='source ~/.oh-my-zsh/custom/zsh_aliases.zsh'
+
 # Building PKGBUILD in /tmp
 alias makepkgt='mkdir -p /tmp/makepkg && BUILDIR=/tmp/makepkg makepkg -si'
 
@@ -58,3 +62,7 @@ alias find='fd'
 
 # ls replacement
 alias ls='exa'
+
+# Wine
+alias wine32='WINEPREFIX=~/.wine32 WINEARCH=win32 wine'
+alias wine64='WINEPREFIX=~/.wine WINEARCH=win64 wine'
