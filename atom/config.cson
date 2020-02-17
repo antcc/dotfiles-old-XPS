@@ -1,4 +1,9 @@
 "*":
+  Hydrogen:
+    autoScroll: false
+    outputAreaDefault: true
+    outputAreaDock: true
+    outputAreaFontSize: 18
   "atom-package-deps":
     ignored: []
   "autocomplete-clang":
@@ -21,6 +26,8 @@
       "linter-markdown"
       "markdown-preview-enhanced"
       "linter-scalac"
+      "autocomplete-R"
+      "ide-r"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -50,6 +57,8 @@
     reopenCurrentFile: true
     scaleFactor: 1.2
     startupDelay: 100
+  "hydrogen-launcher":
+    app: "tilix"
   "ide-python":
     pylsPlugins:
       pylint:
@@ -76,7 +85,6 @@
     lintsOnChange: true
   "linter-ui-default":
     panelHeight: 300
-    showPanel: true
   "markdown-image-paste":
     subfolder: "img"
     use_subfolder: true

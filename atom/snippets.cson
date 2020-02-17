@@ -48,3 +48,8 @@
     'body' : """
     <srai>$1</srai>$2
     """
+
+'.source.r':
+  'Code cell':
+    'prefix': 'code'
+    'body': '# %% $1'

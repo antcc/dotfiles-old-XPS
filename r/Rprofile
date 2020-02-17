@@ -1,12 +1,13 @@
 # Init function
 .First <- function() {
-  source(file.path(Sys.getenv("HOME"), "Programas", "R", "utility.R"))
-  utils::loadhistory()
+  if (interactive())
+    utils::loadhistory("~/.Rhistory")
 }
 
 # Exit function
 .Last <- function() {
-  savehistory()
+  if (interactive())
+    utils::savehistory("~/.Rhistory")
 }
 
 # Set CRAN mirror:
@@ -16,13 +17,14 @@ local({
   options(repos = r)
 })
 
-# Colored output
-if (interactive()) {
-  library(colorout)
-}
-
 # Prompt
 options(prompt = "R> ")
 
 # Set working directory
-setwd("~/DS-ML/data-science/R")
+#setwd("~/DGIIM/5º/2cuatrimestre/Estadística Computacional/Prácticas/practicas-r")
+
+# Strings
+#options(stringsAsFactors=F)
+
+# Errors
+options(showWarnCalls=T, showErrorCalls=T)

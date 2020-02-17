@@ -1,5 +1,5 @@
-export EDITOR="emacs -nw"
-export VISUAL="emacs -nw"
+export EDITOR="vim"
+export VISUAL="vim"
 setopt NO_GLOBAL_RCS
 
 if [ -n "$DESKTOP_SESSION" ];then

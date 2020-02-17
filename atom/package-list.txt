@@ -1,7 +1,10 @@
+atom-ide-ui
+atom-language-r
 autocomplete-clang
 autocomplete-latex
 autocomplete-paths
 autocomplete-python
+autocomplete-R
 browser-plus
 busy-signal
 docblockr
@@ -9,7 +12,11 @@ file-icons
 ftp-remote-edit
 hidpi
 highlight-selected
+Hydrogen
+hydrogen-cell-separator
+hydrogen-launcher
 hyperclick
+ide-r
 intentions
 kite
 language-latex
@@ -21,6 +28,7 @@ linter
 linter-clang
 linter-gcc
 linter-javac
+linter-lintr
 linter-markdown
 linter-rust
 linter-scalac
