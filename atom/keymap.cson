@@ -35,6 +35,4 @@
 'atom-workspace':
   'ctrl-+': 'ui:increase-font-size'
   'ctrl--': 'ui:decrease-font-size'
-
-'platformio-ide-terminal':
   'ctrl-alt-ç': 'platformio-ide-terminal:toggle'

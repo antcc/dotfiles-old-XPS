@@ -18,7 +18,6 @@ hydrogen-launcher
 hyperclick
 ide-r
 intentions
-kite
 language-latex
 language-markdown
 language-scala
@@ -26,6 +25,7 @@ latex-autocomplete
 latex-image-paste
 linter
 linter-clang
+linter-flake8
 linter-gcc
 linter-javac
 linter-lintr

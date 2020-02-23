@@ -1,14 +1,14 @@
 # Init function
-.First <- function() {
-  if (interactive())
-    utils::loadhistory("~/.Rhistory")
-}
+#.First <- function() {
+#  if (interactive())
+#    utils::loadhistory("~/.Rhistory")
+#}
 
 # Exit function
-.Last <- function() {
-  if (interactive())
-    utils::savehistory("~/.Rhistory")
-}
+#.Last <- function() {
+#  if (interactive())
+#    utils::savehistory("~/.Rhistory")
+#}
 
 # Set CRAN mirror:
 local({
@@ -19,9 +19,6 @@ local({
 
 # Prompt
 options(prompt = "R> ")
-
-# Set working directory
-#setwd("~/DGIIM/5º/2cuatrimestre/Estadística Computacional/Prácticas/practicas-r")
 
 # Strings
 #options(stringsAsFactors=F)
