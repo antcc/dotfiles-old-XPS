@@ -5,3 +5,4 @@
 	helper = cache --timeout=3600
 [core]
 	editor = vim
+	pager = diff-so-fancy | less --tabs=4 -RFX
