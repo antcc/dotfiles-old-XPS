@@ -12,7 +12,7 @@ alias makepkgt='mkdir -p /tmp/makepkg && BUILDIR=/tmp/makepkg makepkg -si'
 alias diff='diff --color -y --suppress-common-lines'
 
 # Cisco VPN
-alias vpn='/opt/cisco/anyconnect/bin/vpn connect vpn2.ugr.es'
+alias vpn='/opt/cisco/anyconnect/bin/vpn'
 
 # Edit on terminal mode
 alias edit='vim'
