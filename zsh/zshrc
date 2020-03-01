@@ -109,3 +109,10 @@ mpandocmk() {
 	inotifywait -e modify,close_write $1.md
     done
 }
+
+# Autoload function path
+FPATH=$ZSH/custom/autoload:$FPATH
+
+# Ranger zsh integration
+autoload -U zranger
+bindkey -s '\ez' "\eq zranger\n"  # alt+z

@@ -47,6 +47,7 @@
     ~/.config/gtk-3.0: 'config/gtk-3.0'
     ~/.config/gtk-4.0: 'config/gtk-4.0'
     ~/.config/spicetify: 'config/spicetify'
+    ~/.config/ranger: 'config/ranger'
       
     # local folder
     ~/.local/share/gedit: 'local/share/gedit'
