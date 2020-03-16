@@ -93,6 +93,8 @@
       "W291"
       "E265"
       "W293"
+      "W503"
+      "E128"
     ]
     maxLineLength: 100
   "linter-gcc":
@@ -109,7 +111,6 @@
     lintsOnChange: true
   "linter-ui-default":
     panelHeight: 300
-    showPanel: true
   "markdown-image-paste":
     subfolder: "img"
     use_subfolder: true
