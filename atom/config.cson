@@ -2,7 +2,6 @@
   Hydrogen:
     autoScroll: false
     autocomplete: false
-    outputAreaDefault: true
     outputAreaDock: true
     outputAreaFontSize: 18
     showAutocompleteFirst: false
@@ -95,6 +94,7 @@
       "W293"
       "W503"
       "E128"
+      "E731"
     ]
     maxLineLength: 100
   "linter-gcc":
