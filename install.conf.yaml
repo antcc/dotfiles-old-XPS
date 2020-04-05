@@ -35,6 +35,7 @@
 
     # config folder
     ~/.config/gummi: 'config/gummi/'
+    ~/.config/0ad/config/local.cfg: 'config/0ad/config/local.cfg'
     ~/.config/systemd: 'config/systemd/'
     ~/.config/tilix: 'config/tilix/'
     ~/.config/libinput-gestures.conf: 'config/libinput-gestures.conf'

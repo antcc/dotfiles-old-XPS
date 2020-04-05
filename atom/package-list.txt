@@ -18,6 +18,7 @@ hydrogen-launcher
 hyperclick
 ide-r
 intentions
+language-clips
 language-latex
 language-markdown
 language-scala
