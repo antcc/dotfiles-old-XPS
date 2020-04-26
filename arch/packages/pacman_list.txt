@@ -1667,6 +1667,7 @@ vte-common 0.60.1-1
 vte3 0.60.1-1
 vulkan-icd-loader 1.2.135-1
 w3m 0.5.3.git20190105-1
+wavemon 0.9.1-1
 wavpack 5.2.0-1
 wayland 1.18.0-2
 wayland-protocols 1.20-1
