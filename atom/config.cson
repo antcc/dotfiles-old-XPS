@@ -110,7 +110,7 @@
   "linter-scalac":
     lintsOnChange: true
   "linter-ui-default":
-    panelHeight: 300
+    panelHeight: 168
   "markdown-image-paste":
     subfolder: "img"
     use_subfolder: true
