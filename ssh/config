@@ -18,7 +18,9 @@ Host bahia
 Host bigdata
      HostName bigdata.ugr.es
      User acoin
-
+Host ulises
+     HostName ulises.ugr.es
+     User acoin
 Host hadoop
      HostName hadoop.ugr.es
      User acoin
