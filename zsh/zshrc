@@ -105,7 +105,7 @@ export SQL=/var/lib/postgres
 # Continous pandoc compilation
 mpandocmk() {
     while true; do
-	pandoc $1.md -o $1.pdf
+	pandoc ${@:2:$#+1} $1.md -o $1.pdf
 	inotifywait -e modify,close_write $1.md
     done
 }
