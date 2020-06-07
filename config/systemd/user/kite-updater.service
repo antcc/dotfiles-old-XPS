@@ -3,7 +3,7 @@ Description=Kite Updater
 
 [Service]
 Type=oneshot
-ExecStart=/home/antcc/.local/share/kite/current/kite-update "update"
+ExecStart=/home/antcc/.local/share/kite/current/kite-update "update" "silent"
 
 [Install]
 WantedBy=multi-user.target

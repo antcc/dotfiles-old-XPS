@@ -71,7 +71,7 @@ byzanz-git 0.2.1.126.g81235d2-1
 bzip2 1.0.8-3
 c-ares 1.16.1-1
 ca-certificates 20181109-3
-ca-certificates-mozilla 3.52.1-2
+ca-certificates-mozilla 3.53-1
 ca-certificates-utils 20181109-3
 cabextract 1.9.1-1
 cairo 1.17.2+25+gaee96d175-1
@@ -87,7 +87,7 @@ cdrtools 3.02a09-2
 celt 0.11.3-4
 cheese 3.34.0+23+gcac6d3a1-1
 chromaprint 1.5.0-1
-chromium 83.0.4103.61-1
+chromium 83.0.4103.61-2
 cifs-utils 6.10-1
 clang 10.0.0-3
 clips 6.30-1
@@ -151,7 +151,7 @@ e2fsprogs 1.45.6-2
 ecl 16.1.3-4
 eclib 20190909-8
 efivar 37-4
-electron 8.2.5-2
+electron 9.0.1-1
 electron4 4.2.12-6
 electron5 5.0.13-5
 elfutils 0.179-1
@@ -162,7 +162,7 @@ enchant 2.2.8-3
 eog 3.36.2-1
 epiphany 3.36.2-1
 espeak 1:1.48.04-2
-evince 3.36.1-2
+evince 3.36.3-1
 evolution 3.36.3-1
 evolution-data-server 3.36.3-1
 exa 0.9.0-1
@@ -173,10 +173,10 @@ expat 2.2.9-3
 faac 1.30-2
 faad2 2.9.2-1
 fakeroot 1.24-2
-farstream 0.2.9-1
+farstream 0.2.9-2
 faudio 20.05-1
 fd 8.1.1-1
-feh 3.4-1
+feh 3.4.1-1
 fflas-ffpack 2.4.3-2
 ffmpeg 1:4.2.3-2
 fftw 3.3.8-3
@@ -184,7 +184,7 @@ file 5.38-3
 file-roller 3.36.2-1
 filesystem 2020.05.20-1
 findutils 4.7.0-2
-firefox 76.0.1-1
+firefox 77.0-1
 flac 1.3.3-2
 flashrom 1.2-2
 flex 2.6.4-3
@@ -193,7 +193,7 @@ flintqs 1:1.0-2
 fluidsynth 2.1.3-1
 folks 0.14-1
 fontconfig 2:2.13.91+24+g75eadca-2
-four-in-a-row 3.36.2-1
+four-in-a-row 3.36.3-1
 fplll 5.3.2-1
 freeglut 3.2.1-2
 freerdp 2:2.1.1-1
@@ -241,7 +241,7 @@ gimp 2.10.18-8
 git 2.26.2-1
 gitg 1:3.32.1+17+gb4c8155f-1
 givaro 4.1.1-1
-gjs 2:1.64.2-1
+gjs 2:1.64.3-1
 glew 2.2.0-2
 glfw-x11 3.3.2-1
 glib-networking 2.64.3-1
@@ -277,13 +277,13 @@ gnome-epub-thumbnailer 1.6-2
 gnome-font-viewer 3.34.0+27+g5ffd1ba-1
 gnome-getting-started-docs 3.36.2-1
 gnome-keyring 1:3.36.0-1
-gnome-klotski 3.36.2-1
+gnome-klotski 3.36.3-1
 gnome-logs 3.36.0-1
 gnome-mahjongg 3.36.2-1
 gnome-maps 3.36.2-1
 gnome-menus 3.36.0-1
 gnome-mines 3.36.0-1
-gnome-music 1:3.36.2-1
+gnome-music 1:3.36.3-1
 gnome-nettool 3.8.1+205+g8550eef-3
 gnome-nibbles 3.36.0-1
 gnome-online-accounts 3.36.0-1
@@ -299,9 +299,9 @@ gnome-sound-recorder 3.34.0+10+gc4bdfa0-1
 gnome-sudoku 3.36.0-1
 gnome-system-log 3.9.90+160+g4b07190-2
 gnome-system-monitor 3.36.1-1
-gnome-taquin 3.36.2-1
+gnome-taquin 3.36.3-1
 gnome-terminal 3.36.2-1
-gnome-tetravex 3.36.2-1
+gnome-tetravex 3.36.3-1
 gnome-themes-extra 3.28-2
 gnome-todo 3.28.1+22+gd56e14e-2
 gnome-tweaks 3.34.0-3
@@ -350,7 +350,7 @@ gtk2 2.24.32-2
 gtk3 1:3.24.20-1
 gtkd 3.9.0-7
 gtkmm3 3.24.2-2
-gtksourceview3 3.24.11-1
+gtksourceview3 3.24.11+28+g73e57b57-1
 gtksourceview4 4.6.0-1
 gtkspell3 3.0.10-2
 gts 0.7.6.121130-2
@@ -445,7 +445,7 @@ haskell-hxt-charproperties 9.4.0.0-5
 haskell-hxt-regex-xmlschema 9.2.0.3-21
 haskell-hxt-unicode 9.0.2.4-17
 haskell-integer-logarithms 1.0.3-6
-haskell-ipynb 0.1.0.1-21
+haskell-ipynb 0.1.0.1-25
 haskell-jira-wiki-markup 1.1.4-6
 haskell-juicypixels 3.3.5-6
 haskell-libyaml 0.1.2-29
@@ -524,13 +524,13 @@ i3-gaps-git 4.14-1
 i3ipc-glib-git r154.1470102370.57317a6-1
 i3lock-color-git r646.d9fcd23-1
 i3status 2.13-2
-iagno 3.36.2-1
+iagno 3.36.3-1
 iana-etc 20200511-1
 icedtea-web 1.8.3-2
 icu 67.1-1
 igraph 0.8.2-2
 ijs 0.35-3
-imagemagick 7.0.10.14-1
+imagemagick 7.0.10.16-2
 iml 1.0.5-2
 imlib2 1.6.1-2
 inetutils 1.9.4-8
@@ -542,7 +542,7 @@ intltool 0.51.0-5
 iproute2 5.6.0-1
 iptables 1:1.8.4-1
 iputils 20190709-2
-ipython 7.14.0-2
+ipython 7.15.0-1
 ipython2 5.9.0-1
 iso-codes 4.4-2
 itstool 1:2.0.6-2
@@ -744,7 +744,7 @@ libgnome-games-support 1.6.1-1
 libgnome-keyring 3.12.0+13+g4f8ab73-2
 libgnomecanvas 2.30.3-4
 libgnomekbd 3.26.1+2+g8d02ebd-2
-libgpg-error 1.37-1
+libgpg-error 1.38-1
 libgphoto2 2.5.25-1
 libgrss 0.7.0+16+g971c421-3
 libgsf 1.14.47-1
@@ -803,7 +803,7 @@ libmpdclient 2.18-1
 libmpeg2 0.5.1-7
 libmspub 0.1.4-7
 libmtp 1.1.17-1
-libmusicbrainz5 5.1.0-3
+libmusicbrainz5 5.1.0-4
 libmwaw 0.3.16-1
 libmypaint 1.5.1-2
 libnautilus-extension 3.36.3-1
@@ -846,7 +846,7 @@ libpsl 0.21.0-2
 libpst 0.6.74-2
 libpulse 13.0-3
 libpwquality 1.4.2-3
-libqmi 1.24.12-1
+libqmi 1.24.14-1
 libquvi 0.9.4-6
 libquvi-scripts 0.9.20131130-5
 libqxp 0.0.2-4
@@ -1024,7 +1024,7 @@ nano 4.9.3-1
 nautilus 3.36.3-1
 nautilus-sendto 3.8.6+14+ge8a3604-2
 nauty 27r1-1
-ncdu 1.14.2-1
+ncdu 1.15-1
 ncurses 6.2-1
 ndctl 68-2
 neofetch 7.0.0-1
@@ -1032,7 +1032,7 @@ neon 0.31.1-1
 net-tools 1.60.20181103git-2
 netbeans-javase 8.2-1
 netctl 1.23-1
-netpbm 10.73.31-2
+netpbm 10.73.31-3
 nettle 3.6-1
 network-manager-applet 1.16.0-1
 networkmanager 1.24.2-1
@@ -1043,7 +1043,7 @@ nodejs 14.3.0-1
 npm 6.14.5-1
 npth 1.6-2
 nspr 4.25-1
-nss 3.52.1-2
+nss 3.53-1
 nss-mdns 0.14.1-3
 ntfs-3g 2017.3.23-4
 ntl 11.4.3-1
@@ -1065,7 +1065,7 @@ openvpn-update-resolv-conf r42.43093c2-0
 opera-ffmpeg-codecs 81.0.4044.138-1
 opus 1.3.1-2
 orc 0.4.31-2
-orca 3.36.2-1
+orca 3.36.3-1
 osinfo-db 20200515-1
 otf-fira-code 4-1
 otf-font-awesome-4 4.7.0-5
@@ -1079,9 +1079,9 @@ pacman-mirrorlist 20200411-1
 palp 2.11-1
 pam 1.3.1-2
 pambase 20190105.1-2
-pandoc 2.9.2.1-55
-pandoc-citeproc 0.17-116
-pandoc-crossref 0.3.6.3-2
+pandoc 2.9.2.1-59
+pandoc-citeproc 0.17-120
+pandoc-crossref 0.3.6.3-6
 pango 1:1.44.7+11+g73b46b04-1
 pangomm 2.42.1-2
 pangox-compat 0.0.2+2+gedb9e09-3
@@ -1276,7 +1276,7 @@ python-beaker 1.11.0-4
 python-bleach 3.1.5-1
 python-cachecontrol 0.12.6-1
 python-cairo 1.19.1-1
-python-cffi 1.14.0-2
+python-cffi 1.14.0-3
 python-chardet 3.0.4-5
 python-click 7.1.2-1
 python-colorama 0.4.3-1
@@ -1302,7 +1302,7 @@ python-geoip 1.3.2-8
 python-gmpy2 2.1.0b4-1
 python-gobject 3.36.1-1
 python-html5lib 1.0.1-7
-python-hyperlink 19.0.0-4
+python-hyperlink 19.0.0-6
 python-idna 2.9-1
 python-imagesize 1.2.0-1
 python-importlib-metadata 1.6.0-1
@@ -1342,7 +1342,7 @@ python-pip 20.0.2-1
 python-ply 3.11-5
 python-pplpy 0.8.4-5
 python-progress 1.5-3
-python-prometheus_client 0.7.1-4
+python-prometheus_client 0.8.0-1
 python-prompt_toolkit 3.0.5-1
 python-psutil 5.7.0-1
 python-ptyprocess 0.6.0-4
@@ -1408,7 +1408,7 @@ python2-backports-abc 0.5-2
 python2-backports.functools_lru_cache 1.6.1-2
 python2-backports.shutil_get_terminal_size 1.0.0-3
 python2-cairo 1.18.2-4
-python2-cffi 1.14.0-2
+python2-cffi 1.14.0-3
 python2-chardet 3.0.4-5
 python2-click 7.1.2-1
 python2-constantly 15.1.0-6
@@ -1424,7 +1424,7 @@ python2-futures 3.3.0-1
 python2-gmpy2 2.1.0b1-3
 python2-gobject 3.36.1-1
 python2-gobject2 2.28.7-5
-python2-hyperlink 19.0.0-4
+python2-hyperlink 19.0.0-6
 python2-idna 2.9-1
 python2-imagesize 1.2.0-1
 python2-incremental 17.5.0-4
@@ -1502,7 +1502,7 @@ ranger 1.9.3-1
 rankwidth 0.8-1
 raptor 2.0.15-13
 rasqal 1:0.9.33-3
-re2 1:20200501-1
+re2 1:20200601-1
 readline 8.0.004-1
 recode 3.7.6-2
 redland 1:1.0.17-8
@@ -1514,7 +1514,7 @@ retroarch 1.8.8-1
 retroarch-assets-xmb 1:315-1
 retroarch-autoconfig-udev 1356-1
 rhash 1.3.9-2
-ripgrep 12.1.0-1
+ripgrep 12.1.1-1
 rofi 1.5.4-1
 rsync 3.1.3-3
 rtkit 0.13-1
@@ -1686,7 +1686,7 @@ volume_key 0.3.12-3
 vpnc 1:0.5.3.r468.r81-1
 vte-common 0.60.3-1
 vte3 0.60.3-1
-vulkan-icd-loader 1.2.140-1
+vulkan-icd-loader 1.2.141-1
 w3m 0.5.3.git20200507-1
 wavemon 0.9.1-1
 wavpack 5.3.0-1
