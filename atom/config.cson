@@ -51,7 +51,7 @@
     extend_double_slash: false
   editor:
     fontFamily: "Fira Code"
-    fontSize: 16
+    fontSize: 15
     preferredLineLength: 100
     scrollPastEnd: true
     softWrap: true

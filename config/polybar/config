@@ -39,7 +39,7 @@ alert = #bd2c40
 [bar/top]
 
 ; Monitor
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR:}
 
 ; Size and position
 width = 100%

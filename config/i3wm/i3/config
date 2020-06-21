@@ -65,6 +65,7 @@ font pango:DejaVu Sans Mono 9
 # Polybar
 
 exec_always --no-startup-id killall polybar; polybar -r top
+exec_always --no-startup-id MONITOR=DP1 polybar -r top
 
 # ------- Windows manipulation ---------------------------------------
 
