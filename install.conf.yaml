@@ -30,8 +30,11 @@
     ~/.Rprofile: 'r/Rprofile'
     ~/.Renviron: 'r/Renviron'
 
-    # pandoc
+    # Pandoc
     ~/.pandoc:    
+    
+    # Latex
+    ~/.latexmkrc:
 
     # config folder
     ~/.config/gummi: 'config/gummi/'
