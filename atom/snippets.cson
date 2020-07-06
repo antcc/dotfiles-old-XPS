@@ -53,3 +53,11 @@
   'Code cell':
     'prefix': 'code'
     'body': '# %% $1'
+
+'.text.tex.latex':
+  'Cursive':
+    'prefix': 'ti'
+    'body': '\\\\textit{$1}'
+  'Bold':
+    'prefix': 'bf'
+    'body': '\\\\textbf{$1}'

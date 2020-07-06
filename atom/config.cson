@@ -38,6 +38,8 @@
       "python-yapf"
       "atom-ide-ui"
       "linter-lintr"
+      "language-clips"
+      "latex-image-paste"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -78,6 +80,7 @@
     enableHoverUI: false
     showWelcomeNotificationOnStartup: false
     startKiteAtStartup: false
+  "latex-autocomplete": {}
   linter:
     lintOnChange: false
   "linter-clang":
@@ -113,7 +116,6 @@
     lintsOnChange: true
   "linter-ui-default":
     panelHeight: 300
-    showPanel: true
   "markdown-image-paste":
     subfolder: "img"
     use_subfolder: true
