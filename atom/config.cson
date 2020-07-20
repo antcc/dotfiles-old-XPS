@@ -2,7 +2,7 @@
   Hydrogen:
     autoScroll: false
     autocomplete: false
-    languageMappings: "{ \"R\": \"R Markdown\" }"
+    languageMappings: "{ \"R\": \"R Markdown\", \"apache_toree_scala\": \"Scala\" }"
     outputAreaDock: true
     outputAreaFontSize: 18
     showAutocompleteFirst: false
@@ -32,7 +32,6 @@
       "spell-check"
       "linter-markdown"
       "markdown-preview-enhanced"
-      "linter-scalac"
       "autocomplete-R"
       "ide-r"
       "python-yapf"
@@ -40,6 +39,7 @@
       "linter-lintr"
       "language-clips"
       "latex-image-paste"
+      "linter-scalac"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
