@@ -309,6 +309,7 @@ grep 3.4-1
 grilo 0.3.12-1
 grilo-plugins 0.3.11+4+g11cc1f8-1
 groff 1.22.4-3
+grub 2:2.04-8
 gsettings-desktop-schemas 3.36.1-1
 gsfonts 20180524-3
 gsimplecal 2.1-4
@@ -1630,6 +1631,7 @@ winetricks 20200412-1
 wireshark-cli 3.2.5-1
 wireshark-qt 3.2.5-1
 wmctrl 1.07-6
+woeusb 3.3.1-2
 woff2 1.0.2-3
 wpa_supplicant 2:2.9-7
 wpebackend-fdo 1.6.1-1
