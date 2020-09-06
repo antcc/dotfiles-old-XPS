@@ -33,6 +33,7 @@ linter-lintr
 linter-markdown
 linter-rust
 linter-scalac
+linter-spell
 linter-ui-default
 markdown-image-paste
 markdown-preview-enhanced

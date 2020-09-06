@@ -194,6 +194,7 @@ fuse2 2.9.9-4
 fuse3 3.9.2-1
 fwupd 1.4.5-1
 fzf 0.22.0-1
+ganttproject 2.8.11-2
 gavl 1.4.0-4
 gawk 5.1.0-1
 gc 8.0.4-4
@@ -1217,7 +1218,8 @@ poppler-data 0.4.9-2
 poppler-glib 0.90.1-1
 popt 1.18-1
 portaudio 1:19.6.0-7
-postgresql-libs 11.2-3
+postgresql 12.3-2
+postgresql-libs 12.3-2
 potrace 1.16-2
 powertop 2.13-1
 ppp 2.4.7-7
