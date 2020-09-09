@@ -40,6 +40,7 @@
       "language-clips"
       "latex-image-paste"
       "linter-scalac"
+      "linter-spell"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
