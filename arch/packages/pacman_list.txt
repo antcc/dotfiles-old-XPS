@@ -39,6 +39,7 @@ autoconf 2.69-7
 autoconf-archive 1:2019.01.06-2
 autofirma 1.6.5-2
 automake 1.16.2-3
+autorandr 1.10.1-1
 avahi 0.8+15+ge8a3dd0-1
 babl 0.1.78-1
 baobab 3.34.1-1

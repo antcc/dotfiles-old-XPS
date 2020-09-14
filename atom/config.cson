@@ -2,7 +2,7 @@
   Hydrogen:
     autoScroll: false
     autocomplete: false
-    languageMappings: "{ \"R\": \"R Markdown\", \"apache_toree_scala\": \"Scala\" }"
+    languageMappings: "{\"R\":\"RMarkdown\"}"
     outputAreaDock: true
     outputAreaFontSize: 18
     showAutocompleteFirst: false
