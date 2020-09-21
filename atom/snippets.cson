@@ -53,6 +53,9 @@
   'Code cell':
     'prefix': 'code'
     'body': '# %% $1'
+  'Pipeline':
+    'prefix': '%'
+    'body': '%>%'
 
 '.text.tex.latex':
   'Cursive':
