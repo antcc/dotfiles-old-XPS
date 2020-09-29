@@ -296,7 +296,17 @@ mode "$mode_gaps_outer" {
 
 # ------ Multi-monitor ---------------------------------
 
-bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug.sh
+bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug
+
+set $mode_display Display mode (d) docked, (l) laptop
+mode "$mode_display" {
+    bindsym d exec --no-startup-id autorandr docked, mode "default"
+    bindsym l exec --no-startup-id autorandr mobile, mode "default"
+
+    # back to normal: Escape
+    bindsym Escape mode "default"
+}
+bindsym $mod+I mode "$mode_display"
 
 # ------ Misc -------------------------------------------
 

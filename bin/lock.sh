@@ -40,13 +40,16 @@ i3lock \
 --keyhlcolor=ffffff80 \
 --bshlcolor=$W        \
 \
---blur 5              \
+--blur=5              \
 --clock               \
 --composite           \
 --radius=100          \
 --ignore-empty-password \
 --timestr="%H:%M"  \
 --datestr="%A %e %b"  \
+--pass-screen-keys    \
+--pass-power-keys     \
+--pass-media-keys     \
 \
 --veriftext="Verifying..."      \
 --wrongtext="Wrong!"            \
