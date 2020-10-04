@@ -298,10 +298,11 @@ mode "$mode_gaps_outer" {
 
 bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug
 
-set $mode_display Display mode (d) docked, (l) laptop
+set $mode_display Display mode (m) monitor, (l) laptop, (d) dual
 mode "$mode_display" {
-    bindsym d exec --no-startup-id autorandr docked, mode "default"
+    bindsym m exec --no-startup-id autorandr docked, mode "default"
     bindsym l exec --no-startup-id autorandr mobile, mode "default"
+	bindsym d exec --no-startup-id xrandr --output DP1 --auto --right-of eDP1; exec --no-startup-id xrandr --output eDP1 --auto --left-of DP1, mode "default"
 
     # back to normal: Escape
     bindsym Escape mode "default"
