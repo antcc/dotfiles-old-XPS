@@ -66,3 +66,7 @@ alias ls='exa'
 # Wine
 alias wine32='WINEPREFIX=~/.wine32 WINEARCH=win32 wine'
 alias wine64='WINEPREFIX=~/.wine WINEARCH=win64 wine'
+
+# Jupyter 
+alias jupstart="jupyter notebook &> /dev/null &"
+alias jupstop="jupyter notebook stop"
