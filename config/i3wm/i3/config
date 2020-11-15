@@ -389,6 +389,7 @@ assign [class="Spotify"] 10
 #  ------- Start apps at boot time -----------------------------------
 
 exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id $terminal; workspace $w1'
+exec --no-startup-id jupyter notebook &> /dev/null &
 exec --no-startup-id $telegram
 exec --no-startup-id redshift
 exec --no-startup-id libinput-gestures
