@@ -10,6 +10,9 @@
  <document uri="file:///home/antcc/Descargas/Pr-TI/LEEME.txt" atime="1604443188401">
   <entry key="gedit-position" value="212"/>
  </document>
+ <document uri="file:///home/antcc/Descargas/Pokemon&#x25;20Unbound&#x25;20Official&#x25;20Patch/Main_README.txt" atime="1607864528443">
+  <entry key="gedit-position" value="1844"/>
+ </document>
  <document uri="file:///home/antcc/Descargas/Documento&#x25;20sin&#x25;20t&#x25;C3&#x25;ADtulo&#x25;201" atime="1604437042626">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
@@ -28,8 +31,14 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="21"/>
  </document>
- <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/stochastic_plots.py" atime="1606077652145">
+ <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/stochastic_plots.py" atime="1607364914275">
   <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/exercises.py" atime="1607892249120">
+  <entry key="gedit-position" value="28"/>
+ </document>
+ <document uri="file:///home/antcc/.cache/.fr-u5ftXQ/exercises.py" atime="1607892263080">
+  <entry key="gedit-position" value="9504"/>
  </document>
  <document uri="file:///home/antcc/Descargas/LEEME.txt" atime="1604443111337">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -75,21 +84,31 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="13902"/>
  </document>
+ <document uri="file:///home/antcc/.cache/.fr-wYPhpQ/README.txt" atime="1607892231070">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="383"/>
+ </document>
  <document uri="file:///home/antcc/DGIIM/TFG/notas.md" atime="1603040771273">
   <entry key="gedit-position" value="230"/>
  </document>
- <document uri="file:///home/antcc/.config/i3/config" atime="1605815557984">
+ <document uri="file:///home/antcc/MCD/C1/GD/Pr&#x25;C3&#x25;A1cticas/Visualizaci&#x25;C3&#x25;B3n/code.R" atime="1607891618686">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
-  <entry key="gedit-position" value="11021"/>
+  <entry key="gedit-position" value="1059"/>
  </document>
- <document uri="file:///home/antcc/Descargas/README.txt" atime="1604868584579">
+ <document uri="file:///home/antcc/.config/i3/config" atime="1607861205706">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
-  <entry key="gedit-position" value="213"/>
+  <entry key="gedit-position" value="3053"/>
  </document>
  <document uri="file:///home/antcc/MCD/C1/TI/Pr&#x25;C3&#x25;A1cticas/Practicas_TI/InformacionFicheros.txt" atime="1603750182217">
   <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/README.txt" atime="1607892416269">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="125"/>
  </document>
  <document uri="file:///home/antcc/MCD/C1/GD/Pr&#x25;C3&#x25;A1cticas/Visualizaci&#x25;C3&#x25;B3n/25.csv" atime="1607121945713">
   <entry key="gedit-position" value="2062"/>
@@ -113,7 +132,13 @@
  <document uri="file:///tmp/mozilla_antcc0/MM-CPU.c" atime="1604663103021">
   <entry key="gedit-position" value="0"/>
  </document>
+ <document uri="file:///home/antcc/MCD/C1/GD/Pr&#x25;C3&#x25;A1cticas/CB10_HPD_311_Calls-usa.csv" atime="1607706458689">
+  <entry key="gedit-position" value="9674752"/>
+ </document>
  <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/arrival_process_simulation.py" atime="1606077650813">
+  <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/BM_simulators.py" atime="1607364926905">
   <entry key="gedit-position" value="0"/>
  </document>
 </metadata>

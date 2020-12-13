@@ -64,3 +64,12 @@
   'Bold':
     'prefix': 'bf'
     'body': '\\\\textbf{$1}'
+  'Verbatim':
+    'prefix': 'vb'
+    'body': '\\\\verb@$1@'
+  'Inline math':
+    'prefix': 'im'
+    'body': '$$1$'
+  'Display math':
+    'prefix': 'dm'
+    'body': '\\\\[\n$1\n\\\\]'
