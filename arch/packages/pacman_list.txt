@@ -71,6 +71,7 @@ ca-certificates 20181109-4
 ca-certificates-mozilla 3.60-1
 ca-certificates-utils 20181109-4
 cabextract 1.9.1-2
+cadmus-deb 0.0.3-1
 cairo 1.17.4-3
 cairomm 1.12.2-4
 cantarell-fonts 1:0.301-1
