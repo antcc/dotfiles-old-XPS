@@ -121,7 +121,6 @@
     ]
   "linter-ui-default":
     panelHeight: 300
-    showPanel: true
   "markdown-image-paste":
     subfolder: "img"
     use_subfolder: true
