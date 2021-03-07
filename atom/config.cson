@@ -48,7 +48,6 @@
       "nord-atom-ui"
       "nord-atom-syntax"
     ]
-    useTreeSitterParsers: false
   docblockr:
     align_tags: "shallow"
     extend_double_slash: false
@@ -120,7 +119,7 @@
       "es-ES"
     ]
   "linter-ui-default":
-    panelHeight: 300
+    panelHeight: 168
   "markdown-image-paste":
     subfolder: "img"
     use_subfolder: true

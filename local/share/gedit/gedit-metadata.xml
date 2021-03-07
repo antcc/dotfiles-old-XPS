@@ -1,9 +1,6 @@
 <metadata>
- <document uri="file:///home/antcc/.cache/.fr-u5ftXQ/exercises.py" atime="1607892263080">
-  <entry key="gedit-position" value="9504"/>
- </document>
- <document uri="file:///home/antcc/Temp/test.md" atime="1609504139394">
-  <entry key="gedit-position" value="244"/>
+ <document uri="file:///home/antcc/MCD/mcd/PST/P2/main.m" atime="1612615920423">
+  <entry key="gedit-position" value="464"/>
  </document>
  <document uri="file:///home/antcc/Descargas/Pr-TI/LEEME.txt" atime="1604443188401">
   <entry key="gedit-position" value="212"/>
@@ -74,6 +71,9 @@
  </document>
  <document uri="file:///home/antcc/Descargas/PE_stochastic_processes_HW_02/stochastic_plots.py" atime="1607965883025">
   <entry key="gedit-position" value="164"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/MF_exam_v2/kernel_approximation.py" atime="1614957225005">
+  <entry key="gedit-position" value="371"/>
  </document>
  <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/stochastic_plots.py" atime="1607364914275">
   <entry key="gedit-position" value="0"/>
@@ -180,21 +180,26 @@
  <document uri="file:///home/antcc/.cache/.fr-5zMBAl/stochastic_plots.py" atime="1610565316036">
   <entry key="gedit-position" value="696"/>
  </document>
+ <document uri="file:///home/antcc/.cache/.fr-NMm7Zi/examen_ordinaria_PE_2020_2021.py" atime="1610565298087">
+  <entry key="gedit-position" value="5125"/>
+ </document>
+ <document uri="file:///home/antcc/MCD/C2/MF/Examen/kernel_approximation.py" atime="1615133106708">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="16448"/>
+ </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/data/qrels.csv" atime="1614683834836">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="169"/>
  </document>
- <document uri="file:///home/antcc/.cache/.fr-NMm7Zi/examen_ordinaria_PE_2020_2021.py" atime="1610565298087">
-  <entry key="gedit-position" value="5125"/>
+ <document uri="file:///home/antcc/.cache/.fr-hTTdEN/Main_README.txt" atime="1610997677058">
+  <entry key="gedit-position" value="4360"/>
  </document>
- <document uri="file:///home/antcc/MCD/C2/PICDD/Proyecto/splits.txt" atime="1614811311354">
+ <document uri="file:///home/antcc/MCD/C2/PICDD/Proyecto/splits.txt" atime="1614939455255">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="320"/>
- </document>
- <document uri="file:///home/antcc/.cache/.fr-hTTdEN/Main_README.txt" atime="1610997677058">
-  <entry key="gedit-position" value="4360"/>
  </document>
  <document uri="file:///home/antcc/Descargas/Documento&#x25;20sin&#x25;20t&#x25;C3&#x25;ADtulo&#x25;201" atime="1604437042626">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -208,7 +213,7 @@
  <document uri="file:///home/antcc/MCD/C1/TI/Pr&#x25;C3&#x25;A1cticas/Practicas_TI/InformacionFicheros.txt" atime="1612615794949">
   <entry key="gedit-position" value="643"/>
  </document>
- <document uri="file:///home/antcc/Programas/MATLAB/Borrar&#x25;20links.txt" atime="1605620399290">
+ <document uri="file:///home/antcc/Programas/MATLAB/Borrar&#x25;20links.txt" atime="1614936887453">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="21"/>
@@ -275,6 +280,9 @@
  <document uri="file:///home/antcc/MCD/C1/MAE/Pr&#x25;C3&#x25;A1cticas/Intro/Intro.R" atime="1603210093807">
   <entry key="gedit-position" value="24"/>
  </document>
+ <document uri="file:///home/antcc/.cache/.fr-u5ftXQ/exercises.py" atime="1607892263080">
+  <entry key="gedit-position" value="9504"/>
+ </document>
  <document uri="file:///home/antcc/Descargas/HW_02/convert_mnist.py" atime="1614449861480">
   <entry key="gedit-position" value="657"/>
  </document>
@@ -321,34 +329,34 @@
  <document uri="file:///home/antcc/.cache/.fr-rxcnFk/sde_solvers.py" atime="1610565308372">
   <entry key="gedit-position" value="10996"/>
  </document>
+ <document uri="file:///home/antcc/MCD/C1/PST/Pr&#x25;C3&#x25;A1cticas/P1/ej1to5.m" atime="1611682515036">
+  <entry key="gedit-position" value="1593"/>
+ </document>
  <document uri="file:///home/antcc/MCD/C1/GD/Pr&#x25;C3&#x25;A1cticas/Power-BI/datos_procesados.xlsx" atime="1608399754715">
   <entry key="gedit-position" value="1926"/>
  </document>
- <document uri="file:///home/antcc/MCD/C1/GD/Pr&#x25;C3&#x25;A1cticas/CB10_HPD_311_Calls-usa.csv" atime="1607706458689">
-  <entry key="gedit-position" value="9674752"/>
- </document>
- <document uri="file:///home/antcc/Descargas/Multimedia/MULTIMEDIA" atime="1614168121923">
+ <document uri="file:///home/antcc/Descargas/Multimedia/MULTIMEDIA" atime="1615067782381">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="1455"/>
  </document>
- <document uri="file:///home/antcc/MCD/C1/PST/Pr&#x25;C3&#x25;A1cticas/P1/ej1to5.m" atime="1611682515036">
-  <entry key="gedit-position" value="1593"/>
- </document>
  <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/arrival_process_simulation.py" atime="1606077650813">
   <entry key="gedit-position" value="0"/>
  </document>
- <document uri="file:///home/antcc/Descargas/HW_02/kernel_machine_learning.py" atime="1614450631105">
-  <entry key="gedit-position" value="116"/>
+ <document uri="file:///home/antcc/MCD/C1/GD/Pr&#x25;C3&#x25;A1cticas/CB10_HPD_311_Calls-usa.csv" atime="1607706458689">
+  <entry key="gedit-position" value="9674752"/>
+ </document>
+ <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/BM_simulators.py" atime="1607364926905">
+  <entry key="gedit-position" value="0"/>
  </document>
  <document uri="file:///home/antcc/.cache/.fr-aT3HXK/README.txt" atime="1604869608938">
   <entry key="gedit-position" value="291"/>
  </document>
- <document uri="file:///home/antcc/MCD/mcd/PST/P2/main.m" atime="1612615920423">
-  <entry key="gedit-position" value="464"/>
+ <document uri="file:///home/antcc/Descargas/HW_02/kernel_machine_learning.py" atime="1614450631105">
+  <entry key="gedit-position" value="116"/>
  </document>
- <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/BM_simulators.py" atime="1607364926905">
-  <entry key="gedit-position" value="0"/>
+ <document uri="file:///home/antcc/Temp/test.md" atime="1609504139394">
+  <entry key="gedit-position" value="244"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/CAE/Ejercicios/ej1.tex" atime="1613520570249">
   <entry key="gedit-encoding" value="UTF-8"/>
