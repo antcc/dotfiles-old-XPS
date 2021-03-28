@@ -14,6 +14,9 @@
 UIFixedSize = 13
 document.documentElement.style.fontSize = UIFixedSize + 'px'
 
+# Set path
+process.env.PATH = process.env.PATH + ';/usr/bin/jupyter'
+
 # Dinamically change UI size (ctrl+, ctrl-)
 UIFontSize = 12
 atom.commands.add 'atom-workspace',

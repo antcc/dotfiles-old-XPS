@@ -34,7 +34,6 @@
       "markdown-preview-enhanced"
       "autocomplete-R"
       "ide-r"
-      "python-yapf"
       "atom-ide-ui"
       "linter-lintr"
       "language-clips"
@@ -48,6 +47,7 @@
       "nord-atom-ui"
       "nord-atom-syntax"
     ]
+  "docblock-python": {}
   docblockr:
     align_tags: "shallow"
     extend_double_slash: false
@@ -76,6 +76,8 @@
       flake8: {}
       pylint:
         enabled: true
+  "jupyter-notebook":
+    jupyterPath: "usr/bin/jupyter"
   kite:
     enableHoverUI: false
     showWelcomeNotificationOnStartup: false
@@ -90,18 +92,11 @@
   "linter-flake8":
     executablePath: "$PROJECT/.venv/bin/flake8;/home/antcc/.local/bin/flake8"
     ignoreErrorCodes: [
-      "E302"
-      "E305"
-      "E501"
-      "E251"
-      "W291"
-      "E265"
-      "W293"
-      "W503"
-      "E128"
-      "E731"
+      "E226"
+      "D202"
+      "D103"
     ]
-    maxLineLength: 100
+    pycodestyleErrorsToWarnings: true
   "linter-gcc":
     gccDefaultCFlags: "-c -Wall-fsyntax-only"
     gccDefaultCppFlags: "-c -Wall -std=c++14 -fsyntax-only"
@@ -140,6 +135,11 @@
       theme: "pro"
   "preview-inline":
     imageBasePath: "img"
+  "python-autopep8":
+    maxLineLength: 79
+  "python-black":
+    fmtOnSave: false
+    skipStringNormalization: true
   racer:
     racerBinPath: "~/.cargo/bin/racer"
     rustSrcPath: '''

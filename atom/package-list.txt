@@ -7,7 +7,7 @@ autocomplete-python
 autocomplete-R
 browser-plus
 busy-signal
-docblockr
+docblock-python
 file-icons
 ftp-remote-edit
 hidpi
@@ -44,7 +44,7 @@ nord-atom-ui
 org-mode
 pdf-view
 platformio-ide-terminal
-python-yapf
+python-autopep8
 racer
 README.md
 teletype
