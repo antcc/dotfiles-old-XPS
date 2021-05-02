@@ -70,3 +70,6 @@ alias wine64='WINEPREFIX=~/.wine WINEARCH=win64 wine'
 # Jupyter 
 alias jupstart="jupyter notebook &> /dev/null &"
 alias jupstop="jupyter notebook stop"
+
+# Change steam family shared library
+alias sfs-select="mv /home/antcc/.local/share/Steam/config/config.vdf /home/antcc/.local/share/Steam/config/config-temp.vdf && mv /home/antcc/.local/share/Steam/config/config-2.vdf /home/antcc/.local/share/Steam/config/config.vdf && mv /home/antcc/.local/share/Steam/config/config-temp.vdf /home/antcc/.local/share/Steam/config/config-2.vdf"
