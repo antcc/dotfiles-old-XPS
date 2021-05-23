@@ -79,13 +79,13 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="88994"/>
  </document>
+ <document uri="file:///home/antcc/.cache/.fr-ViOqMj/extract_minutiae.m" atime="1613753411540">
+  <entry key="gedit-position" value="303"/>
+ </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/treceval/qrels.txt" atime="1615553842489">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="5493"/>
- </document>
- <document uri="file:///home/antcc/.cache/.fr-ViOqMj/extract_minutiae.m" atime="1613753411540">
-  <entry key="gedit-position" value="303"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/MF/Examen/kernel_approximation.py" atime="1615133106708">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -217,7 +217,7 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="24368"/>
  </document>
- <document uri="file:///home/antcc/MCD/C2/PIT/Teor&#x25;C3&#x25;ADa/Gu&#x25;C3&#x25;ADa_estudio.txt" atime="1618399969387">
+ <document uri="file:///home/antcc/MCD/C2/PIT/Teor&#x25;C3&#x25;ADa/Gu&#x25;C3&#x25;ADa_estudio.txt" atime="1621361078260">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="364"/>
@@ -379,6 +379,11 @@
  <document uri="file:///home/antcc/MCD/C1/PST/Pr&#x25;C3&#x25;A1cticas/P1/f_ej6.m" atime="1611682514974">
   <entry key="gedit-position" value="0"/>
  </document>
+ <document uri="file:///home/antcc/.cache/.fr-z3xKXN/README.txt" atime="1621714449081">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="1225"/>
+ </document>
  <document uri="file:///home/antcc/Descargas/IEEEconf/README" atime="1619799323106">
   <entry key="gedit-position" value="0"/>
  </document>
@@ -420,6 +425,9 @@
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="32"/>
+ </document>
+ <document uri="file:///home/antcc/.cache/.fr-aAbFbr/README.txt" atime="1621714460275">
+  <entry key="gedit-position" value="1266"/>
  </document>
  <document uri="file:///home/antcc/Descargas/MF_Examen_Coin/src/kernel_machine_learning.py" atime="1615298837619">
   <entry key="gedit-position" value="0"/>
@@ -587,13 +595,16 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="74"/>
  </document>
+ <document uri="file:///home/antcc/MCD/C2/AR/Pr&#x25;C3&#x25;A1cticas/reinforcement-learning/P2/src/main.py" atime="1621268223611">
+  <entry key="gedit-position" value="7303"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/exercises.py" atime="1607892249120">
+  <entry key="gedit-position" value="28"/>
+ </document>
  <document uri="file:///home/antcc/Descargas/P2-PDGE/README.txt" atime="1604869392961">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="242"/>
- </document>
- <document uri="file:///home/antcc/Descargas/exercises.py" atime="1607892249120">
-  <entry key="gedit-position" value="28"/>
  </document>
  <document uri="file:///home/antcc/DGIIM/5&#x25;C2&#x25;BA/2cuatrimestre/AA/Pr&#x25;C3&#x25;A1cticas/proyecto-aa/src/visualization.py" atime="1619804929262">
   <entry key="gedit-position" value="397"/>
@@ -820,6 +831,9 @@
  </document>
  <document uri="file:///home/antcc/Descargas/MF_exam_v2/kernel_approximation.py" atime="1614957225005">
   <entry key="gedit-position" value="371"/>
+ </document>
+ <document uri="file:///tmp/mozilla_antcc0/bare_adv.tex" atime="1621707047102">
+  <entry key="gedit-position" value="3938"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/treceval/google-metrics.txt" atime="1615559120487">
   <entry key="gedit-position" value="18102"/>
