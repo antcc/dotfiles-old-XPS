@@ -98,15 +98,15 @@
  <document uri="file:///home/antcc/.cache/.fr-AjTwOP/sfs-select/readme.txt" atime="1619980831220">
   <entry key="gedit-position" value="1708"/>
  </document>
- <document uri="file:///home/antcc/Descargas/Quantum/LEEME.txt" atime="1606662083724">
-  <entry key="gedit-encoding" value="UTF-8"/>
-  <entry key="gedit-spell-language" value="es_ES"/>
-  <entry key="gedit-position" value="331"/>
- </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/treceval/metrics/treceval-ecosia.txt" atime="1615664659019">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="88991"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/Quantum/LEEME.txt" atime="1606662083724">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="331"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/PICDD/Proyecto/splits.txt" atime="1615376703552">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -186,6 +186,11 @@
  </document>
  <document uri="file:///home/antcc/DGIIM/5&#x25;C2&#x25;BA/2cuatrimestre/AA/Pr&#x25;C3&#x25;A1cticas/practicas-aa/P3/p3_classification.py" atime="1616089858273">
   <entry key="gedit-position" value="6236"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/Res&#x25;C3&#x25;BAmenes.txt" atime="1622144683546">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="84"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/APPSIV/Pr&#x25;C3&#x25;A1cticas/P2/S1/src/random_vs_fixed_mode.py" atime="1619802322332">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -440,21 +445,26 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="136"/>
  </document>
- <document uri="file:///home/antcc/.cache/.fr-u5ftXQ/exercises.py" atime="1607892263080">
-  <entry key="gedit-position" value="9504"/>
- </document>
- <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/arrival_process_simulation.py" atime="1606077650813">
-  <entry key="gedit-position" value="0"/>
- </document>
  <document uri="file:///etc/pacman.d/mirrorlist" atime="1615300569042">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="336"/>
  </document>
+ <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/arrival_process_simulation.py" atime="1606077650813">
+  <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/antcc/.cache/.fr-u5ftXQ/exercises.py" atime="1607892263080">
+  <entry key="gedit-position" value="9504"/>
+ </document>
  <document uri="file:///home/antcc/MCD/C2/MF/Examen/Parte&#x25;202/diffusion_maps.py" atime="1617723531160">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="72"/>
+ </document>
+ <document uri="file:///home/antcc/.cache/.fr-8qNgrt/Res&#x25;C3&#x25;BAmenes.txt" atime="1622198460663">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="79"/>
  </document>
  <document uri="file:///home/antcc/MCD/C1/GD/Pr&#x25;C3&#x25;A1cticas/Visualizaci&#x25;C3&#x25;B3n/25.csv" atime="1607121945713">
   <entry key="gedit-position" value="2062"/>
@@ -609,15 +619,15 @@
  <document uri="file:///home/antcc/DGIIM/5&#x25;C2&#x25;BA/2cuatrimestre/AA/Pr&#x25;C3&#x25;A1cticas/proyecto-aa/src/visualization.py" atime="1619804929262">
   <entry key="gedit-position" value="397"/>
  </document>
- <document uri="file:///home/antcc/Descargas/validate_cnn.py" atime="1621169863566">
-  <entry key="gedit-encoding" value="UTF-8"/>
-  <entry key="gedit-spell-language" value="es_ES"/>
-  <entry key="gedit-position" value="411"/>
- </document>
  <document uri="file:///home/antcc/Descargas/README.txt" atime="1607892416269">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="125"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/validate_cnn.py" atime="1621169863566">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="411"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/APPIB/Pr&#x25;C3&#x25;A1cticas/practicas-biometria/Face/img/FaceRecognition_PCA.m" atime="1615427862148">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -642,20 +652,23 @@
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/data/treceval/qrels.tsv" atime="1615551225056">
   <entry key="gedit-position" value="38"/>
  </document>
- <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/BM_simulators.py" atime="1607364926905">
-  <entry key="gedit-position" value="0"/>
- </document>
  <document uri="file:///home/antcc/Descargas/PE_stochastic_processes_HW_02/sde_solvers_HW02_PE_2020_2021.py" atime="1608651690729">
   <entry key="gedit-position" value="5113"/>
  </document>
- <document uri="file:///home/antcc/Descargas/Elementos&#x25;20exportados.bib" atime="1617557486955">
-  <entry key="gedit-position" value="516"/>
+ <document uri="file:///home/antcc/MCD/C1/PE/Teor&#x25;C3&#x25;ADa/Continuous/Simulation/BM_simulators.py" atime="1607364926905">
+  <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/savedrecs.txt" atime="1614789298682">
+  <entry key="gedit-position" value="5915"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/treceval/treceval.bat" atime="1615554286887">
   <entry key="gedit-position" value="111"/>
  </document>
  <document uri="file:///home/antcc/MCD/C1/TI/Pr&#x25;C3&#x25;A1cticas/Practicas_TI/InformacionFicheros.txt" atime="1612615794949">
   <entry key="gedit-position" value="643"/>
+ </document>
+ <document uri="file:///home/antcc/Descargas/Elementos&#x25;20exportados.bib" atime="1617557486955">
+  <entry key="gedit-position" value="516"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/APPIB/Pr&#x25;C3&#x25;A1cticas/practicas-biometria/DeepFakes/requirements.txt" atime="1616067804139">
   <entry key="gedit-position" value="49"/>
@@ -697,8 +710,8 @@
  <document uri="file:///home/antcc/MCD/C2/APPSIV/Pr&#x25;C3&#x25;A1cticas/P2/S1/LAB2-Session1/data/desktop.ini" atime="1619799950060">
   <entry key="gedit-position" value="82"/>
  </document>
- <document uri="file:///home/antcc/Descargas/savedrecs.txt" atime="1614789298682">
-  <entry key="gedit-position" value="5915"/>
+ <document uri="file:///home/antcc/Descargas/ortega-co&#x25;C3&#x25;ADn/search_methods.py" atime="1616779104189">
+  <entry key="gedit-position" value="6874"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/treceval/metrics/ndeval-alpha0-beta0.8-google.txt" atime="1615664801133">
   <entry key="gedit-position" value="3399"/>
@@ -725,9 +738,6 @@
  <document uri="file:///home/antcc/Descargas/markov.py" atime="1605354788375">
   <entry key="gedit-position" value="4334"/>
  </document>
- <document uri="file:///home/antcc/Descargas/ortega-co&#x25;C3&#x25;ADn/search_methods.py" atime="1616779104189">
-  <entry key="gedit-position" value="6874"/>
- </document>
  <document uri="file:///tmp/mozilla_antcc0/S0167739X15003258.bib" atime="1619883169633">
   <entry key="gedit-position" value="229"/>
  </document>
@@ -746,8 +756,8 @@
  <document uri="file:///home/antcc/MCD/C2/MF/Pr&#x25;C3&#x25;A1cticas/functional-ml/P1/gaussian_processes.py" atime="1613690984644">
   <entry key="gedit-position" value="180"/>
  </document>
- <document uri="file:///home/antcc/Descargas/acmart-master/ACM-Reference-Format.bbx" atime="1617266979072">
-  <entry key="gedit-position" value="0"/>
+ <document uri="file:///home/antcc/DGIIM/5&#x25;C2&#x25;BA/1cuatrimestre/VC/Trabajos/proyecto-vc/yolo/voc.py" atime="1615977774120">
+  <entry key="gedit-position" value="3153"/>
  </document>
  <document uri="file:///home/antcc/Descargas/Telegram&#x25;20Desktop/test.py" atime="1614278487214">
   <entry key="gedit-position" value="739"/>
@@ -760,8 +770,8 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="1002"/>
  </document>
- <document uri="file:///home/antcc/DGIIM/5&#x25;C2&#x25;BA/1cuatrimestre/VC/Trabajos/proyecto-vc/yolo/voc.py" atime="1615977774120">
-  <entry key="gedit-position" value="3153"/>
+ <document uri="file:///home/antcc/Descargas/acmart-master/ACM-Reference-Format.bbx" atime="1617266979072">
+  <entry key="gedit-position" value="0"/>
  </document>
  <document uri="file:///home/antcc/Descargas/1destencilexercise.cu" atime="1604767406159">
   <entry key="gedit-position" value="650"/>
@@ -817,10 +827,10 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="542"/>
  </document>
- <document uri="file:///home/antcc/MCD/C2/PICDD/Proyecto/cosas_proyecto.txt" atime="1620338040784">
+ <document uri="file:///home/antcc/MCD/C2/PICDD/Proyecto/cosas_proyecto.txt" atime="1622201064916">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
-  <entry key="gedit-position" value="5492"/>
+  <entry key="gedit-position" value="4660"/>
  </document>
  <document uri="file:///home/antcc/.cache/.fr-Rz5Hss/BM_simulators.py" atime="1610565242955">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -953,5 +963,8 @@
  </document>
  <document uri="file:///home/antcc/MCD/C2/APPSIV/Pr&#x25;C3&#x25;A1cticas/P2/data/ucfTrainTestlist/testlist01.txt" atime="1621085383546">
   <entry key="gedit-position" value="145508"/>
+ </document>
+ <document uri="file:///home/antcc/.cache/.fr-oaNUK9/Res&#x25;C3&#x25;BAmenes.txt" atime="1622198483004">
+  <entry key="gedit-position" value="79"/>
  </document>
 </metadata>
