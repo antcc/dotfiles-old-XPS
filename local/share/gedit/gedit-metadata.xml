@@ -566,10 +566,10 @@
  <document uri="file:///home/antcc/DGIIM/TFG/notas.md" atime="1603040771273">
   <entry key="gedit-position" value="230"/>
  </document>
- <document uri="file:///home/antcc/.local/share/Steam/config/config.vdf" atime="1620857559267">
+ <document uri="file:///home/antcc/.local/share/Steam/config/config.vdf" atime="1622745197831">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
-  <entry key="gedit-position" value="14904"/>
+  <entry key="gedit-position" value="16566"/>
  </document>
  <document uri="file:///tmp/mozilla_antcc0/LAB2-Session1&#x25;20&#x28;1&#x29;/random_vs_fixed_mode.py" atime="1621005652617">
   <entry key="gedit-position" value="0"/>
@@ -649,8 +649,10 @@
  <document uri="file:///home/antcc/Descargas/Telegram&#x25;20Desktop/exam_functional_methods.ipynb" atime="1615242869447">
   <entry key="gedit-position" value="24096"/>
  </document>
- <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/data/treceval/qrels.tsv" atime="1615551225056">
-  <entry key="gedit-position" value="38"/>
+ <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/data/treceval/google-results.txt" atime="1615551183387">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="72"/>
  </document>
  <document uri="file:///home/antcc/Descargas/PE_stochastic_processes_HW_02/sde_solvers_HW02_PE_2020_2021.py" atime="1608651690729">
   <entry key="gedit-position" value="5113"/>
@@ -678,10 +680,8 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="30"/>
  </document>
- <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/data/treceval/google-results.txt" atime="1615551183387">
-  <entry key="gedit-encoding" value="UTF-8"/>
-  <entry key="gedit-spell-language" value="es_ES"/>
-  <entry key="gedit-position" value="72"/>
+ <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/data/treceval/qrels.tsv" atime="1615551225056">
+  <entry key="gedit-position" value="38"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/treceval/ndeval.c" atime="1615551654680">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -807,9 +807,10 @@
   <entry key="gedit-spell-language" value="es_ES"/>
   <entry key="gedit-position" value="387"/>
  </document>
- <document uri="file:///home/antcc/.local/share/Steam/config/config-2.vdf" atime="1620857542256">
+ <document uri="file:///home/antcc/.local/share/Steam/config/config-2.vdf" atime="1622745237946">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="es_ES"/>
+  <entry key="gedit-position" value="14500"/>
  </document>
  <document uri="file:///home/antcc/MCD/C2/INE/Pr&#x25;C3&#x25;A1cticas/P2/treceval/results/bing-results.txt" atime="1615576906267">
   <entry key="gedit-encoding" value="UTF-8"/>
