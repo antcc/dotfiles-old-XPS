@@ -76,3 +76,6 @@ alias sfs-select="mv /home/antcc/.local/share/Steam/config/config.vdf /home/antc
 
 # Clear git objects
 alias git-clear="git reflog expire --expire=now --all && git gc --prune=now --aggressive && git repack -Ad && git prune"
+
+# Make default gitignore
+alias make-gitignore="echo '.ipynb_checkpoints\n__pycache__' >> .gitignore"
