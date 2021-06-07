@@ -392,7 +392,7 @@ assign [class="Spotify"] 10
 
 #  ------- Start apps at boot time -----------------------------------
 
-exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id $terminal; workspace $w1'
+exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id $terminal; exec --no-startup-id "sleep 1"; workspace $w1'; 
 exec --no-startup-id jupyter notebook &> /dev/null &
 exec --no-startup-id $telegram
 exec --no-startup-id redshift
@@ -408,7 +408,7 @@ exec --no-startup-id $browser
 exec --no-startup-id blueman-tray
 
 # Scratchpad/Forced background
-exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id keepassxc'
+exec --no-startup-id i3-msg 'exec --no-startup-id keepassxc'
 exec --no-startup-id "sleep 1; i3-msg '[instance=KeePassXC] move scratchpad'"
 exec --no-startup-id geary
-exec --no-startup-id "sleep 3; i3-msg '[instance=geary] kill'"
+#exec --no-startup-id "sleep 3; i3-msg '[instance=geary] kill'"
