@@ -73,3 +73,6 @@ alias jupstop="jupyter notebook stop"
 
 # Change steam family shared library
 alias sfs-select="mv /home/antcc/.local/share/Steam/config/config.vdf /home/antcc/.local/share/Steam/config/config-temp.vdf && mv /home/antcc/.local/share/Steam/config/config-2.vdf /home/antcc/.local/share/Steam/config/config.vdf && mv /home/antcc/.local/share/Steam/config/config-temp.vdf /home/antcc/.local/share/Steam/config/config-2.vdf"
+
+# Clear git objects
+alias git-clear="git reflog expire --expire=now --all && git gc --prune=now --aggressive && git repack -Ad && git prune"
