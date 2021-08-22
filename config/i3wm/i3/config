@@ -405,7 +405,7 @@ exec --no-startup-id $browser
 #exec --no-startup-id $spotify
 #exec --no-startup-id xautolock -time 15 -locker lock
 #exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
-exec --no-startup-id blueman-tray
+exec --no-startup-id blueman-applet
 
 # Scratchpad/Forced background
 exec --no-startup-id i3-msg 'exec --no-startup-id keepassxc'
