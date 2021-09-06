@@ -164,7 +164,7 @@ bindsym $mod+r mode "resize"
 popup_during_fullscreen smart
 
 # Switching window with mod+tab
-bindsym $mod+Tab exec --no-startup-id rofi -show window
+bindsym $mod+Tab exec --no-startup-id rofi -theme purple -show window
 
 # Disable focus following mouse
 focus_follows_mouse no
@@ -322,7 +322,7 @@ bindsym --release $mod+Print exec --no-startup-id scrot -s -z -q 95 /tmp/screens
 bindsym $mod+q kill
 
 # Start rofi (a program launcher)
-bindsym $mod+Return exec "rofi -combi-modi run,drun -show combi -modi combi"
+bindsym $mod+Return exec "rofi -theme purple -combi-modi run,drun -show combi -modi combi"
 
 # Jump to urgent window
 bindsym $mod+x [urgent=latest] focus
