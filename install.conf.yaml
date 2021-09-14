@@ -40,6 +40,7 @@
     ~/.config/gummi: 'config/gummi/'
     ~/.config/0ad/config/local.cfg: 'config/0ad/config/local.cfg'
     ~/.config/systemd: 'config/systemd/'
+    ~/.config/sioyek: 'config/sioyek/'
     ~/.config/tilix: 'config/tilix/'
     ~/.config/libinput-gestures.conf: 'config/libinput-gestures.conf'
     ~/.config/redshift.conf: 'config/redshift.conf'
@@ -64,7 +65,6 @@
     ~/.xinitrc:
     ~/.fehbg:
     ~/.ssh/config: 'ssh/config'
-    ~/.netbeans/8.2/etc: 'netbeans/etc/'
     ~/.local/share/applications/chromium.desktop: 'chromium.desktop'
     
 - shell:
