@@ -1,6 +1,7 @@
 #!/bin/bash
 
+GIT=`which git`
 cd ~/.dotfiles
-git add .
-git commit -m 'update'
-git push
+${GIT} add .
+${GIT} commit -m 'update'
+${GIT} push git@github.com:antcc/dotfiles.git master
