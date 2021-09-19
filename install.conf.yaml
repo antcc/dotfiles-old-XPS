@@ -56,7 +56,7 @@
     ~/.config/autorandr: 'config/autorandr'
       
     # local folder
-    ~/.local/share/gedit: 'local/share/gedit'
+    ~/.local/share/gedit/styles: 'local/share/gedit/styles/'
     
     # misc.
     ~/.gitconfig:
