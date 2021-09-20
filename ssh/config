@@ -6,6 +6,8 @@ Host rpi
 
 Host github.com
     IdentityFile ~/.ssh/id_rsa
+    IdentitiesOnly yes
+    User antcc
 
 Host turing
      HostName turing.ugr.es
