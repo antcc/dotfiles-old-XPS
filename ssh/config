@@ -1,3 +1,5 @@
+AddKeysToAgent yes
+
 Host rpi
     HostName antccberry.local
     Port 2101
