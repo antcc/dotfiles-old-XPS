@@ -1,9 +1,0 @@
-[Unit]
-Description=Timer to update dotfiles
-
-[Timer]
-OnCalendar=weekly
-Persistent=true
-
-[Install]
-WantedBy=timers.target
