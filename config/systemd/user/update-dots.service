@@ -4,3 +4,6 @@ Description=Update dotfiles repo
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/update-dots
+User=antcc
+Group=antcc
+WorkingDirectory=/home/antcc/.dotfiles

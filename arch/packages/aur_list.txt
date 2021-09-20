@@ -16,6 +16,7 @@ i3-gaps-git 4.14-1
 i3ipc-glib-git r154.1470102370.57317a6-1
 i3lock-color-git r819.085df46-1
 ipython2 5.9.0-1
+kaobook 0.9.7-4
 latex-beamer-ctan 3.50-1
 libart-lgpl 2.3.21-5
 libglade 2.6.4-8
@@ -70,6 +71,7 @@ python2-traitlets 4.3.3-6
 python38 3.8.12-1
 qt4 4.8.7-34
 retroarch-autoconfig-udev 1356-1
+sioyek-git 0.31-6
 skypeforlinux 8.7.76.59440-1
 spicetify-cli 2.5.0-1
 spicetify-themes-git r439.7ae6f84-1
