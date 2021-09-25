@@ -6,6 +6,11 @@
     outputAreaDock: true
     outputAreaFontSize: 18
     showAutocompleteFirst: false
+  "atom-latex":
+    compiler: "lualatex"
+    delayed_minimap_refresh: true
+    hide_log_if_success: true
+    latexmk_param: "-pdf"
   "atom-package-deps":
     ignored: []
   "autocomplete-clang":
@@ -123,6 +128,8 @@
   minimap:
     adjustMinimapWidthToSoftWrap: false
     moveCursorOnMinimapClick: true
+  "pdf-view":
+    reverseSyncBehaviour: "Double click"
   "platformio-ide-terminal":
     ansiColors:
       normal:
