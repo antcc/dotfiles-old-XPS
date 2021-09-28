@@ -16,6 +16,7 @@
   "atom-latex":
     compiler: "xelatex"
     delayed_minimap_refresh: true
+    file_ext_to_clean: "*.aux, *.bbl, *.blg, *.idx, *.ind, *.lof, *.lot, *.out, *.toc, *.acn, *.acr, *.alg, *.glg, *.glo, *.gls, *.ist, *.fls, *.log, *.fdb_latexmk, *.bcf, *.mw, *.run.xml, *.synctex.gz"
     hide_log_if_success: true
     latexmk_param: "-pdf"
   "atom-package-deps":
@@ -104,7 +105,8 @@
       "-n30"
       "-e16"
       "-n3"
-      "-n23"
+      "-n21"
+      "-n1"
     ]
   "linter-clang":
     clangIncludePaths: [
@@ -141,6 +143,36 @@
       "a4paper"
       "fontsize"
       "widepar"
+      "scrheadings"
+      "kaobook"
+      "11pt"
+      "twoside"
+      "chapterprefix"
+      "chapterentrydots"
+      "secnumdepth"
+      "noenddot"
+      "enddot"
+      "overfullrule"
+      "komascript"
+      "kaohandt"
+      "newcmmath"
+      "otf"
+      "authoryear"
+      "kaobiblio"
+      "pdfauthor"
+      "pdftitle"
+      "citecolor"
+      "urlcolor"
+      "anchorcolor"
+      "linkcolor"
+      "margintoc"
+      "margintocdepth"
+      "eqref"
+      "eqref"
+      "subsec"
+      "bibnote"
+      "prenote"
+      "tex"
     ]
   "linter-ui-default":
     panelHeight: 300
