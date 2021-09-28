@@ -387,7 +387,6 @@ assign [class="Chromium"] $w1
 assign [class="Firefox"] $w1
 assign [class="Telegram"] $w2
 assign [class="Steam"] 9
-#assign [class="steam_app_250900"] 9
 assign [title="Binding of Isaac: Repentance"] 9
 assign [class="^Vlc$"] 10
 assign [class="Geary"] 11

@@ -35,6 +35,7 @@
     
     # Latex
     ~/.latexmkrc:
+    ~/.jsbeautifyrc:
 
     # config folder
     ~/.config/gummi: 'config/gummi/'

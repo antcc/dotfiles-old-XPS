@@ -6,8 +6,15 @@
     outputAreaDock: true
     outputAreaFontSize: 18
     showAutocompleteFirst: false
+  "atom-beautify":
+    general:
+      beautifyEntireFileOnSave: false
+      loggerLevel: "info"
+    latex:
+      always_look_for_split_braces: false
+      remove_trailing_whitespace: true
   "atom-latex":
-    compiler: "lualatex"
+    compiler: "xelatex"
     delayed_minimap_refresh: true
     hide_log_if_success: true
     latexmk_param: "-pdf"
@@ -27,6 +34,7 @@
     pythonPaths: "$PROJECT/venv/bin/python3.7"
     useKite: false
     useSnippets: "required"
+  "bracket-matcher": {}
   core:
     autoHideMenuBar: true
     disabledPackages: [
@@ -34,7 +42,6 @@
       "markdown-preview"
       "hidpi"
       "linter-clang"
-      "spell-check"
       "linter-markdown"
       "markdown-preview-enhanced"
       "autocomplete-R"
@@ -44,7 +51,7 @@
       "language-clips"
       "latex-image-paste"
       "linter-scalac"
-      "linter-spell"
+      "spell-check"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -90,6 +97,15 @@
   "latex-autocomplete": {}
   linter:
     lintOnChange: false
+  "linter-chktex":
+    chktexArgs: [
+      "-wall"
+      "-n22"
+      "-n30"
+      "-e16"
+      "-n3"
+      "-n23"
+    ]
   "linter-clang":
     clangIncludePaths: [
       ". ./include"
@@ -116,7 +132,15 @@
     lintsOnChange: true
   "linter-spell":
     defaultLanguages: [
-      "es-ES"
+      "en-US"
+    ]
+    spellPath: "/usr/bin/hunspell"
+    spellingErrorSeverity: "info"
+  "linter-spell-latex":
+    words: [
+      "a4paper"
+      "fontsize"
+      "widepar"
     ]
   "linter-ui-default":
     panelHeight: 300
@@ -180,6 +204,16 @@
 ".cpp.source":
   editor:
     autoIndentOnPaste: false
+".latex.tex.text":
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "<>"
+      "«»"
+      "`'"
+    ]
 ".rust.source":
   editor:
     preferredLineLength: 99

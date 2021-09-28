@@ -1,5 +1,6 @@
 atom-ide-ui
 atom-language-r
+atom-latex
 autocomplete-clang
 autocomplete-latex
 autocomplete-paths
