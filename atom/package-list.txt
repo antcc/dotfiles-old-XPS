@@ -1,3 +1,4 @@
+atom-beautify
 atom-ide-ui
 atom-language-r
 atom-latex
@@ -27,6 +28,7 @@ language-scala
 latex-autocomplete
 latex-image-paste
 linter
+linter-chktex
 linter-clang
 linter-flake8
 linter-gcc
@@ -36,6 +38,7 @@ linter-markdown
 linter-rust
 linter-scalac
 linter-spell
+linter-spell-latex
 linter-ui-default
 markdown-image-paste
 markdown-preview-enhanced

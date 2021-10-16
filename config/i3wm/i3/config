@@ -380,7 +380,7 @@ for_window [class="KeePassXC"] floating enable
 bindsym $mod+Shift+p [class="KeePassXC"] scratchpad show
 
 # Open Spofify and cava in floating and minimized mode
-for_window [class="Spotify"] floating enable, resize set 800 115, border pixel 4, move position 25 px 945 px 
+#for_window [class="Spotify"] floating enable, resize set 800 115, border pixel 4, move position 25 px 945 px 
 
 # Assign apps to specific workspaces
 assign [class="Chromium"] $w1

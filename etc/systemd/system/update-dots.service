@@ -1,8 +1,10 @@
 [Unit]
 Description=Update dotfiles repo
+After=ssh-agent.service
 
 [Service]
 Type=oneshot
+ExecStartPre=ssh-agent bash -c 'ssh-add /home/antcc/.ssh/id_rsa'
 ExecStart=/usr/bin/update-dots
 User=antcc
 Group=antcc

@@ -1,0 +1,5 @@
+# whitelist for usb autosuspend
+ACTION=="add", SUBSYSTEM=="usb", TEST=="power/control", ATTR{idVendor}=="1d6b", ATTR{idProduct}=="0003", ATTR{power/control}="auto"
+
+# blacklist for usb autosuspend
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0cf3", ATTR{idProduct}=="e300", ATTR{power/autosuspend}="-1"
