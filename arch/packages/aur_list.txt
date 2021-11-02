@@ -12,7 +12,7 @@ libgnomecanvas 2.30.3-4
 libinput-gestures 2.69-1
 libretro-citra-git r6961.37192ff3-1
 lsdesktopf 1.0.7-4
-ocrmypdf 12.6.0-1
+ocrmypdf 12.7.0-1
 openvpn-reconnect 1-2
 otf-font-awesome-4 4.7.0-5
 pangox-compat 0.0.2+2+gedb9e09-3
@@ -24,11 +24,11 @@ polybar-git 3.5.7.r185.g55eb19fd-1
 pygtk 2.24.0-12
 python-coloredlogs 15.0.1-2
 python-humanfriendly 9.2-1
-python2-gobject2 2.28.7-6
+python2-gobject2 2.28.7-7
 python38 3.8.12-1
 qt4 4.8.7-34
 sioyek-git 0.31.6-4
-spicetify-cli 2.7.0-1
+spicetify-cli 2.7.1-1
 spicetify-themes-git r439.7ae6f84-1
 spotify 1:1.1.68.632-1
 spotifywm-git 0.0.1-2
@@ -39,6 +39,5 @@ ttf-exljbris 1.1-7
 ttf-font-awesome-4 4.7.0-5
 ttf-ms-fonts 2.0-12
 woeusb 5.1.2-1
-wpgtk-git r841.70226b4-1
-yay 10.3.1-2
+yay 11.0.2-1
 zotero 5.0.96.3-1

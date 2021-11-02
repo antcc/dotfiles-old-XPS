@@ -312,6 +312,9 @@ bindsym $mod+I mode "$mode_display"
 
 # ------ Misc -------------------------------------------
 
+# Rofi clipboard manager (greenclip)
+bindsym $mod+c exec --no-startup-id rofi -theme purple -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
 # Take screenshot to file
 bindsym --release Print exec --no-startup-id scrot -s -z -q 95 ~/Imágenes/screenshot-%d-%m-%Y-%H:%M:%S.jpg
 
@@ -365,7 +368,7 @@ bindsym F1 exec --no-startup-id tilix --quake
 bindsym $mod+Shift+t exec $telegram
 
 # Open Chromium Browser
-bindsym $mod+c exec $chromium
+#bindsym $mod+c exec $chromium
 
 # Open Firefox Browser
 bindsym $mod+m exec firefox

@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/antcc/Imágenes/doge.png' 
+feh --no-fehbg --bg-fill '/home/antcc/Imágenes/doge.png' 

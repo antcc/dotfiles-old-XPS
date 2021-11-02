@@ -30,6 +30,11 @@
     includeSystemHeadersDocumentation: true
   "autocomplete-latex":
     enableBuiltinProvider: true
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+      "*.txt"
+    ]
   "autocomplete-python":
     extraPaths: "$PROJECT/venv/lib/python3.7/site-packages"
     pythonPaths: "$PROJECT/venv/bin/python3.7"
@@ -44,7 +49,6 @@
       "hidpi"
       "linter-clang"
       "linter-markdown"
-      "markdown-preview-enhanced"
       "autocomplete-R"
       "ide-r"
       "atom-ide-ui"
@@ -119,6 +123,7 @@
       "E226"
       "D202"
       "D103"
+      "D100"
     ]
     pycodestyleErrorsToWarnings: true
   "linter-gcc":

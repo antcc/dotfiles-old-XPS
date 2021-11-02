@@ -39,6 +39,7 @@
 
     # config folder
     ~/.config/gummi: 'config/gummi/'
+    ~/.config/greenclip.toml: 'config/greenclip.toml'
     ~/.config/0ad/config/local.cfg: 'config/0ad/config/local.cfg'
     ~/.config/systemd: 'config/systemd/'
     ~/.config/sioyek: 'config/sioyek/'
