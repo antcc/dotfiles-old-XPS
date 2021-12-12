@@ -124,6 +124,7 @@
       "D202"
       "D103"
       "D100"
+      "W503"
     ]
     pycodestyleErrorsToWarnings: true
   "linter-gcc":

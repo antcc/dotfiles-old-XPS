@@ -4,6 +4,11 @@ Host rpi
     User pi
     IdentityFile ~/.ssh/id_rsa2
 
+Host ccc_uam
+    Hostname login1.ccc.uam.es
+    User antcc
+    IdentityFile ~/.ssh/id_rsa_ccc_uam
+
 Host github.com
     IdentityFile ~/.ssh/id_rsa
     IdentitiesOnly yes

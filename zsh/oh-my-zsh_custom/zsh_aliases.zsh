@@ -79,3 +79,9 @@ alias git-clear="git reflog expire --expire=now --all && git gc --prune=now --ag
 
 # Make default gitignore
 alias make-gitignore="echo '.ipynb_checkpoints\n__pycache__' >> .gitignore"
+
+# Alias for ssh-ing into CCC UAM (+VPN)
+alias ccc_uam="sudo vpnc uam && ssh ccc_uam && sudo vpnc-disconnect"
+
+# Alias for keyboard battery
+alias keyboard-battery="upower -d | grep keyboard -A 7 | grep percentage | cut -f 2 -d':' | cut -d' ' -f11"

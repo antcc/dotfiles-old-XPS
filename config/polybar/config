@@ -75,16 +75,9 @@ font-2 = siji:pixelsize=11;1
 font-3 = FontAwesome:size=14;2
 font-4 = fixed:pixelsize=15;1
 
-; Modules
-module-margin-left = 1
-module-margin-right = 2
-modules-left = i3 ;xwindow
-modules-center = date
-modules-right = alsa wlan battery ;powermenu
-
 ; Cursor actions
 
-click-right =
+;click-right =
 click-middle = gsimplecal
 
 ; Locale
@@ -98,6 +91,31 @@ wm-restack = i3
 ;
 ;   ------------------ MODULES ------------------
 ;
+
+; Modules
+module-margin-left = 1
+module-margin-right = 2
+modules-left = i3 ;xwindow
+modules-center = date
+modules-right = controller keyboard pulseaudio wlan eth battery ;powermenu
+
+[module/keyboard]
+type = custom/script
+exec = "upower -d | grep keyboard -A 7 | grep percentage | cut -f 2 -d':' | cut -d' ' -f11"
+exec-if = "[ $(upower -d | grep 'keyboard' | wc -l) -gt 0 ]"
+click-right = blueman-manager &
+interval = 5
+format-prefix = "  "
+format-underline = #9f78e1
+
+[module/controller]
+type = custom/script
+exec = "upower -d | grep 'sony_controller' -A 10 | grep percentage | cut -f 2 -d':' | cut -d' ' -f11"
+exec-if = "[ $(upower -d | grep 'sony_controller' | wc -l) -gt 0 ]"
+click-right = blueman-manager &
+interval = 5
+format-prefix = "  "
+format-underline = #9f78e1
 
 [module/xwindow]
 type = internal/xwindow
@@ -237,16 +255,15 @@ label = %percentage_used%%
 [module/wlan]
 type = internal/network
 interface = wlp58s0
-interval = 3.0
+interval = 2.0
 
 format-connected = <ramp-signal> <label-connected>
 format-connected-underline = #9f78e1
-label-connected = %essid%
-
+label-connected = %{A3:networkmanager_dmenu &:}%essid%%{A} 
 
 format-disconnected = <label-disconnected>
 format-disconnected-underline =
-label-disconnected = 
+label-disconnected = %{A3:networkmanager_dmenu &:} %{A} 
 label-disconnected-padding = 2
 label-disconnected-foreground = #960202
 
@@ -259,9 +276,9 @@ ramp-signal-padding-right = 1
 [module/eth]
 type = internal/network
 interface = net0
-interval = 3.0
+interval = 2.0
 
-format-connected-underline = #55aa55
+format-connected-underline = #9f78e1
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
@@ -288,19 +305,17 @@ format-underline = #0a6cf5
 
 label = %time%
 
-[module/alsa]
-type = internal/alsa
-
+[module/pulseaudio]
+type = internal/pulseaudio
 format-volume = <label-volume> <bar-volume>
-label-volume = 
+label-volume = %{A3:pavucontrol &:} %{A}
 label-volume-foreground = ${root.foreground}
 label-volume-padding-right = 1
 format-muted = <label-muted> <bar-volume>
 format-muted-foreground = ${colors.foreground-alt}
-label-muted = 
+label-muted = %{A3:pavucontrol &:} %{A}
 label-muted-padding-right = 1
 format-volume-underline = #9f78e1
-
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
