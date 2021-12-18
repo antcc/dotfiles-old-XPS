@@ -97,7 +97,7 @@ module-margin-left = 1
 module-margin-right = 2
 modules-left = i3 ;xwindow
 modules-center = date
-modules-right = controller keyboard pulseaudio wlan eth battery ;powermenu
+modules-right = pacman controller keyboard pulseaudio wlan eth battery ;powermenu
 
 [module/keyboard]
 type = custom/script
@@ -106,6 +106,16 @@ exec-if = "[ $(upower -d | grep 'keyboard' | wc -l) -gt 0 ]"
 click-right = blueman-manager &
 interval = 5
 format-prefix = "  "
+;format-padding = 1
+format-underline = #9f78e1
+
+[module/pacman]
+type = custom/script
+exec = "checkupdates 2>/dev/null | wc -l"
+exec-if = "[ $(checkupdates 2>/dev/null | wc -l) -gt 0 ]"
+interval = 86400
+format-prefix = " "
+;format-padding = 1
 format-underline = #9f78e1
 
 [module/controller]
@@ -115,6 +125,7 @@ exec-if = "[ $(upower -d | grep 'sony_controller' | wc -l) -gt 0 ]"
 click-right = blueman-manager &
 interval = 5
 format-prefix = "  "
+;format-padding = 1
 format-underline = #9f78e1
 
 [module/xwindow]

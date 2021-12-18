@@ -332,7 +332,7 @@ bindsym $mod+x [urgent=latest] focus
 
 # ------ App bindings ------------------------------------------------
 
-set $telegram QT_IM_MODULE=xim telegram-desktop
+set $telegram env QT_IM_MODULE=xim telegram-desktop
 set $chromium chromium --force-device-scale-factor=1.25 
 set $nautilus nautilus
 set $terminal tilix
