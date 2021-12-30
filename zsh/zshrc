@@ -61,7 +61,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(virtualenv colorize dircycle extract zsh-autosuggestions z forgit zsh-history-substring-search)
+plugins=(virtualenv poetry colorize dircycle extract zsh-autosuggestions z forgit zsh-history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 

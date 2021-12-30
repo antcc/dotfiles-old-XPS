@@ -85,3 +85,6 @@ alias ccc_uam="sudo vpnc uam && ssh ccc_uam && sudo vpnc-disconnect"
 
 # Alias for keyboard battery
 alias keyboard-battery="upower -d | grep keyboard -A 7 | grep percentage | cut -f 2 -d':' | cut -d' ' -f11"
+
+# Silent steam
+alias steam="steam -silent"

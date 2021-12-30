@@ -60,7 +60,8 @@
       
     # local folder
     ~/.local/share/gedit/styles: 'local/share/gedit/styles/'
-    
+    ~/.local/share/applications/steam.desktop: 'local/share/applications/steam.desktop'
+ 
     # misc.
     ~/.gitconfig:
     ~/.Xresources:

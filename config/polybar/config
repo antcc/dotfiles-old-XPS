@@ -112,7 +112,7 @@ format-underline = #9f78e1
 [module/pacman]
 type = custom/script
 exec = "checkupdates 2>/dev/null | wc -l"
-exec-if = "[ $(checkupdates 2>/dev/null | wc -l) -gt 0 ]"
+exec-if = "[ $(checkupdates 2>/dev/null | wc -l) -gt 100 ]"
 interval = 86400
 format-prefix = " "
 ;format-padding = 1

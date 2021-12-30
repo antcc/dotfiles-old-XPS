@@ -36,8 +36,8 @@
       "*.txt"
     ]
   "autocomplete-python":
-    extraPaths: "$PROJECT/venv/lib/python3.7/site-packages"
-    pythonPaths: "$PROJECT/venv/bin/python3.7"
+    extraPaths: "$PROJECT/venv/lib/python3.10/site-packages"
+    pythonPaths: "$PROJECT/venv/bin/python3.10"
     useKite: false
     useSnippets: "required"
   "bracket-matcher": {}
