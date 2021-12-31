@@ -65,7 +65,7 @@ font pango:DejaVu Sans Mono 9
 # Polybar
 
 exec_always --no-startup-id killall polybar; polybar -r top
-exec_always --no-startup-id MONITOR=DP1 polybar -r top
+#exec_always --no-startup-id MONITOR=DP1 polybar -r top
 
 # ------- Windows manipulation ---------------------------------------
 
@@ -328,7 +328,8 @@ bindsym $mod+q kill
 bindsym $mod+Return exec "rofi -theme purple -combi-modi run,drun -show combi -modi combi -show-icons"
 
 # Rofi quick file browser
-bindsym $mod+d exec "rofi -theme purple -show filebrowser"
+bindsym $mod+d exec --no-startup-id "rofi -theme purple -show filebrowser"
+bindsym $mod+Shift+d exec --no-startup-id rofi -theme purple -show find -modi find:~/.local/share/rofi/finder.sh
 
 # Jump to urgent window
 bindsym $mod+x [urgent=latest] focus
@@ -404,7 +405,7 @@ assign [class="Spotify"] 10
 
 #  ------- Start apps at boot time -----------------------------------
 
-exec --no-startup-id i3-msg 'workspace $w3; exec --no-startup-id $terminal'
+exec --no-startup-id sh -c "sleep 5; i3-msg 'workspace $w3; exec $terminal'"
 exec --no-startup-id $telegram
 exec --no-startup-id $browser
 exec --no-startup-id redshift

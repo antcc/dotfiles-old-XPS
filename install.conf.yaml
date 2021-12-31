@@ -46,7 +46,7 @@
     ~/.config/tilix: 'config/tilix/'
     ~/.config/networkmanager-dmenu: 'config/networkmanager-dmenu'
     ~/.config/libinput-gestures.conf: 'config/libinput-gestures.conf'
-    ~/.config/redshift.conf: 'config/redshift.conf'
+    ~/.config/redshift/redshift.conf: 'config/redshift/redshift.conf'
     ~/.config/i3: 'config/i3wm/i3/'
     ~/.config/i3status: 'config/i3wm/i3status/'
     ~/.config/picom.conf: 'config/picom.conf'
