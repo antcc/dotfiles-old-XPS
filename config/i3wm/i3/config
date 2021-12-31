@@ -329,7 +329,12 @@ bindsym $mod+Return exec "rofi -theme purple -combi-modi run,drun -show combi -m
 
 # Rofi quick file browser
 bindsym $mod+d exec --no-startup-id "rofi -theme purple -show filebrowser"
-bindsym $mod+Shift+d exec --no-startup-id rofi -theme purple -show find -modi find:~/.local/share/rofi/finder.sh
+
+# Rofi file finder (case-insensitive)
+bindsym $mod+Shift+d exec --no-startup-id xdg-open $(/usr/bin/find -not -path '*/\.*' | rofi -theme purple -dmenu -i -p "search")
+
+#   (Alternative to file finder)
+# bindsym $mod+Shift+d exec --no-startup-id rofi -theme purple -show find -modi find:~/.local/share/rofi/finder.sh
 
 # Jump to urgent window
 bindsym $mod+x [urgent=latest] focus
