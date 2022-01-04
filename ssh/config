@@ -14,6 +14,11 @@ Host github.com
     IdentitiesOnly yes
     User antcc
 
+Host github.com-dotfiles
+    Hostname github.com
+    IdentityFile ~/.ssh/github_dotfiles_deploy_key
+    User antcc
+
 Host turing
      HostName turing.ugr.es
      User antoniocoin
