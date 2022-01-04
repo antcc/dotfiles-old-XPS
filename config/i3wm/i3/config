@@ -345,7 +345,7 @@ set $telegram env QT_IM_MODULE=xim telegram-desktop
 set $chromium chromium --force-device-scale-factor=1.25 
 set $nautilus nautilus
 set $terminal tilix
-set $browser firefox
+set $browser MOZ_USE_XINPUT2=1 firefox
 set $spotify spotify --force-device-scale-factor=1.5
 set $cava tilix -t "Cava" -e cava
 
@@ -418,7 +418,7 @@ exec --no-startup-id libinput-gestures
 exec --no-startup-id dunst
 exec --no-startup-id owncloud
 exec --no-startup-id picom -b -no-fading-openclose
-exec --no-startup-id greenclip daemon > /dev/null
+exec_always --no-startup-id sh -c "killall greenclip; greenclip daemon > /dev/null &"
 exec --no-startup-id blueman-applet
 exec --no-startup-id geary
 exec --no-startup-id jupyter notebook --no-browser &> /dev/null
