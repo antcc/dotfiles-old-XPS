@@ -392,7 +392,7 @@ for_window [class="Nautilus"] floating enable
 # Open KeepassXC in floating mode, and recover from scratchpad
 bindsym $mod+p exec --no-startup-id keepassxc
 for_window [class="KeePassXC"] floating enable
-for_window [class="KeePassXC"] move scratchpad
+for_window [class="KeePassXC" title=".*passwords.*"] move scratchpad
 bindsym $mod+Shift+p [class="KeePassXC"] scratchpad show
 
 # Open Spofify and cava in floating and minimized mode
@@ -407,6 +407,9 @@ assign [title="Binding of Isaac: Repentance"] 9
 assign [class="^Vlc$"] 10
 assign [class="Geary"] 11
 assign [class="Spotify"] 10
+
+# Move private window to workspace 12
+for_window [title=".*\(Private Browsing\).*"] move to workspace 12
 
 #  ------- Start apps at boot time -----------------------------------
 
