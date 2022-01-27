@@ -88,3 +88,4 @@ alias keyboard-battery="upower -d | grep keyboard -A 7 | grep percentage | cut -
 
 # Silent steam
 alias steam="steam -silent"
+
