@@ -68,8 +68,7 @@
     ~/.xprofile:
     ~/.xinitrc:
     ~/.fehbg:
-    ~/.ssh/config: 'ssh/config'
-    ~/.local/share/applications/chromium.desktop: 'chromium.desktop'
+    ~/.local/share/applications/chromium.desktop: 'local/share/applications/chromium.desktop'
     
 - shell:
     # init submodules
