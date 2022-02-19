@@ -62,6 +62,7 @@ alias find='fd'
 
 # ls replacement
 alias ls='exa'
+alias lsg='exa -al --header --icons --git'
 
 # Wine
 alias wine32='WINEPREFIX=~/.wine32 WINEARCH=win32 wine'

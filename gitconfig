@@ -5,6 +5,15 @@
 	helper = cache --timeout=3600
 [core]
 	editor = vim
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
 [pull]
 	rebase = false
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    syntax-theme = Coldark-Dark
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
