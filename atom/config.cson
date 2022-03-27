@@ -179,6 +179,7 @@
       "bibnote"
       "prenote"
       "tex"
+      "mle"
     ]
   "linter-ui-default":
     panelHeight: 300

@@ -26,7 +26,6 @@ language-latex
 language-markdown
 language-scala
 latex-autocomplete
-latex-image-paste
 linter
 linter-chktex
 linter-clang
