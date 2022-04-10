@@ -56,6 +56,7 @@
       "language-clips"
       "linter-scalac"
       "spell-check"
+      "linter-mypy"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -130,6 +131,14 @@
     gccDefaultCFlags: "-c -Wall-fsyntax-only"
     gccDefaultCppFlags: "-c -Wall -std=c++14 -fsyntax-only"
     gccIncludePaths: " -../include/, include/, ../include/,"
+  "linter-mypy":
+    disallowAnyExpr: false
+    disallowIncompleteDefs: false
+    disallowUntypedCalls: false
+    disallowUntypedDefs: false
+    disallowUntypedGlobals: false
+    ignoreFiles: "test.+"
+    warnNoReturn: false
   "linter-python-pep8":
     pep8DirToExecutable: "~/.local/bin/"
   "linter-rust":
