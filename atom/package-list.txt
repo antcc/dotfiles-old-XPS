@@ -1,5 +1,6 @@
 atom-beautify
 atom-ide-ui
+atom-isort
 atom-language-r
 atom-latex
 autocomplete-clang
@@ -34,6 +35,7 @@ linter-gcc
 linter-javac
 linter-lintr
 linter-markdown
+linter-mypy
 linter-rust
 linter-scalac
 linter-spell
