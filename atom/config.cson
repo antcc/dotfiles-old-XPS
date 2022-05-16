@@ -57,6 +57,7 @@
       "linter-scalac"
       "spell-check"
       "linter-mypy"
+      "jupyter-notebook"
     ]
     projectHome: "/home/antcc/"
     telemetryConsent: "no"
@@ -93,8 +94,10 @@
       flake8: {}
       pylint:
         enabled: true
+  "ipython-run":
+    terminalToUse: "tilix"
   "jupyter-notebook":
-    jupyterPath: "usr/bin/jupyter"
+    jupyterPath: "/usr/bin/jupyter"
   kite:
     enableHoverUI: false
     showWelcomeNotificationOnStartup: false
@@ -126,6 +129,7 @@
       "D100"
       "W503"
     ]
+    maxLineLength: 80
     pycodestyleErrorsToWarnings: true
   "linter-gcc":
     gccDefaultCFlags: "-c -Wall-fsyntax-only"
@@ -215,7 +219,7 @@
   "preview-inline":
     imageBasePath: "img"
   "python-autopep8":
-    maxLineLength: 79
+    maxLineLength: 80
   "python-black":
     fmtOnSave: false
     skipStringNormalization: true

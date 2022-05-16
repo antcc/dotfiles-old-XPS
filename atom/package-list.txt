@@ -21,6 +21,7 @@ hydrogen-launcher
 hyperclick
 ide-r
 intentions
+ipython-run
 jupyter-notebook
 language-clips
 language-latex
