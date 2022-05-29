@@ -223,6 +223,7 @@
   "python-black":
     fmtOnSave: false
     skipStringNormalization: true
+  "python-import-magic": {}
   racer:
     racerBinPath: "~/.cargo/bin/racer"
     rustSrcPath: '''
