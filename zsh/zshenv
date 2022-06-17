@@ -3,6 +3,6 @@ export VISUAL="vim"
 setopt NO_GLOBAL_RCS
 
 if [ -n "$DESKTOP_SESSION" ];then
-    eval $(gnome-keyring-daemon --start)
-    export SSH_AUTH_SOCK
+    # eval $(gnome-keyring-daemon --start)
+    export SSH_AUTH_SOCK=/run/user/$(id -u)/keyring/ssh
 fi

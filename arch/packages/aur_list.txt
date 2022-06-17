@@ -17,7 +17,7 @@ libretro-citra-git r6961.37192ff3-1
 lsdesktopf 1.0.7-4
 mysql-python 1.2.5-4
 networkmanager-dmenu-git r153.da15351-1
-ocrmypdf 13.4.5-1
+ocrmypdf 13.4.7-1
 openvpn-reconnect 1-2
 otf-font-awesome-4 4.7.0-5
 pangox-compat 0.0.2+2+gedb9e09-3
@@ -36,7 +36,7 @@ rofi-blocks-git r78.50962f7-1
 rofi-greenclip 4.2-2
 rofi-search-git r31.76c7c6f-1
 sioyek-git 20220218-1
-spicetify-cli 2.9.9-1
+spicetify-cli 2.10.1-1
 spicetify-themes-git r439.7ae6f84-1
 spotify 1:1.1.84.716-1
 spotifywm-git 0.0.1-2

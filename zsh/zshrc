@@ -93,7 +93,7 @@ fi
 
 # Set PATHs variable
 export GOPATH=/home/antcc/Programas/Go
-export PATH=/home/antcc/.local/bin:$GOPATH/bin:$(ruby -r rubygems -e "puts Gem.user_dir")/bin:~/.dotfiles/bin:/root/.gem/ruby/2.4.0/bin:~/.cargo/bin:$PATH
+export PATH=/home/antcc/.local/bin:$GOPATH/bin:$(ruby -r rubygems -e "puts Gem.user_dir")/bin:~/.dotfiles/bin:~/.cargo/bin:$PATH
 export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 
 # Set default terminal
@@ -116,3 +116,20 @@ FPATH=$ZSH/custom/autoload:$FPATH
 # Ranger zsh integration
 autoload -U zranger
 bindkey -s '\ez' "\eq zranger\n"  # alt+z
+
+# >>> mamba initialize >>>
+# !! Contents within this block are managed by 'mamba init' !!
+export MAMBA_EXE="/usr/bin/micromamba";
+export MAMBA_ROOT_PREFIX="/home/antcc/.micromamba";
+__mamba_setup="$('/usr/bin/micromamba' shell hook --shell zsh --prefix '/home/antcc/.micromamba' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__mamba_setup"
+else
+    if [ -f "/home/antcc/.micromamba/etc/profile.d/micromamba.sh" ]; then
+        . "/home/antcc/.micromamba/etc/profile.d/micromamba.sh"
+    else
+        export  PATH="/home/antcc/.micromamba/bin:$PATH"  # extra space after export prevents interference from conda init
+    fi
+fi
+unset __mamba_setup
+# <<< mamba initialize <<<
