@@ -94,4 +94,4 @@ alias steam="steam -silent"
 alias weather="curl 'wttr.in/Madrid?lang=es'"
 
 # Micromamba 
-alias conda="micromamba"
+alias mamba="micromamba"
