@@ -1165,6 +1165,7 @@ orca 42.3-1
 osinfo-db 20220727-1
 ostree 2022.5-2
 otf-font-awesome-4 4.7.0-5
+otf-xits 1.302-2
 owncloud-client 2.10.1.7389-1
 p11-kit 0.24.1-1
 p7zip 1:17.04-3
