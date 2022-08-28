@@ -409,7 +409,7 @@ assign [class="Geary"] 11
 assign [class="Spotify"] 10
 
 # Move private window to workspace 12
-for_window [title=".*\(Private Browsing\).*"] move to workspace 12
+for_window [title=".*Private Browsing.*"] move to workspace 12
 
 #  ------- Start apps at boot time -----------------------------------
 
