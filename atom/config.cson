@@ -193,6 +193,11 @@
       "prenote"
       "tex"
       "mle"
+      "citep"
+      "citet"
+      "textit"
+      "subfigure"
+      "textwidth"
     ]
   "linter-ui-default":
     panelHeight: 300
