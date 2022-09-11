@@ -198,6 +198,7 @@
       "textit"
       "subfigure"
       "textwidth"
+      "interpretability"
     ]
   "linter-ui-default":
     panelHeight: 300

@@ -341,7 +341,7 @@ bindsym $mod+x [urgent=latest] focus
 
 # ------ App bindings ------------------------------------------------
 
-set $telegram env QT_IM_MODULE=xim telegram-desktop
+set $telegram env QT_IM_MODULE= QT_QPA_PLATFORMTHEME=gtk3 telegram-desktop
 set $chromium chromium --force-device-scale-factor=1.25 
 set $nautilus nautilus
 set $terminal tilix
