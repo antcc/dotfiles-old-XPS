@@ -246,7 +246,11 @@ client.background        #ffffff
 # ------ Gaps -----------------------------------------------------
 
 # Disable window titlebar
-for_window [class="^.*"] border pixel 4
+#for_window [class="^.*"] border pixel 4
+for_window [all] border pixel 4
+
+# Toggle window border
+bindsym $mod+Shift+b border toggle
 
 # Hide borders adjacent to screen edges
 hide_edge_borders both

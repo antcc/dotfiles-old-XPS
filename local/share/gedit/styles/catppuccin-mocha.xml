@@ -98,4 +98,3 @@ Catppuccin Gedit theme based on Oblivion theme and Cappuccin for Visual Studio C
   <style name="def:note"                    foreground="mocha_blue" bold="true"/>
   <style name="def:net-address"             italic="true" underline="single"/>
 </style-scheme>
-

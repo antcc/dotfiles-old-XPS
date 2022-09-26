@@ -1,6 +1,8 @@
 # Path to oh-my-zsh installation.
 export ZSH=/home/antcc/.oh-my-zsh
 
+
+
 # Theme
 ZSH_THEME="powerlevel9k/powerlevel9k"
 #source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
@@ -134,3 +136,5 @@ fi
 unset __mamba_setup
 # <<< mamba initialize <<<
 
+# Bat theme
+export BAT_THEME="Catppuccin-mocha"
