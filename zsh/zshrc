@@ -1,8 +1,6 @@
 # Path to oh-my-zsh installation.
 export ZSH=/home/antcc/.oh-my-zsh
 
-
-
 # Theme
 ZSH_THEME="powerlevel9k/powerlevel9k"
 #source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
@@ -59,11 +57,14 @@ HIST_STAMPS="dd.mm.yyyy"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# Catppuccin theme for zsh-syntax-highlighting
+source $ZSH/custom/catppuccin_mocha-zsh-syntax-highlighting.zsh
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(virtualenv poetry colorize dircycle extract zsh-autosuggestions z forgit zsh-history-substring-search)
+plugins=(virtualenv poetry colorize dircycle extract zsh-autosuggestions z forgit zsh-history-substring-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -138,3 +139,18 @@ unset __mamba_setup
 
 # Bat theme
 export BAT_THEME="Catppuccin-mocha"
+
+# FZF catppuccin
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
+--color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
+
+# TTY catppuccin
+source ~/Programas/catppuccin/tty/macchiato.sh
+
+# Supress GTK warnings
+NO_AT_BRIDGE=1 
+
+# Kvantum Qt theme
+export QT_STYLE_OVERRIDE=kvantum
