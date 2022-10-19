@@ -6,8 +6,8 @@ cadmus-deb 0.0.3-1
 catppuccin-gtk-theme-macchiato 0.2.7-3
 catppuccin-gtk-theme-mocha 0.2.7-3
 cava 0.8.2-5
-ceph-libs 15.2.17-1
-code-features 1.70.0-2
+code-features 1.72.0-1
+code-marketplace 1.72.0-1
 configuradorfnmt 1.0.1-2
 debtap 3.5.1-1
 ebgaramond-otf 1.0-1
@@ -25,9 +25,9 @@ libgnomecanvas 2.30.3-4
 libinput-gestures 2.73-1
 libretro-citra-git r6961.37192ff3-1
 lsdesktopf 1.0.7-4
-micromamba-bin 0.25.1-1
+micromamba-bin 0.27.0-1
 networkmanager-dmenu-git r153.da15351-1
-ocrmypdf 14.0.0-1
+ocrmypdf 14.0.1-1
 openvpn-reconnect 1-2
 otf-font-awesome-4 4.7.0-5
 otf-stix 2.13-1
@@ -45,7 +45,7 @@ rofi-blocks-git r78.50962f7-1
 rofi-greenclip 4.2-2
 rofi-search-git r31.76c7c6f-1
 sioyek-git 1:1.5.0.r43.g867ba7f-1
-spicetify-cli 2.13.1-1
+spicetify-cli 2.14.0-1
 spicetify-themes-git r439.7ae6f84-1
 spotify 1:1.1.84.716-2
 spotifywm-git 0.0.1-2
@@ -53,11 +53,10 @@ sssm 1.2.1-1
 systemd-boot-pacman-hook 3-1
 teams 1.5.00.23861-1
 tex-gyre-math-fonts 1.632-1
-ttf-exljbris 1.1-7
 ttf-font-awesome-4 4.7.0-5
 ttf-meslo-nerd-font-powerlevel10k 1.000-3
 ttf-ms-fonts 2.0-12
 up-metro-for-steam-skin r367.13b1cf4-1
 woeusb 5.2.4-1
 yay 11.3.0-1
-zotero-bin 6.0.13-1
+zotero-bin 6.0.15-1
