@@ -412,7 +412,7 @@ assign [class="Telegram"] $w2
 assign [class="Steam"] 9
 assign [title="Binding of Isaac: Repentance"] 9
 assign [class="^Vlc$"] 10
-assign [class="Geary"] 11
+assign [class="*Thunderbird"] 11
 assign [class="Spotify"] 10
 
 # Move private window to workspace 12
@@ -430,7 +430,7 @@ exec --no-startup-id owncloud
 exec --no-startup-id picom -b -no-fading-openclose
 exec_always --no-startup-id sh -c "killall greenclip; greenclip daemon > /dev/null &"
 exec --no-startup-id blueman-applet
-exec --no-startup-id geary
+exec --no-startup-id thunderbird
 exec --no-startup-id jupyter notebook --no-browser &> /dev/null
 exec --no-startup-id keepassxc
 
