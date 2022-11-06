@@ -372,7 +372,7 @@ bindsym $mod+t exec --no-startup-id $terminal
 bindsym $mod+Shift+i exec gedit ~/.config/i3/config
 
 # Change output to headphones
-bindsym $mod+Shift+h exec pactl set-sink-port 0 analog-output-headphones
+bindsym $mod+Shift+y exec pactl set-sink-port 0 analog-output-headphones
 
 # Toggle quake terminal
 bindsym F1 exec --no-startup-id tilix --quake
@@ -391,6 +391,9 @@ bindsym $mod+m exec --no-startup-id firefox
 
 # Open rofi-search
 bindsym $mod+g exec --no-startup-id rofi-search
+
+# Open Thunderbird
+bindsym $mod+Shift+h exec --no-startup-id thunderbird
 
 # Open Nautilus in floating mode
 bindsym $mod+Shift+f exec $nautilus
@@ -412,7 +415,7 @@ assign [class="Telegram"] $w2
 assign [class="Steam"] 9
 assign [title="Binding of Isaac: Repentance"] 9
 assign [class="^Vlc$"] 10
-assign [class="*Thunderbird"] 11
+assign [class="thunderbird"] 11
 assign [class="Spotify"] 10
 
 # Move private window to workspace 12
