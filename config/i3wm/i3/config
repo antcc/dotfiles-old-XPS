@@ -26,11 +26,11 @@ set $Locker lock && sleep 1
 set $mode_system (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (p) poweroff
 mode "$mode_system" {
 	bindsym l exec --no-startup-id $Locker, mode "default"
-    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym e exec --no-startup-id "~/Programas/i3-restore/i3-save.sh i3-msg 'exit'", mode "default"
     bindsym s exec --no-startup-id systemctl suspend-then-hibernate, mode "default"
     bindsym h exec --no-startup-id systemctl hibernate, mode "default"
-    bindsym r exec --no-startup-id systemctl reboot, mode "default"
-    bindsym p exec --no-startup-id systemctl poweroff -i, mode "default"  
+    bindsym r exec --no-startup-id "~/Programas/i3-restore/i3-save.sh systemctl reboot", mode "default"
+    bindsym p exec --no-startup-id "~/Programas/i3-restore/i3-save.sh systemctl poweroff" -i, mode "default"  
 
     # back to normal: Enter or Escape
     bindsym Return mode "default"
@@ -392,8 +392,8 @@ bindsym $mod+m exec --no-startup-id firefox
 # Open rofi-search
 bindsym $mod+g exec --no-startup-id rofi-search
 
-# Open Thunderbird
-bindsym $mod+Shift+h exec --no-startup-id thunderbird
+# Open Thunderbird (through birdtray)
+bindsym $mod+Shift+h exec --no-startup-id birdtray
 
 # Open Nautilus in floating mode
 bindsym $mod+Shift+f exec $nautilus
@@ -433,7 +433,7 @@ exec --no-startup-id owncloud
 exec --no-startup-id picom -b -no-fading-openclose
 exec_always --no-startup-id sh -c "killall greenclip; greenclip daemon > /dev/null &"
 exec --no-startup-id blueman-applet
-exec --no-startup-id thunderbird
+exec --no-startup-id birdtray
 exec --no-startup-id jupyter notebook --no-browser &> /dev/null
 exec --no-startup-id keepassxc
 
