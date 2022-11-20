@@ -1,0 +1,25 @@
+[
+  {
+    "command": [
+      "/usr/bin/evince",
+      "/home/antcc/PhD/Papers/Posterior Consistency/Abraham and Grollemund 2020.pdf"
+    ],
+    "working_directory": "/home/antcc"
+  },
+  {
+    "command": [
+      "/usr/bin/evince",
+      "/home/antcc/PhD/Papers/Posterior Consistency/Abraham and Grollemund 2020 - supplement.pdf"
+    ],
+    "working_directory": "/home/antcc"
+  },
+  {
+    "command": [
+      "evince",
+      "/home/antcc/PhD/Papers/Posterior Consistency/Bayesian FReg consistency (Grollemund).pdf",
+      "/home/antcc/PhD/Papers/Posterior Consistency/Abraham and Grollemund 2020 - supplement.pdf",
+      "/home/antcc/PhD/Papers/Posterior Consistency/Abraham and Grollemund 2020.pdf"
+    ],
+    "working_directory": "/home/antcc"
+  }
+]

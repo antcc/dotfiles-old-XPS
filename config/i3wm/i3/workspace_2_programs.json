@@ -1,0 +1,8 @@
+[
+  {
+    "command": [
+      "telegram-desktop"
+    ],
+    "working_directory": "/home/antcc/.local/share/TelegramDesktop"
+  }
+]
