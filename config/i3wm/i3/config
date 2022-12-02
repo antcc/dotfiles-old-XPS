@@ -97,8 +97,8 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # Move windows between monitors
-bindsym $mod+y move workspace to output DP1
-bindsym $mod+u move workspace to output eDP1
+bindsym $mod+y move workspace to output DP1-1
+bindsym $mod+u move workspace to output DP1-2
 
 # Split in horizontal orientation
 bindsym $mod+h split h
@@ -305,9 +305,9 @@ bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug
 
 set $mode_display Display mode (m) monitor, (l) laptop, (d) dual
 mode "$mode_display" {
-    bindsym m exec --no-startup-id autorandr docked, mode "default"
-    bindsym l exec --no-startup-id autorandr mobile, mode "default"
-	bindsym d exec --no-startup-id xrandr --output DP1 --auto --right-of eDP1; exec --no-startup-id xrandr --output eDP1 --auto --left-of DP1, mode "default"
+    bindsym m exec --no-startup-id autorandr monitor, mode "default"
+    bindsym l exec --no-startup-id autorandr laptop, mode "default"
+	bindsym d exec --no-startup-id autorandr dual, mode "default"
 
     # back to normal: Escape
     bindsym Escape mode "default"

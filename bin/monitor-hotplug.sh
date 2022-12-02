@@ -1,14 +1,16 @@
-export DISPLAY=:0
+#!/bin/bash
+
+#export DISPLAY=:0
  
 function connect(){
-xrandr --output DP1 --auto --output eDP1 --off
+autorandr monitor
 }
  
 function disconnect(){
-xrandr --output eDP1 --auto --output DP1 --off
+autorandr laptop
 }
  
-xrandr | grep "DP1 connected [^p]" &> /dev/null && connect || xrandr | grep "DP1 connected p" &> /dev/null && disconnect
+xrandr | grep "connected DP1-2" &> /dev/null && connect || disconnect
 
 
 # Add udev rule in /etc/udev/rules.d:
