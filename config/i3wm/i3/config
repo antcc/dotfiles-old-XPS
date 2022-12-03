@@ -97,8 +97,8 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # Move windows between monitors
-bindsym $mod+y move workspace to output DP1-1
-bindsym $mod+u move workspace to output DP1-2
+bindsym $mod+y move workspace to output right
+#bindsym $mod+u move workspace to output DP1-2
 
 # Split in horizontal orientation
 bindsym $mod+h split h
@@ -180,7 +180,11 @@ for_window [title="Preferences$"] floating enable
 # Toggle sticky windows
 bindsym $mod+Shift+s sticky toggle
 
-# ------ Workspace ----------------------------------------------------
+# ------ Workspaces ----------------------------------------------------
+
+set $monitor_right DP1-1
+set $monitor_left DP1-2
+set $monitor_laptop eDP1
 
 set $w1 1
 set $w2 2
@@ -206,7 +210,8 @@ bindsym $mod+apostrophe workspace 11
 bindsym $mod+exclamdown workspace 12
 
 # Bind workspaces to monitor
-workspace 12 output DP1
+workspace 2 output $monitor_right
+workspace 11 output $monitor_right
 
 # Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $w1
@@ -303,10 +308,11 @@ mode "$mode_gaps_outer" {
 
 bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug
 
-set $mode_display Display mode (m) monitor, (l) laptop, (d) dual
+set $mode_display Display mode (m) monitor, (l) laptop, (s) single, (d) dual
 mode "$mode_display" {
     bindsym m exec --no-startup-id autorandr monitor, mode "default"
     bindsym l exec --no-startup-id autorandr laptop, mode "default"
+	bindsym s exec --no-startup-id autorandr monitor-single, mode "default"
 	bindsym d exec --no-startup-id autorandr dual, mode "default"
 
     # back to normal: Escape

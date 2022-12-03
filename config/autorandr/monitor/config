@@ -1,10 +1,10 @@
-output eDP1
-off
 output DP1
 off
 output DP2
 off
 output VIRTUAL1
+off
+output eDP1
 off
 output DP1-2
 crtc 0
