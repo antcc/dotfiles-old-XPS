@@ -322,6 +322,9 @@ bindsym $mod+I mode "$mode_display"
 
 # ------ Misc -------------------------------------------
 
+# Toggle wifi (fn+del on keychron)
+bindcode 118 exec --no-startup-id ~/.dotfiles/bin/toggle_airplane_mode.sh
+
 # Rofi clipboard manager (greenclip)
 bindsym $mod+c exec --no-startup-id rofi -theme purple -modi "clipboard:greenclip print" -show clipboard
 
