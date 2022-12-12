@@ -111,6 +111,7 @@ cryptsetup 2.6.0-1
 ctags 1:5.9.20220828.0-1
 cups 1:2.4.2-3
 cups-filters 1.28.16-2
+cups-pdf 3.0.1-7
 cups-pk-helper 0.2.7-1
 curl 7.86.0-4
 cython 0.29.32-2
