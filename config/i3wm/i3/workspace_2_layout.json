@@ -1,6 +1,6 @@
 {
     "border": "pixel",
-    "current_border_width": 4,
+    "current_border_width": 7,
     "floating": "auto_off",
     "geometry": {
        "height": 1047,
@@ -9,14 +9,14 @@
        "y": 33
     },
     "marks": [],
-    "name": "Telegram",
+    "name": "Telegram (2)",
     "percent": 1,
     "swallows": [
        {
        "class": "^TelegramDesktop$",
        "instance": "^telegram\\-desktop$",
        "machine": "^XPScc$",
-       "title": "^Telegram$"
+       "title": "^Telegram\\ \\(2\\)$"
        }
     ],
     "type": "con"
