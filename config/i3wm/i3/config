@@ -308,12 +308,13 @@ mode "$mode_gaps_outer" {
 
 bindsym XF86Display exec --no-startup-id /usr/bin/monitor-hotplug
 
-set $mode_display Display mode (m) monitor, (l) laptop, (s) single, (d) dual
+set $mode_display Display mode (m) monitor, (l) laptop, (s) single, (d) dual, (h) hdmi
 mode "$mode_display" {
     bindsym m exec --no-startup-id autorandr monitor, mode "default"
     bindsym l exec --no-startup-id autorandr laptop, mode "default"
 	bindsym s exec --no-startup-id autorandr monitor-single, mode "default"
 	bindsym d exec --no-startup-id autorandr dual, mode "default"
+	bindsym h exec --no-startup-id autorandr monitor-hdmi, mode "default"
 
     # back to normal: Escape
     bindsym Escape mode "default"
@@ -421,6 +422,7 @@ bindsym $mod+Shift+p [class="KeePassXC"] scratchpad show
 assign [class="Chromium"] $w1
 assign [class="Firefox"] $w1
 assign [class="Telegram"] $w2
+assign [class="Ferdium"] $w2
 assign [class="Steam"] 9
 assign [title="Binding of Isaac: Repentance"] 9
 assign [class="^Vlc$"] 10
@@ -433,7 +435,8 @@ for_window [title=".*Private Browsing.*"] move to workspace 12
 #  ------- Start apps at boot time -----------------------------------
 
 exec --no-startup-id sh -c "sleep 5; i3-msg 'workspace $w3; exec $terminal'"
-exec --no-startup-id $telegram
+#exec --no-startup-id $telegram
+exec --no-startup-id ferdium
 exec --no-startup-id $browser
 exec --no-startup-id redshift
 exec --no-startup-id libinput-gestures

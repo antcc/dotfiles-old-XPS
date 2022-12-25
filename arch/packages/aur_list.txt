@@ -13,6 +13,7 @@ configuradorfnmt 1.0.1-2
 debtap 3.5.1-1
 ebgaramond-otf 1.0-1
 electron11-bin 11.5.0-1
+ferdium 6.2.2-1
 googler 4.3.12-1
 gp-saml-gui-git r68.884ce11-1
 i3ipc-glib-git r154.1470102370.57317a6-1
@@ -45,7 +46,7 @@ rofi-blocks-git r78.50962f7-1
 rofi-greenclip 4.2-2
 rofi-search-git r31.76c7c6f-1
 sioyek-git 1:1.5.0.r43.g867ba7f-1
-spicetify-cli 2.14.3-1
+spicetify-cli 2.15.0-1
 spicetify-themes-git r439.7ae6f84-1
 spotify 1:1.1.84.716-2
 spotify-adblock 1:1.0.2-1
@@ -59,6 +60,7 @@ ttf-font-awesome-4 4.7.0-5
 ttf-meslo-nerd-font-powerlevel10k 1.000-3
 ttf-ms-fonts 2.0-12
 up-metro-for-steam-skin r370.856f33a-1
+whatsapp-for-linux 1.5.0-2
 woeusb 5.2.4-1
 yay 11.3.1-1
 zotero-bin 6.0.18-1
