@@ -57,6 +57,7 @@
     ~/.config/spicetify: 'config/spicetify'
     ~/.config/ranger: 'config/ranger'
     ~/.config/autorandr: 'config/autorandr'
+    ~/.config/dunst: 'config/dunst'
     ~/.config/Code - OSS/User/globalStorage/valentjn.vscode-ltex: 'config/Code - OSS/User/globalStorage/valentjn.vscode-ltex'
       
     # local folder
