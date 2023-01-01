@@ -252,7 +252,7 @@ client.background        #ffffff
 
 # Disable window titlebar
 #for_window [class="^.*"] border pixel 4
-for_window [all] border pixel 4
+for_window [all] border pixel 1
 
 # Toggle window border
 bindsym $mod+Shift+b border toggle
@@ -262,7 +262,7 @@ hide_edge_borders both
 
 # Default gaps
 gaps inner 15
-gaps outer 0
+gaps outer 5
 
 # Enable smart gaps
 smart_gaps on
