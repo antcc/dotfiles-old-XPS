@@ -441,7 +441,7 @@ exec --no-startup-id $browser
 exec --no-startup-id redshift
 exec --no-startup-id libinput-gestures
 exec --no-startup-id dunst
-exec --no-startup-id owncloud
+#exec --no-startup-id owncloud
 exec --no-startup-id nextcloud
 exec --no-startup-id picom -b -no-fading-openclose
 exec_always --no-startup-id sh -c "killall greenclip; greenclip daemon > /dev/null &"
