@@ -1,0 +1,24 @@
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1045,
+       "width": 1920,
+       "x": 0,
+       "y": 35
+    },
+    "marks": [],
+    "name": "Yellowstone S04E02.mp4 - Reproductor multimedia VLC",
+    "percent": 1,
+    "swallows": [
+       {
+       "class": "^vlc$",
+       "instance": "^vlc$",
+       "machine": "^XPScc$",
+       "title": "^Yellowstone\\ S04E02\\.mp4\\ \\-\\ Reproductor\\ multimedia\\ VLC$",
+       "window_role": "^vlc\\-main$"
+       }
+    ],
+    "type": "con"
+}
