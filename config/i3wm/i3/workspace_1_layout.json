@@ -3,20 +3,20 @@
     "current_border_width": 1,
     "floating": "auto_off",
     "geometry": {
-       "height": 1045,
+       "height": 1066,
        "width": 1895,
        "x": 0,
        "y": 0
     },
     "marks": [],
-    "name": "Férula de Quervain derecha (1) : Amazon.es: Salud y cuidado personal — Mozilla Firefox",
+    "name": "Mozilla Firefox",
     "percent": 1,
     "swallows": [
        {
        "class": "^firefox$",
        "instance": "^Navigator$",
        "machine": "^XPScc$",
-       "title": "^Férula\\ de\\ Quervain\\ derecha\\ \\(1\\)\\ \\:\\ Amazon\\.es\\:\\ Salud\\ y\\ cuidado\\ personal\\ \\—\\ Mozilla\\ Firefox$",
+       "title": "^Mozilla\\ Firefox$",
        "window_role": "^browser$"
        }
     ],

@@ -2,3 +2,5 @@ RKHS-based
 MLE
 Synctex
 covariate
+identifiability
+neighbourhood
